@@ -22,6 +22,8 @@ return function (ContainerConfigurator $configurator) {
         ->defaults()
         ->autowire(true)      // Automatically injects dependencies in your services.
         ->autoconfigure(true) // Automatically registers your services as commands, event subscribers, etc.
+        ->bind('$squareDeveloperUrl', '%square_developer_url%')
+        ->bind('$publicDirectory', '%kernel.project_dir%/public')
     ;
 
     // App\ namespace のクラスをサービスとして自動登録
@@ -31,7 +33,4 @@ return function (ContainerConfigurator $configurator) {
             dirname(__DIR__).'/src/Entity/',
             dirname(__DIR__).'/src/Kernel.php',
         ]);
-
-    $services->set(SquareReleaseNotesFetchClient::class)
-        ->arg('$squareDeveloperUrl', '%square_developer_url%');
 };

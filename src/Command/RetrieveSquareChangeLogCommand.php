@@ -2,6 +2,7 @@
 
 namespace App\Command;
 
+use App\Lib\ChangelogFileStoreInterface;
 use App\Lib\SquareReleaseNotesFetchClientInterface;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
@@ -13,19 +14,19 @@ final class RetrieveSquareChangeLogCommand extends Command
 {
     public function __construct(
         readonly private SquareReleaseNotesFetchClientInterface $fetchClient,
+        readonly private ChangelogFileStoreInterface            $fileStore,
     ) {
         parent::__construct();
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int {
         $changelogs = $this->fetchClient->fetchSquareAPIsAndSDKsChangeLogList();
-        foreach ($changelogs as $changelog) {
-            $output->writeln(sprintf(
-                'Version: %s, URL: %s, Tags: %s',
-                $changelog->version,
-                $changelog->url,
-                implode(', ', $changelog->tags),
-            ));
+        $previous = $this->fileStore->loadSquareAPIsAndSDKs();
+
+        // Compare the changelogs and store the new ones
+        $diff = array_filter($changelogs, fn($changelog) => !in_array($changelog, $previous));
+        if (count($diff) > 0) {
+            $this->fileStore->storeSquareAPIsAndSDKs($changelogs);
         }
 
         return Command::SUCCESS;
