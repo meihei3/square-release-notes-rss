@@ -8,13 +8,13 @@
  * https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
  */
 
-use App\Command\RetrieveSquareChangeLogCommand;
+use App\Lib\SquareReleaseNotesFetchClient;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return function (ContainerConfigurator $configurator) {
     // 1) parameters セクション（YAMLの "parameters:" に相当）
     $parameters = $configurator->parameters();
-    $parameters->set('changelog_url', '%env(CHANGELOG_URL)%');
+    $parameters->set('square_developer_url', '%env(SQUARE_DEVELOPER_URL)%');
 
     // 2) services セクション（YAMLの "services:" に相当）
     $services = $configurator->services()
@@ -32,6 +32,6 @@ return function (ContainerConfigurator $configurator) {
             dirname(__DIR__).'/src/Kernel.php',
         ]);
 
-    $services->set(RetrieveSquareChangeLogCommand::class)
-        ->arg('$changelogBaseUrl', '%changelog_url%');
+    $services->set(SquareReleaseNotesFetchClient::class)
+        ->arg('$squareDeveloperUrl', '%square_developer_url%');
 };
