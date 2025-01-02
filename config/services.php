@@ -8,12 +8,13 @@
  * https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
  */
 
+use App\Command\RetrieveSquareChangeLogCommand;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return function (ContainerConfigurator $configurator) {
     // 1) parameters セクション（YAMLの "parameters:" に相当）
     $parameters = $configurator->parameters();
-    // ここに $parameters->set('foo', 'bar') のように書けば、YAML の parameters と同等になります。
+    $parameters->set('changelog_url', '%env(CHANGELOG_URL)%');
 
     // 2) services セクション（YAMLの "services:" に相当）
     $services = $configurator->services()
@@ -31,5 +32,6 @@ return function (ContainerConfigurator $configurator) {
             dirname(__DIR__).'/src/Kernel.php',
         ]);
 
-    // 明示的なサービス定義が必要なら、ここで $services->set(...) を追加で書けます。
+    $services->set(RetrieveSquareChangeLogCommand::class)
+        ->arg('$changelogBaseUrl', '%changelog_url%');
 };
