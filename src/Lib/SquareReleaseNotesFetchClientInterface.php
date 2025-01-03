@@ -9,4 +9,6 @@ interface SquareReleaseNotesFetchClientInterface
      * @return list<Changelog>
      */
     public function fetchSquareAPIsAndSDKsChangeLogList(): array;
+
+    public function fetchOneSquareAPIsAndSDKsChangeLog(Changelog $changelog): ChangelogEntry;
 }
