@@ -26,7 +26,11 @@ final class RetrieveSquareChangeLogCommand extends Command
         // Compare the changelogs and store the new ones
         $diff = array_filter($changelogs, fn($changelog) => !in_array($changelog, $previous));
         if (count($diff) > 0) {
-            $this->fileStore->storeSquareAPIsAndSDKs($changelogs);
+            // ここは for loop で不足分をすべて取得するようにする
+            $data = $this->fetchClient->fetchOneSquareAPIsAndSDKsChangeLog($diff[0]);
+            // change log を上書き保存
+//            $this->fileStore->storeSquareAPIsAndSDKs($changelogs);
+            //
         }
 
         return Command::SUCCESS;
