@@ -6,7 +6,9 @@
     "require": {
         "php": ">=8.4",
         "ext-ctype": "*",
+        "ext-dom": "*",
         "ext-iconv": "*",
+        "ext-libxml": "*",
         "symfony/console": "7.2.*",
         "symfony/css-selector": "^7.2",
         "symfony/dom-crawler": "^7.2",
