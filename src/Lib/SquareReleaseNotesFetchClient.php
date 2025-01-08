@@ -30,8 +30,15 @@ final readonly class SquareReleaseNotesFetchClient implements SquareReleaseNotes
         // extract changelog history
         $json = $crawler->filterXPath('//script[@id="__NEXT_DATA__"]');
         $d = json_decode($json->text(), true);
-        $changelogHistory = $d['props']['pageProps']['data']['doc']['pageInView']['page']['changelogHistory'] ?? [];
 
-        return $this->denormalizer->denormalize($changelogHistory, ChangelogHistory::class . '[]');
+        // denormalize changelog history
+        $arr = $d['props']['pageProps']['data']['doc']['pageInView']['page']['changelogHistory'] ?? [];
+        /** @var list<ChangelogHistory> $changelogHistory */
+        $changelogHistory = $this->denormalizer->denormalize($arr, ChangelogHistory::class . '[]');
+
+        // sort by date desc
+        usort($changelogHistory, fn(ChangelogHistory $a, ChangelogHistory $b) => $b->changelogDate <=> $a->changelogDate);
+
+        return $changelogHistory;
     }
 }
