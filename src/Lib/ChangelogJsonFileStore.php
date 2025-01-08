@@ -5,6 +5,7 @@ namespace App\Lib;
 
 use RuntimeException;
 use Symfony\Component\Serializer\SerializerInterface;
+use function file_get_contents;
 use function file_put_contents;
 
 final readonly class ChangelogJsonFileStore implements ChangelogFileStoreInterface

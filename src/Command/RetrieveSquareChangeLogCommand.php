@@ -8,6 +8,9 @@ use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use function array_filter;
+use function count;
+use function in_array;
 
 #[AsCommand(name: 'retrieve-square-change-log', description: 'Retrieve Square change log')]
 final class RetrieveSquareChangeLogCommand extends Command
