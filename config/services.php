@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 /*
  * This file is the entry point to configure your own services.
@@ -8,7 +9,6 @@
  * https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration
  */
 
-use App\Lib\SquareReleaseNotesFetchClient;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return function (ContainerConfigurator $configurator) {

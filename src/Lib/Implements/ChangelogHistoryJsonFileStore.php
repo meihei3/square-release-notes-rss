@@ -1,8 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Lib;
+namespace App\Lib\Implements;
 
+use App\Lib\ChangelogHistory;
+use App\Lib\ChangelogHistoryFileStoreInterface;
 use RuntimeException;
 use Symfony\Component\Serializer\SerializerInterface;
 use function file_get_contents;

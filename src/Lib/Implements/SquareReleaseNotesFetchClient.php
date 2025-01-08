@@ -1,8 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace App\Lib;
+namespace App\Lib\Implements;
 
+use App\Lib\ChangelogHistory;
+use App\Lib\SquareReleaseNotesFetchClientInterface;
 use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
