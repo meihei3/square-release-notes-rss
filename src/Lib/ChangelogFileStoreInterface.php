@@ -6,12 +6,12 @@ namespace App\Lib;
 interface ChangelogFileStoreInterface
 {
     /**
-     * @param list<Changelog> $changelogs
+     * @param list<ChangelogHistory> $changelogs
      */
     public function storeSquareAPIsAndSDKs(array $changelogs): void;
 
     /**
-     * @return list<Changelog>
+     * @return list<ChangelogHistory>
      */
     public function loadSquareAPIsAndSDKs(): array;
 }

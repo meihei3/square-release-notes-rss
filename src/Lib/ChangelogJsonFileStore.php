@@ -3,31 +3,26 @@ declare(strict_types=1);
 
 namespace App\Lib;
 
-use JsonException;
 use RuntimeException;
+use Symfony\Component\Serializer\SerializerInterface;
 use function file_put_contents;
-use function json_encode;
 
 final readonly class ChangelogJsonFileStore implements ChangelogFileStoreInterface
 {
+    private const string CONNECT_JSON_FILE = '/json/connect.json';
+
     public function __construct(
-        private string $publicDirectory,
+        private string              $publicDirectory,
+        private SerializerInterface $serializer,
     ) {}
 
     /**
      * @inheritDoc
      */
     public function storeSquareAPIsAndSDKs(array $changelogs): void {
-        try {
-            $json = json_encode($changelogs, JSON_PRETTY_PRINT | JSON_THROW_ON_ERROR);
-            if ($json === false) {
-                throw new RuntimeException('Failed to encode JSON');
-            }
-        } catch (JsonException $e) {
-            throw new RuntimeException('Failed to encode JSON', previous: $e);
-        }
+        $json = $this->serializer->serialize($changelogs, 'json', ['json_encode_options' => JSON_PRETTY_PRINT]);
 
-        $success = file_put_contents($this->publicDirectory . '/json/connect.json', $json);
+        $success = file_put_contents($this->publicDirectory . self::CONNECT_JSON_FILE, $json);
         if ($success === false) {
             throw new RuntimeException('Failed to write JSON to file');
         }
@@ -37,22 +32,11 @@ final readonly class ChangelogJsonFileStore implements ChangelogFileStoreInterfa
      * @inheritDoc
      */
     public function loadSquareAPIsAndSDKs(): array {
-        $json = file_get_contents($this->publicDirectory . '/json/connect.json');
+        $json = file_get_contents($this->publicDirectory . self::CONNECT_JSON_FILE);
         if ($json === false) {
             throw new RuntimeException('Failed to read JSON from file');
         }
 
-        try {
-            $changelogRows = json_decode($json, true, 512, JSON_THROW_ON_ERROR);
-        } catch (JsonException $e) {
-            throw new RuntimeException('Failed to decode JSON', previous: $e);
-        }
-
-        $changelogs = [];
-        foreach ($changelogRows as $changelogRow) {
-            $changelogs[] = new Changelog(version: $changelogRow['version'], url: $changelogRow['url'], tags: $changelogRow['tags'],);
-        }
-
-        return $changelogs;
+        return $this->serializer->deserialize($json, ChangelogHistory::class . '[]', 'json');
     }
 }
