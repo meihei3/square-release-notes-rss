@@ -19,7 +19,7 @@ final readonly class SquareReleaseNotesFetchClient implements SquareReleaseNotes
     /**
      * @inheritDoc
      */
-    public function fetchSquareAPIsAndSDKsChangeLogList(): array {
+    public function fetchSquareAPIsAndSDKsChangelogHistoryList(): array {
         // retrieve Square API and SDKs changelog
         $response = $this->httpClient->request('GET', $this->squareDeveloperUrl . '/docs/changelog/connect');
         $html = $response->getContent();

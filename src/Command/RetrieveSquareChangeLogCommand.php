@@ -23,7 +23,7 @@ final class RetrieveSquareChangeLogCommand extends Command
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int {
-        $changelogs = $this->fetchClient->fetchSquareAPIsAndSDKsChangeLogList();
+        $changelogs = $this->fetchClient->fetchSquareAPIsAndSDKsChangelogHistoryList();
         $previous = $this->fileStore->loadSquareAPIsAndSDKs();
 
         // Compare the changelogs and store the new ones
