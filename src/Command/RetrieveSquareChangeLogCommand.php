@@ -2,7 +2,7 @@
 
 namespace App\Command;
 
-use App\Lib\ChangelogFileStoreInterface;
+use App\Lib\ChangelogHistoryFileStoreInterface;
 use App\Lib\SquareReleaseNotesFetchClientInterface;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
@@ -17,7 +17,7 @@ final class RetrieveSquareChangeLogCommand extends Command
 {
     public function __construct(
         readonly private SquareReleaseNotesFetchClientInterface $fetchClient,
-        readonly private ChangelogFileStoreInterface            $fileStore,
+        readonly private ChangelogHistoryFileStoreInterface     $fileStore,
     ) {
         parent::__construct();
     }

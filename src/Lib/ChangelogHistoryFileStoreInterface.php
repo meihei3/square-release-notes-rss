@@ -3,12 +3,12 @@ declare(strict_types=1);
 
 namespace App\Lib;
 
-interface ChangelogFileStoreInterface
+interface ChangelogHistoryFileStoreInterface
 {
     /**
-     * @param list<ChangelogHistory> $changelogs
+     * @param list<ChangelogHistory> $changelogHistories
      */
-    public function storeSquareAPIsAndSDKs(array $changelogs): void;
+    public function storeSquareAPIsAndSDKs(array $changelogHistories): void;
 
     /**
      * @return list<ChangelogHistory>

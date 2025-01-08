@@ -8,7 +8,7 @@ use Symfony\Component\Serializer\SerializerInterface;
 use function file_get_contents;
 use function file_put_contents;
 
-final readonly class ChangelogJsonFileStore implements ChangelogFileStoreInterface
+final readonly class ChangelogHistoryJsonFileStore implements ChangelogHistoryFileStoreInterface
 {
     private const string CONNECT_JSON_FILE = '/json/connect.json';
 
@@ -20,8 +20,8 @@ final readonly class ChangelogJsonFileStore implements ChangelogFileStoreInterfa
     /**
      * @inheritDoc
      */
-    public function storeSquareAPIsAndSDKs(array $changelogs): void {
-        $json = $this->serializer->serialize($changelogs, 'json', ['json_encode_options' => JSON_PRETTY_PRINT]);
+    public function storeSquareAPIsAndSDKs(array $changelogHistories): void {
+        $json = $this->serializer->serialize($changelogHistories, 'json', ['json_encode_options' => JSON_PRETTY_PRINT]);
 
         $success = file_put_contents($this->publicDirectory . self::CONNECT_JSON_FILE, $json);
         if ($success === false) {
