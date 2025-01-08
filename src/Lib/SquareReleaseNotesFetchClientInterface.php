@@ -6,9 +6,7 @@ namespace App\Lib;
 interface SquareReleaseNotesFetchClientInterface
 {
     /**
-     * @return list<Changelog>
+     * @return list<ChangelogHistory>
      */
     public function fetchSquareAPIsAndSDKsChangeLogList(): array;
-
-    public function fetchOneSquareAPIsAndSDKsChangeLog(Changelog $changelog): ChangelogEntry;
 }
