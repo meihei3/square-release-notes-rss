@@ -10,6 +10,9 @@ declare(strict_types=1);
  */
 
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
+use Twig\Loader\FilesystemLoader;
+use Twig\Environment;
+use function Symfony\Component\DependencyInjection\Loader\Configurator\service;
 
 return function (ContainerConfigurator $configurator) {
     // 1) parameters セクション（YAMLの "parameters:" に相当）
@@ -25,6 +28,14 @@ return function (ContainerConfigurator $configurator) {
         ->bind('$squareDeveloperUrl', '%square_developer_url%')
         ->bind('$publicDirectory', '%kernel.project_dir%/public')
     ;
+
+    // Twig の Environment サービスを定義
+    $services->set(FilesystemLoader::class)
+        ->args(['%kernel.project_dir%/src/Lib/Templates']);
+    $services->set(Environment::class)
+        ->args([
+            '$loader' => service(FilesystemLoader::class),
+        ]);
 
     // App\ namespace のクラスをサービスとして自動登録
     $services->load('App\\', dirname(__DIR__).'/src/')
