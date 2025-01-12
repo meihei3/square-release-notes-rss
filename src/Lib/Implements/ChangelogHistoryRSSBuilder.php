@@ -6,6 +6,7 @@ namespace App\Lib\Implements;
 use App\Lib\ChangelogHistoryRSSBuilderInterface;
 use DateTime;
 use DateTimeInterface;
+use Symfony\Component\Clock\ClockInterface;
 use Twig\Environment;
 use function array_map;
 use function file_put_contents;
@@ -15,22 +16,21 @@ use function mb_substr;
 final readonly class ChangelogHistoryRSSBuilder implements ChangelogHistoryRSSBuilderInterface
 {
     public function __construct(
-        private string      $publicDirectory,
-        private Environment $twig,
-        private string      $squareDeveloperUrl,
+        private string         $publicDirectory,
+        private Environment    $twig,
+        private string         $squareDeveloperUrl,
+        private ClockInterface $clock,
     ) {}
 
     /**
      * @inheritDoc
      */
     public function buildSquareAPIsAndSDKs(array $changelogHistories): void {
-        $now = new DateTime();
-
         $rss = $this->twig->render('connect.xml.twig', [
             'title'       => 'Release Notes: Square APIs and SDKs',
             'link'        => "{$this->squareDeveloperUrl}/docs/changelog/connect",
             'description' => 'Release notes for Square APIs and SDKs.',
-            'pubDate'     => $now->format(DateTimeInterface::RSS),
+            'pubDate'     => $this->clock->now()->format(DateTimeInterface::RSS),
             'items'       => array_map(fn($changelogHistory) => [
                 'title'       => $changelogHistory->summary,
                 'link'        => "{$this->squareDeveloperUrl}/docs/{$changelogHistory->slug}",
