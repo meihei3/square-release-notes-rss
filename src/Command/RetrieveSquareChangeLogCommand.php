@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace App\Command;
 
 use App\Lib\ChangelogHistoryFileStoreInterface;
+use App\Lib\ChangelogHistoryRSSBuilderInterface;
 use App\Lib\SquareReleaseNotesFetchClientInterface;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
@@ -19,6 +20,7 @@ final class RetrieveSquareChangeLogCommand extends Command
     public function __construct(
         readonly private SquareReleaseNotesFetchClientInterface $fetchClient,
         readonly private ChangelogHistoryFileStoreInterface     $fileStore,
+        readonly private ChangelogHistoryRSSBuilderInterface    $rssBuilder,
     ) {
         parent::__construct();
     }
@@ -32,6 +34,7 @@ final class RetrieveSquareChangeLogCommand extends Command
         if (count($diff) > 0) {
             // change log を上書き保存
             $this->fileStore->storeSquareAPIsAndSDKs($changelogs);
+            $this->rssBuilder->buildSquareAPIsAndSDKs($changelogs);
         }
 
         return Command::SUCCESS;
