@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Release Notes: Square APIs and SDKs</title>
+        <link>https://developer.squareup.com/docs/changelog/connect</link>
+        <description>Release notes for Square APIs and SDKs.</description>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 12 Jan 2025 07:24:24 +0000</lastBuildDate>
+        <pubDate>Sun, 12 Jan 2025 07:24:24 +0000</pubDate>
+        <ttl>1800</ttl>
+
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-11-20</link>
+                <description><![CDATA[### API updates
+
+* **Customers API:**
+ * [Customer](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Customer) object - The `cards` field will be retired in Square API version 2025-01-23. This field is replaced by the `ListCards...]]></description>
+                <pubDate>Wed, 20 Nov 2024 11:00:00 +0000</pubDate>
+                <guid>6kYB5jvJpdLc1HhejSylZu</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-10-17</link>
+                <description><![CDATA[### API updates
+
+* **Customers API:**
+ * [Customer](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Customer) object - The `cards` field will be retired in Square API version 2024-12-18. This field is replaced by the `ListCards...]]></description>
+                <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
+                <guid>4rKpbD9J2PN9b4ufNhkMNg</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-09-19</link>
+                <description><![CDATA[### API updates
+
+* **Bookings API:**
+ * [Booking](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Booking) object - You can provide a customer address when [creating a booking](https://developer.{{SQUARE_DOMAIN}}/reference/squa...]]></description>
+                <pubDate>Thu, 19 Sep 2024 08:00:00 +0000</pubDate>
+                <guid>6moNAR55OhvyCRALaXrgHB</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-08-21</link>
+                <description><![CDATA[### API updates
+* **Catalog API** - The following endpoint parameters, objects, properties, and enums are released to General Availability (GA).
+ * **Endpoint parameters** - `include_category_path_to_root` in [BatchRetrieveCatalogObjects](h...]]></description>
+                <pubDate>Wed, 21 Aug 2024 08:00:00 +0000</pubDate>
+                <guid>2QdrOE4dRHAvB0ZfeT6LKN</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-07-17</link>
+                <description><![CDATA[### New API and SDK releases
+* **Web Payments SDK:**
+ * [Charge and Store a Card on File with SCA](web-payments/sca-charge-and-store-card-on-file) (Beta) - New `CHARGE_AND_STORE` intent to trigger Strong Customer Authentication for charging...]]></description>
+                <pubDate>Wed, 17 Jul 2024 08:00:00 +0000</pubDate>
+                <guid>2HOUNhhhRZ3gWNfLgRgMPF</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-06-04</link>
+                <description><![CDATA[### New API releases
+
+* **Events API (Beta):**
+
+ The Events API lets you search for and retrieve Square API events occurring within a 28-day period. For more information, see [Events API](events-api/overview).
+
+* **Mobile Payments SDK (Beta...]]></description>
+                <pubDate>Tue, 04 Jun 2024 08:00:00 +0000</pubDate>
+                <guid>3JAKWGhD9vaXUK92lGawLy</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-05-15</link>
+                <description><![CDATA[### API updates
+* **Catalog API:**
+ * [CatalogItem](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/CatalogItem) object - New `is_taxable` attribute to designate whether an item is taxable. 
+
+* **Customers API:**
+ * [SearchCust...]]></description>
+                <pubDate>Wed, 15 May 2024 08:00:00 +0000</pubDate>
+                <guid>3Hf8y718I0yS95RL0ktAg5</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-04-17</link>
+                <description><![CDATA[### API Updates
+* **Bookings API**
+ * [UpdateBooking](https://developer.{{SQUARE_DOMAIN}}/reference/square/bookings-api/update-booking) endpoint - Disallows updates of a booking&#039;s appointment segments after a deposit is made for the booking...]]></description>
+                <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+                <guid>2NEsHotFzaGZYYXi9ekGmS</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-03-20</link>
+                <description><![CDATA[### Documentation updates
+
+* **Payments API**:
+ * Documented support for additional QR code payment methods (`RAKUTEN_PAY`, `AU_PAY`, `D_BARAI`, `MERPAY`, `ALIPAY`, and `WECHAT_PAY`) for the [wallet_details](https://developer.{{SQUARE_DOMAI...]]></description>
+                <pubDate>Wed, 20 Mar 2024 08:00:00 +0000</pubDate>
+                <guid>6mJVuMsSZW9DQSAeoMoKav</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-02-22</link>
+                <description><![CDATA[### API updates
+* **Catalog API:** Added text-based modifiers (Beta) to support text-based product customization at the time of sale. 
+ * [CatalogModifierList](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/CatalogModifierList...]]></description>
+                <pubDate>Thu, 22 Feb 2024 08:00:00 +0000</pubDate>
+                <guid>3WPXek4PNZQMwfWVphCzqO</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-01-18</link>
+                <description><![CDATA[### API updates
+
+* **Catalog API:**
+
+ The Catalog API now supports new product types for [CatalogItem](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/CatalogItem) with the following updates:
+ * [CatalogItemProductType](https:/...]]></description>
+                <pubDate>Thu, 18 Jan 2024 08:00:00 +0000</pubDate>
+                <guid>31A60ZiXixmkNmt5Iyw2aL</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-12-13</link>
+                <description><![CDATA[### API updates
+* **Catalog API:**
+
+ Beta release of the [new catalog categories model and object-retrieval/querying endpoints](catalog-api/categorize-catalog-items) to support nested categories and multiple categories assigned to an item.
+...]]></description>
+                <pubDate>Wed, 13 Dec 2023 08:00:00 +0000</pubDate>
+                <guid>56jLK1KVl0lciAWUDJCvK</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-11-15</link>
+                <description><![CDATA[### API updates
+
+* **Labor API:**
+ * New tip eligibility settings:
+ * [TeamMemberWage](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/TeamMemberWage) object - Added a `tip_eligible` field that maps to the **Tip eligible** sett...]]></description>
+                <pubDate>Wed, 15 Nov 2023 08:00:00 +0000</pubDate>
+                <guid>4zVt7AXbf30Q7Ie5g7bGXk</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-11-01</link>
+                <description><![CDATA[### Documentation updates
+
+* **Subscriptions API:** 
+ * [BulkSwapPlan](https://developer.{{SQUARE_DOMAIN}}/reference/square/subscriptions-api/bulk-swap-plan) endpoint - The `CUSTOMERS_READ`, `PAYMENTS_WRITE`, `ORDERS_WRITE`, and `INVOICES_W...]]></description>
+                <pubDate>Wed, 01 Nov 2023 08:00:00 +0000</pubDate>
+                <guid>2bDiE6EUHNjRC1y5fD2uZB</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-10-18</link>
+                <description><![CDATA[### API updates
+* **Bookings API -** Introduces location booking profiles to [determine whether a location is enabled for online booking.](bookings-api/use-the-api#determine-if-a-location-is-enabled-for-booking)
+ * [LocationBookingProfile](...]]></description>
+                <pubDate>Wed, 18 Oct 2023 08:00:00 +0000</pubDate>
+                <guid>3mUN2iUXsibcWnbgxADEhp</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-09-25</link>
+                <description><![CDATA[### API updates
+* **Bookings API:**
+ * [BulkRetrieveTeamMemberBookingProfiles](https://developer.{{SQUARE_DOMAIN}}/reference/square/bookings-api/bulk-retrieve-team-member-booking-profiles) - A new endpoint that supports retrieving one or mo...]]></description>
+                <pubDate>Mon, 25 Sep 2023 08:00:00 +0000</pubDate>
+                <guid>4Tc4ZqPKo8uGOyYGmaHa2g</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-09-06</link>
+                <description><![CDATA[### Documentation updates
+
+* **Locations API:**
+ * [TaxIds](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/TaxIds) object - The `TaxIds` object has always been read-only. Now the entries in the technical reference include the ...]]></description>
+                <pubDate>Wed, 06 Sep 2023 08:00:00 +0000</pubDate>
+                <guid>1SoulsEDMSLtYKAB2oRdxg</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-08-16</link>
+                <description><![CDATA[### API updates
+* **Bookings API:**
+ * [BulkRetrieveBookings](https://developer.{{SQUARE_DOMAIN}}/reference/square/bookings-api/bulk-retrieve-bookings) endpoint - New endpoint that supports the retrieval of multiple bookings in one call.
+ *...]]></description>
+                <pubDate>Wed, 16 Aug 2023 08:00:00 +0000</pubDate>
+                <guid>6VvIdQGHl4uTVxBtXshnnx</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-08-02</link>
+                <description><![CDATA[### Documentation updates
+* [Pagination](build-basics/common-api-patterns/pagination) – Clarified that you must maintain the same request body when using cursors in subsequent requests to paginated endpoints.]]></description>
+                <pubDate>Wed, 02 Aug 2023 08:00:00 +0000</pubDate>
+                <guid>7fOnlJmS1YABQZCoEdjLxt</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-07-20</link>
+                <description><![CDATA[### API updates
+
+* **Customers API:**
+ * The [ListCustomers](https://developer.{{SQUARE_DOMAIN}}/reference/square/customers-api/list-customers) and [SearchCustomers](https://developer.{{SQUARE_DOMAIN}}/reference/square/customers-api/search-...]]></description>
+                <pubDate>Thu, 20 Jul 2023 08:00:00 +0000</pubDate>
+                <guid>7sDY9JIYumTPdLPjDUbJIR</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-07-06</link>
+                <description><![CDATA[### API updates
+* **Connect V1 Payments API:**
+ * The retirement date for the V1 Payments API is extended to July 17, 2023. For more information, see [Migrate from the Connect V1 Payments API](migrate-from-v1/guides/v1-payments).
+
+### Docum...]]></description>
+                <pubDate>Thu, 06 Jul 2023 08:00:00 +0000</pubDate>
+                <guid>2rhLigNsApFyVR3WHbsCqx</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-06-08</link>
+                <description><![CDATA[### API updates
+
+* **Checkout API:** 
+ * [CheckoutOptions](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/CheckoutOptions) object. Added the following fields:
+ * `enable_coupon`. Indicates whether to include the `Add coupon` s...]]></description>
+                <pubDate>Thu, 08 Jun 2023 08:00:00 +0000</pubDate>
+                <guid>3uEYNfEF82LGWt5btUDmJX</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-05-17</link>
+                <description><![CDATA[### New API releases
+* **Merchant Custom Attributes API (beta):**
+ * The [Merchant Custom Attributes API](https://developer.{{SQUARE_DOMAIN}}/reference/square/merchant-custom-attributes-api) enables developers to create and manage [custom a...]]></description>
+                <pubDate>Wed, 17 May 2023 08:00:00 +0000</pubDate>
+                <guid>6IhlcvMdcGfHXntWIo6aEv</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-04-19</link>
+                <description><![CDATA[### API updates
+* **Catalog API:**
+ * [CatalogCustomAttributeDefinition](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/CatalogCustomAttributeDefinition) object. The `allowed_object_types` field now supports `MODIFIER` as an o...]]></description>
+                <pubDate>Wed, 19 Apr 2023 08:00:00 +0000</pubDate>
+                <guid>5zaRvyvssO62uoPZDxAFZg</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-03-15</link>
+                <description><![CDATA[### API updates
+* **OAuth API:**
+ * The PKCE (Proof Key for Code Exchange) flow is moved to [general availability](build-basics/api-lifecycle) (GA). For more information, see [PKCE flow.](/oauth-api/overview#pkce-flow)
+
+### Documentation up...]]></description>
+                <pubDate>Wed, 15 Mar 2023 08:00:00 +0000</pubDate>
+                <guid>2a3Kr0fpc63Yn6nfabbdCJ</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-02-01</link>
+                <description><![CDATA[### Documentation updates
+
+* [Define Custom Attributes for Locations](/location-custom-attributes-api/custom-attribute-definitions). Clarified that the `version` field can be set to either the current version or -1 (if optimistic concurrenc...]]></description>
+                <pubDate>Wed, 01 Feb 2023 10:00:00 +0000</pubDate>
+                <guid>2gnYlNf83Qup9asHh0J9sg</guid>
+            </item>
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2023-01-19</link>
+                <description><![CDATA[### New API releases
+* **Location Custom Attributes API (beta):**
+ * The [Location Custom Attributes API](https://developer.{{SQUARE_DOMAIN}}/reference/square/location-custom-attributes-api) enables developers to create and manage [custom a...]]></description>
+                <pubDate>Thu, 19 Jan 2023 08:00:00 +0000</pubDate>
+                <guid>2E9L7LHV4tHjrYdJwFbU9c</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-12-14</link>
+                <description><![CDATA[### API updates
+
+* **Customers API:**
+ * [SearchCustomers](https://developer.{{SQUARE_DOMAIN}}/reference/square/customers-api/search-customers) endpoint. The following changes apply:
+ * `segment_ids` filter. Added a filter to support search...]]></description>
+                <pubDate>Wed, 14 Dec 2022 08:00:00 +0000</pubDate>
+                <guid>7xxsIwP0chOZlamxqmdqPI</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-11-16</link>
+                <description><![CDATA[### New API releases
+* **Booking Custom Attributes API:** (beta)
+ * The [Booking Custom Attributes API](https://developer.{{SQUARE_DOMAIN}}/reference/square/booking-custom-attributes-api) enables applications to create and manage custom att...]]></description>
+                <pubDate>Wed, 16 Nov 2022 08:00:00 +0000</pubDate>
+                <guid>3UbsSAABukmBG3MXjLaPLV</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-10-19</link>
+                <description><![CDATA[### API updates
+
+* **Customers API:**
+ * [CreateCustomer](https://developer.{{SQUARE_DOMAIN}}/reference/square/customers-api/create-customer) and [UpdateCustomer](https://developer.{{SQUARE_DOMAIN}}/reference/square/customers-api/update-cus...]]></description>
+                <pubDate>Wed, 19 Oct 2022 08:00:00 +0000</pubDate>
+                <guid>2vmJkbQpPvLpj9wNSts31W</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-10-05</link>
+                <description><![CDATA[### Documentation updates
+
+* **Disputes API:** 
+ * [Test the Disputes API](disputes-api/sandbox-testing). Clarified that test disputes created in the Square Sandbox are not visible in the Developer Dashboard or Seller Dashboard. Test disput...]]></description>
+                <pubDate>Wed, 05 Oct 2022 08:00:00 +0000</pubDate>
+                <guid>6tqYlDGyujSKZNWpBYYTM4</guid>
+            </item>
+            <item>
+                <title>Documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-09-22</link>
+                <description><![CDATA[### Documentation updates
+
+* **Payments API.** Afterpay is now available in Canada. Applications can take [Afterpay payments](payments-api/take-payments/afterpay-payments) on behalf of Canadian sellers using the [Checkout API](checkout-api)...]]></description>
+                <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+                <guid>4wLCqzBAsUo1FiGT385c7o</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-09-21</link>
+                <description><![CDATA[### API updates
+
+* **Gift Card Activities API:**
+ * [GiftCardActivityAdjustDecrementReason](https://developer.{{SQUARE_DOMAIN}}/reference/square/enums/GiftCardActivityAdjustDecrementReason) enumeration. Added the `PURCHASE_WAS_REFUNDED` rea...]]></description>
+                <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+                <guid>1XOzmLDxMG8AAX5CV8JoZR</guid>
+            </item>
+            <item>
+                <title>API and documentation updates for Clearpay in the UK.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-08-23</link>
+                <description><![CDATA[### API updates
+
+* **Payments API.** Clearpay is now available in the UK. Applications can take [Clearpay payments](payments-api/take-payments/afterpay-payments) on behalf of UK sellers using the [Web Payments SDK](web-payments/add-afterpay...]]></description>
+                <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
+                <guid>4EBmY0LfAIsxQkFNqlWPIE</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-08-17</link>
+                <description><![CDATA[### New API releases
+
+* **Webhook Subscriptions API (beta).** The [Webhook Subscriptions API](https://developer.{{SQUARE_DOMAIN}}/reference/square/webhook-subscriptions-api) lets you programmatically manage your webhook subscriptions, inclu...]]></description>
+                <pubDate>Wed, 17 Aug 2022 08:00:00 +0000</pubDate>
+                <guid>5bTFiqszJIEWz4LR7rWoDY</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-08-03</link>
+                <description><![CDATA[### Documentation updates
+
+* **Invoices API:**
+
+ * Reorganized the Invoices section of the documentation. This change includes adding the following new topics:
+ * [Create and Publish Invoices](invoices-api/create-publish-invoices)
+ * [Retri...]]></description>
+                <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
+                <guid>1UBI2soEQB4SRfRauaWxly</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-07-20</link>
+                <description><![CDATA[### API updates
+
+* **Catalog API:**
+ * [CatalogItem](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/CatalogItem) object:
+ * Added the [description_html](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/CatalogItem#...]]></description>
+                <pubDate>Wed, 20 Jul 2022 08:00:00 +0000</pubDate>
+                <guid>7nfywMYzTWyCUF1ZYLhMbA</guid>
+            </item>
+            <item>
+                <title>Documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-06-29</link>
+                <description><![CDATA[### Documentation updates
+
+* **Cards API:**
+ * [Cards API Overview](/cards-api/overview). Added an embedded video tutorial that describes using the Cards API. 
+
+* **Gift Cards API:**
+ * [Gift Cards API Overview.](gift-cards/using-gift-cards...]]></description>
+                <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+                <guid>4zl5ekWPJgj6Jbg64bozA3</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-06-16</link>
+                <description><![CDATA[### API updates
+
+* **Bookings API:**
+ * [AppointmentSegment](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/AppointmentSegment) object. The `service_variation_id` and `service_variation_version` attributes are now optional.
+
+*...]]></description>
+                <pubDate>Thu, 16 Jun 2022 08:00:00 +0000</pubDate>
+                <guid>4OwOz5o80dRzrg2qeVRhcb</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-06-02</link>
+                <description><![CDATA[### Documentation updates
+
+* **Gift Cards API:**
+ * [Walkthrough 2: Use a Gift Card](gift-cards/walkthrough-2) topics. Updated to include the application flow for taking a gift card payment using the ID of a gift card on file.
+
+ Using a gif...]]></description>
+                <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+                <guid>3y98PPLXVQi876PNcGXRIe</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-05-12</link>
+                <description><![CDATA[### New API releases
+* **Customer Custom Attributes API:** (beta)
+
+ * The [Customer Custom Attributes API](https://developer.{{SQUARE_DOMAIN}}/reference/square/customer-custom-attributes-api) enables applications to create and manage custom...]]></description>
+                <pubDate>Thu, 12 May 2022 08:00:00 +0000</pubDate>
+                <guid>5fTnBgUU8IKr8FQIejK1B2</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-04-20</link>
+                <description><![CDATA[### New API releases
+
+* **Payouts API:** (beta)
+ * The Payouts API supports getting a list of deposits and withdrawals from a seller&#039;s bank accounts. This API replaces the legacy V1 Settlements API. For more information, see [Payouts API Ov...]]></description>
+                <pubDate>Wed, 20 Apr 2022 08:00:00 +0000</pubDate>
+                <guid>4DFqVIob76d3dCod5dbxR1</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-04-06</link>
+                <description><![CDATA[### Documentation updates
+* [Move OAuth from the Sandbox to Production](oauth-api/movetoprod). Added this topic about moving an application that uses OAuth from Sandbox to production.
+* [Move Webhook Event Notifications to Production](webho...]]></description>
+                <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+                <guid>7jVdlPMz0dDTKnDR29f7Op</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-03-16</link>
+                <description><![CDATA[### New API releases
+
+* **[Vendors API](vendors-api/manage-vendors-in-apps): (beta)**
+ * The initial release to support managing suppliers to a Square seller using the Square API.
+
+### API updates
+
+* **Customers API:**
+
+ The following chang...]]></description>
+                <pubDate>Wed, 16 Mar 2022 08:00:00 +0000</pubDate>
+                <guid>2nriIYWaBs1tYl8UXsIjyC</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-03-02</link>
+                <description><![CDATA[### Documentation updates
+
+* **Square SDKs:**
+ * **[PHP SDK.](sdks/php)** The SDK documentation is revised and now includes a quickstart and other details for developers to get started using the Square PHP SDK.
+ * **[Ruby SDK.](sdks/ruby)**...]]></description>
+                <pubDate>Wed, 02 Mar 2022 00:00:00 +0000</pubDate>
+                <guid>6bw45ADpuLEopHLQiu0h22</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-02-16</link>
+                <description><![CDATA[### API updates
+* **Inventory API:**
+ * [InventoryAdjustment](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/InventoryAdjustment), [InventoryPhysicalCount](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Inventory...]]></description>
+                <pubDate>Wed, 16 Feb 2022 08:00:00 +0000</pubDate>
+                <guid>79xGdMSYoOaWb0XbZOEW9w</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-02-02</link>
+                <description><![CDATA[### Documentation updates
+
+* [Build Basics.](buildbasics) Reorganized and updated the content that existed in two separate locations in the table of contents (Build Basics and Working with APIs). The Build Basics section now provides the fo...]]></description>
+                <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+                <guid>2HNt88IOaZY3OWN0mkEU6t</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2022-01-20</link>
+                <description><![CDATA[### API updates
+* **Bookings API:**
+ * Enabled seller-level permissions to support seller-level access and management of bookings to give sellers and their staff more control and flexibility to create and manage bookings. For more informati...]]></description>
+                <pubDate>Thu, 20 Jan 2022 08:00:00 +0000</pubDate>
+                <guid>55LIxST1t350bikWRivPEq</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-12-15</link>
+                <description><![CDATA[### API updates
+
+* **Invoices API:**
+ * The Invoices API now supports seller accounts in France. For more information, see [International availability and considerations.](invoices-api/overview#international-availability-invoices)
+ * France...]]></description>
+                <pubDate>Wed, 15 Dec 2021 08:00:00 +0000</pubDate>
+                <guid>1wlHmYsdFSUHZi5nBpYdoV</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-11-17</link>
+                <description><![CDATA[## API updates
+
+* **Cards API:** 
+ * [Card](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/card) object. Added the [Card.merchant_id](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Card#definition__property-merch...]]></description>
+                <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+                <guid>4lMsAKwV8iriBInPg0lIDU</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-10-20</link>
+                <description><![CDATA[## API updates
+* **Transactions API.** Three previously deprecated endpoints (`ListRefunds`, `Charge`, and `CreateRefund`) in the [Transactions API](https://developer.{{SQUARE_DOMAIN}}/reference/square/transactions-api) are removed from Squ...]]></description>
+                <pubDate>Wed, 20 Oct 2021 08:00:00 +0000</pubDate>
+                <guid>1xGUcBQ7PhnWeTtbOgOSr0</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-09-15</link>
+                <description><![CDATA[## API updates
+
+* **Invoices API:** 
+ * [Invoice](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Invoice) object. Added a new, optional `sale_or_service_date` field used to specify the date of the sale or the date that the ser...]]></description>
+                <pubDate>Wed, 15 Sep 2021 08:00:00 +0000</pubDate>
+                <guid>1gweuGXgPhbiuamGSGPxiY</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-09-01</link>
+                <description><![CDATA[## Documentation updates
+* Revised the OAuth API documentation to make it more concise and to clarify requirements. Updated topics include [OAuth Overview,](oauth-api/overview) [OAuth Walkthrough: Authorization Using a Test Account,](oauth-...]]></description>
+                <pubDate>Wed, 01 Sep 2021 08:00:00 +0000</pubDate>
+                <guid>5QZCtjXX8BXBSBIsr7evqr</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-08-18</link>
+                <description><![CDATA[## API updates 
+
+* **Customers API:**
+ * [Customer](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Customer) object. The `version` field has moved to the [general availability](/build-basics/api-lifecycle#general-availability)...]]></description>
+                <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+                <guid>5OCi2mYhuCFZKNCy1xOaV3</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-08-04</link>
+                <description><![CDATA[## Documentation updates
+
+* **Orders API.** Added the [Retrieve catalog attributes of an order line item](orders-api/manage-orders/retrieve-orders#retrieve-catalog-attributes-of-an-order-line-item) section to the [Retrieve Orders](orders-ap...]]></description>
+                <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
+                <guid>3I7YGPXPzBsPqJZGfDGSXp</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-07-21</link>
+                <description><![CDATA[
+## API updates
+* **Orders API:**
+ * [OrderServiceCharge](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/OrderServiceCharge) object. Added a new `type` field that identifies the service charge type.
+ * [OrderQuantityUnit](http...]]></description>
+                <pubDate>Wed, 21 Jul 2021 08:00:00 +0000</pubDate>
+                <guid>6KFn73v1jE70Mh6Szsvj3n</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-07-08</link>
+                <description><![CDATA[
+## API updates
+
+
+* **Catalog API:**
+ * [CatalogMeasurementUnit](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/CatalogMeasurementUnit) becomes GA.
+ * [CustomAttributeFilter](https://developer.{{SQUARE_DOMAIN}}/reference/squar...]]></description>
+                <pubDate>Thu, 08 Jul 2021 08:00:00 +0000</pubDate>
+                <guid>7pI19TRYXG2hQ7gQVfSX7O</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-06-16</link>
+                <description><![CDATA[## New API releases
+* **Gift Cards API and Gift Card Activities API.** Gift card support is integrated in the [Square Seller Dashboard](https://squareup.com/dashboard/) and the [Square Point of Sale](https://squareup.com/us/en/point-of-sale...]]></description>
+                <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+                <guid>4KnYSTuN1c5y6s9qe1OvhM</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-05-18</link>
+                <description><![CDATA[## New region support
+Square APIs and SDKs are now available in Ireland. For Ireland-specific payment pricing, supported payment methods, and bank account information, see the following topics:
+
+* [Payments Pricing with Square APIs and SDKs...]]></description>
+                <pubDate>Tue, 18 May 2021 08:00:00 +0000</pubDate>
+                <guid>U1CO7PNdIPgP7j2G2dpXY</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-05-13</link>
+                <description><![CDATA[## New API releases
+
+* **Sites API.** The [Sites API](https://developer.{{SQUARE_DOMAIN}}/reference/square/sites-api) lets you retrieve basic details about the Square Online sites that belong to a Square seller. For more information, see [S...]]></description>
+                <pubDate>Thu, 13 May 2021 08:00:00 +0000</pubDate>
+                <guid>55YiPGSpRqBx4c2otyfYrf</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-04-21</link>
+                <description><![CDATA[## Existing API updates
+
+* **Subscriptions API:** 
+ * [ResumeSubscription.](https://developer.{{SQUARE_DOMAIN}}/reference/square/subscriptions-api/resume-subscription) This new endpoint enables applications to resume [deactivated subscripti...]]></description>
+                <pubDate>Wed, 21 Apr 2021 08:00:00 +0000</pubDate>
+                <guid>3Ih5UCKnJpGHAzHrTHBLj5</guid>
+            </item>
+            <item>
+                <title>API and documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-04-07</link>
+                <description><![CDATA[
+## API updates
+* **Locations API:**
+ * A seller [Location](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Location) now supports a new capability, AUTOMATIC_TRANSFERS. Square includes this property in the location `capabiliti...]]></description>
+                <pubDate>Wed, 07 Apr 2021 08:00:00 +0000</pubDate>
+                <guid>6Ro0QNIEIZSRc41oeiwAX0</guid>
+            </item>
+            <item>
+                <title>Square API versioned release 2021-03-17</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-03-17</link>
+                <description><![CDATA[
+## Existing API updates
+
+* **Payments API:**
+ * [CreatePayment](https://developer.{{SQUARE_DOMAIN}}/reference/square/payments-api/create-payment). Until now, the `CreatePayment` endpoint supported only taking card payments. In this release...]]></description>
+                <pubDate>Wed, 17 Mar 2021 01:00:00 +0000</pubDate>
+                <guid>Mw00peSd1N0Znf9y1VSA8</guid>
+            </item>
+            <item>
+                <title>Square API version 2021-02-26</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-02-26</link>
+                <description><![CDATA[## Existing API updates
+
+* **Customers API:**
+
+ * [New webhooks](/customers-api/use-the-api/customer-webhooks) (beta). Square now sends notifications for the following events:
+ * [customer.created](https://developer.{{SQUARE_DOMAIN}}/refere...]]></description>
+                <pubDate>Fri, 26 Feb 2021 10:00:00 +0000</pubDate>
+                <guid>6KkiQdVWBzguqtKIDZH0Wa</guid>
+            </item>
+            <item>
+                <title>Documentation Changes</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2021-01-21</link>
+                <description><![CDATA[## Existing API updates
+
+* **Invoices API:** (beta)
+
+ The `InvoicePaymentRequest.request_method` field is deprecated, and its current options are separated into two new fields that better represent their scope: 
+ * `Invoice.delivery_method`...]]></description>
+                <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+                <guid>2ard69RjkW3OXf8vks43H3</guid>
+            </item>
+            <item>
+                <title>Documentation Changes</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-12-16</link>
+                <description><![CDATA[## Existing API updates
+
+* **Orders API:** 
+ * [OrderLineItemPricingBlocklists.](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/OrderLineItemPricingBlocklists) You can explicitly specify taxes and discounts in an order or auto...]]></description>
+                <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+                <guid>69iOMKewrz0RmX9edBqTEs</guid>
+            </item>
+            <item>
+                <title>Documentation Changes</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-12-02</link>
+                <description><![CDATA[## Documentation updates
+
+* [Payments Pricing with Square APIs and SDKs.](/payments-pricing#pricing-for-handling-online-and-in-app-payments) Online payment pricing for UK sellers has changed.
+* [Localize In-App Payments.](/in-app-payments/l...]]></description>
+                <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+                <guid>3oy38hh2mFZbwDSChB73Qd</guid>
+            </item>
+            <item>
+                <title>Documentation and API Changes</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-11-18</link>
+                <description><![CDATA[## New API releases
+
+* **Bookings API** (beta). The Bookings API lets you create applications to set up and manage bookings for appointments of fixed duration in which selected staff members of a Square seller provide specified services in ...]]></description>
+                <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+                <guid>1rdghQ6UsQNBuvxqCmqQUM</guid>
+            </item>
+            <item>
+                <title>Documentation and API Changes</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-10-28</link>
+                <description><![CDATA[
+## Existing API updates
+
+* **Terminal API.** New endpoints to enable sellers in Canada refund Interac payments.
+ * New endpoints:
+
+ * [CreateTerminalRefund](https://developer.{{SQUARE_DOMAIN}}/reference/square/terminal-api/create-terminal-...]]></description>
+                <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+                <guid>2zjR9APeFDNkbrRXxuPLwN</guid>
+            </item>
+            <item>
+                <title>Documentation and API updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-10-14</link>
+                <description><![CDATA[## Existing API updates 
+
+* **Terminal API.** The Terminal API is now Generally Available (GA).
+* **Point of Sale API.** E-money payment support, which is currently available in Japan for Square Point of Sale, is now available for the Point...]]></description>
+                <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+                <guid>4VKsLJNyXyQB4jyXGjUBXq</guid>
+            </item>
+            <item>
+                <title>Documentation and API updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-09-23</link>
+                <description><![CDATA[## Existing API updates 
+* Invoices API (beta)
+ * [InvoiceStatus](https://developer.{{SQUARE_DOMAIN}}/reference/square/enums/InvoiceStatus) enum. Added the `PAYMENT_PENDING` value. Previously, the Invoices API returned a `PAID` or `PARTIALL...]]></description>
+                <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+                <guid>12beSULgAXrI2bUY8tgfrf</guid>
+            </item>
+            <item>
+                <title>Documentation and API updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-09-09</link>
+                <description><![CDATA[## Documentation updates
+This is a documentation-only release. There are no API changes.
+
+* [Test Square APIs with API Explorer](/testing/api-explorer) added. This topic describes API Explorer features and how to use API Explorer to build a...]]></description>
+                <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+                <guid>4zKMbzAuog5r8fyg6fOdLY</guid>
+            </item>
+            <item>
+                <title>Documentation and API updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-08-26</link>
+                <description><![CDATA[## Existing API updates
+
+* Orders API
+ * [Order](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Order) object. The `total_tip_money` field is now GA.
+ * [CreateOrder](https://developer.{{SQUARE_DOMAIN}}/reference/square/orders...]]></description>
+                <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+                <guid>5SS41D84SpUQ3UvozsKi1a</guid>
+            </item>
+            <item>
+                <title>Documentation and API updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-08-12</link>
+                <description><![CDATA[## API releases
+
+* Subscriptions API (beta):
+ * For an overview, see [Square Subscriptions.](subscriptions/overview)
+ * For technical reference, see [Subscriptions API.](https://developer.{{SQUARE_DOMAIN}}/reference/square/subscriptions-api...]]></description>
+                <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+                <guid>86dS4pxpRvy19R2xnSGX8</guid>
+            </item>
+            <item>
+                <title>Documentation and API updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-07-22</link>
+                <description><![CDATA[## API releases
+
+* Invoices API (beta):
+ * For an overview, see [Manage Invoices Using the Invoices API](invoices-api/overview).
+ * For technical reference, see [Invoices API](https://developer.{{SQUARE_DOMAIN}}/reference/square/invoices-ap...]]></description>
+                <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+                <guid>732jfF862kbPUKu3Jsu73a</guid>
+            </item>
+            <item>
+                <title>Documentation additions and updates. No API changes</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-07-08</link>
+                <description><![CDATA[## Documentation Updates
+This is a documentation-only release. There are no API changes.
+
+* [Localize In-App Payments for iOS](/in-app-payments/localize-ios) added. This topic provides a procedure for updating an Xcode project to localize a...]]></description>
+                <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+                <guid>6ALiiG7IWdpm3CgzamTYEd</guid>
+            </item>
+            <item>
+                <title>Documentation and API updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-06-25</link>
+                <description><![CDATA[## New API release
+
+* **Team API generally available (GA)** 
+ * For an overview, see [Team API Overview](/team/overview).
+ * For technical reference, see [Team API](https://developer.{{SQUARE_DOMAIN}}/reference/square/team-api).
+
+## Existin...]]></description>
+                <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
+                <guid>2CJaFQTayKtSl5Ww56zMg8</guid>
+            </item>
+            <item>
+                <title>Documentation and API updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-06-10</link>
+                <description><![CDATA[## Documentation updates
+
+* **Catalog API:** 
+ * [Configure Automatic Discounts](/catalog-api/cookbook/auto-apply-discounts) and subtopics. Replaced deprecated Connect PHP SDK code examples with new cURL examples and improved instructions. ...]]></description>
+                <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+                <guid>7LBlWwAS1J6sWFf8Kkye8U</guid>
+            </item>
+            <item>
+                <title>Documentation and API updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-05-28</link>
+                <description><![CDATA[## API releases
+
+* Loyalty API (beta):
+ * For an overview, see [Loyalty Program Overview.](loyalty/overview)
+ * For technical reference, see [Loyalty API.](https://developer.{{SQUARE_DOMAIN}}/reference/square/loyalty-api)
+
+## Existing API u...]]></description>
+                <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+                <guid>LAcWSArl4YMWNAyvrxejt</guid>
+            </item>
+            <item>
+                <title>Documentation and API updates</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-05-13</link>
+                <description><![CDATA[## API Updates
+
+
+* Incrementally adding `MaxLength` attributes to string type fields. Some of these updates are included in this release.
+* Added a description to each value for the `Country` and `Currency` ENUMs.
+
+## Documentation Updates
+...]]></description>
+                <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+                <guid>wYYZVilsnWL4oIrRzqENx</guid>
+            </item>
+            <item>
+                <title>Square API updated to add new endpoints for Square Terminal and customer functionality</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-04-22</link>
+                <description><![CDATA[## API releases
+* **Terminal API.** The new Terminal API lets a custom third-party POS app integrate with the Square Terminal to send terminal checkout requests to collect payments.
+ * For an overview, see [Overview](terminal-api/overview)....]]></description>
+                <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+                <guid>71zWGvUBN4YygcSDyDz0h7</guid>
+            </item>
+            <item>
+                <title>Square API updated to to improve error reporting and delayed capture on payments.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-03-25</link>
+                <description><![CDATA[## Existing API updates
+* **Square API platform**. The Square API Technical Reference now lists all possible error codes for each API endpoint.
+* **[Payments API](https://developer.{{SQUARE_DOMAIN}}/reference/square/payments-api).** In supp...]]></description>
+                <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+                <guid>7vnDlu4EHU1ZNsI3RaEZPD</guid>
+            </item>
+            <item>
+                <title>Square API updated with new Disputes and Bank Accounts endpoints. Connect v1 updated with several Connect v1 endpoints deprecated.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-02-26</link>
+                <description><![CDATA[## API releases
+* **Disputes API (Beta)**
+ * For an overview, see [Overview](disputes-api/overview)
+ * For technical reference, see [Disputes API](https://developer.{{SQUARE_DOMAIN}}/reference/square/disputes-api). 
+
+* **Bank Accounts API (...]]></description>
+                <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+                <guid>1ggIFKlvlPlM52m0KzTcRR</guid>
+            </item>
+            <item>
+                <title>Square API technical reference documentation update.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-02-12</link>
+                <description><![CDATA[**Documentation Changes**
+
+* Minor updates for Payments API descriptions
+* Deprecation &amp; retirement dates added for Transactions API endpoints]]></description>
+                <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+                <guid>2Ds5BEKGYutEieUlPRNnPK</guid>
+            </item>
+            <item>
+                <title>Connect v2 API support for is_owner field in Employee, the new SQUARE_CAPITAL_CARD payment card type.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2020-01-22</link>
+                <description><![CDATA[* New field: The **Employee** object now has an `is_owner` field.
+
+* New field: The **Card** enumeration has a new `SQUARE_CAPITAL_CARD` enum value to support a Square one-time Installments payment.
+
+* New request body field constraint: The...]]></description>
+                <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+                <guid>3WddMujdtpzhXM4lhWNCSh</guid>
+            </item>
+            <item>
+                <title>v2 Payment API, new fields. Beta release of v2 CashDrawerShift API.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-12-17</link>
+                <description><![CDATA[* __GA release:__ `receipt_url` and `receipt_number` fields are added to the [Payment](https://developer.{{SQUARE_DOMAIN}}/docs/api/connect/v2#type-payment) type. 
+* __Beta release:__ [CashDrawerShiftAPI](cashdrawershift-api/reporting). Add...]]></description>
+                <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+                <guid>3dc6f49plcidrJwGESuLmh</guid>
+            </item>
+            <item>
+                <title>Added `DeviceDetail` type to Payments API</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-12-11</link>
+                <description><![CDATA[**GA Release:** `DeviceDetail` type added. The `GetPayment` and `ListPayments` endpoints include these details on card-present payments taken via Square hardware and mobile applications.]]></description>
+                <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+                <guid>aIpN6g9V9TdOv4pAILIt1</guid>
+            </item>
+            <item>
+                <title>v1Items, v1Locations, v1Batching APIs deprecated and scheduled for retirement.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-11-20</link>
+                <description><![CDATA[!!!important
+Square has begun the retirement process for Connect v1 APIs. See the [Connect v1 Retirement](/migrate-from-v1) information page for details.
+!!!
+
+* __GA releases:__ modify_tax_basis field to Discounts, v2 Sandbox
+* __BETA relea...]]></description>
+                <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+                <guid>5qYSB6WQHrezD4uLObQEyq</guid>
+            </item>
+            <item>
+                <title>Payment Form library updated to improve unsupported payment method error reporting</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-11-13</link>
+                <description><![CDATA[ ]]></description>
+                <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+                <guid>1LdwLWYlzLlDCjUsOuowdT</guid>
+            </item>
+            <item>
+                <title>Released new Merchants API endpoint and support for exclusion strategies with Catalog API pricing rules.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-10-23</link>
+                <description><![CDATA[**BETA RELEASE**: The Catalog API now supports the `ExcludeStrategy` option for [`PricingRule`](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/CatalogPricingRule). You can now set a pricing rule to exclude the most expensive o...]]></description>
+                <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
+                <guid>74FzvqTNpWqfwk62SILj43</guid>
+            </item>
+            <item>
+                <title>New Merchants API, two new endpoints for Locations API, and additional fields in the Payments API related types.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-09-25</link>
+                <description><![CDATA[* **GA release**: New Merchant API. Supports RetrieveMerchant endpoint. We recommend you use this V2 endpoint to retrieve merchant information that v1/me endpoint provides.
+
+* **GA release**: The `Card` type includes a new field (`bin`). Al...]]></description>
+                <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+                <guid>249fnHMnVKzwHyWTkav5QG</guid>
+            </item>
+            <item>
+                <title>Transactions API deprecation, GA release of Payments and Refunds API, BETA &amp; GA updates to Orders API, new Locations API endpoint, Sandbox v2 available as a BETA release, Square Gift Card support in Square payment form, and changes to the `Money` entity.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-08-15</link>
+                <description><![CDATA[* **Deprecation**: Transactions API and Reporting API
+ * The Transactions API is fully deprecated in favor of the new Payments API and Refunds API functionality.
+ * The Reporting API is fully deprecated in favor of the new Orders API functi...]]></description>
+                <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+                <guid>HXYvSQwK8tS7EBxXfyHZL</guid>
+            </item>
+            <item>
+                <title>**BETA LAUNCH** Item options for catalog items</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-07-24</link>
+                <description><![CDATA[* **BETA releases**:
+ * Catalog API: supports item options with datatypes and enums for item options and item option values. 
+]]></description>
+                <pubDate>Wed, 24 Jul 2019 00:00:00 +0000</pubDate>
+                <guid>3Ch9qYjGdNbaLUsfTfWHRP</guid>
+            </item>
+            <item>
+                <title>v2 Webhooks released, BETA releases for Orders and Catalog APIs, source info in orders, Strong Customer Authentication in Square Payment Form, and expanded business information in ListLocations.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-06-12</link>
+                <description><![CDATA[* **New product**: v2 Webhooks
+ * Configure and subscribe to webhooks directly from the Application Dashboard.
+ * Support is currently limited to the Inventory API, which supports notifications whenever the quantity of an inventory item is ...]]></description>
+                <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+                <guid>4MFW3Pg1GuPLvEtuwG7SHx</guid>
+            </item>
+            <item>
+                <title>New location information in the Locations API and beta releases for Inventory and Order APIs.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-05-08</link>
+                <description><![CDATA[* **BETA release**: Orders API
+ * **New endpoint**: SearchOrders &amp;mdash; search orders created through the Orders API **or** Square Point of Sale using relevant criteria such as date, source, or state.
+ * **Improved functionality**: Order.L...]]></description>
+                <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+                <guid>IsKKkK42DAISB4ow3BJ0L</guid>
+            </item>
+            <item>
+                <title>Capture contact information for employees and brand information for Connect v1 credit card objects.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-04-24</link>
+                <description><![CDATA[* **New functionality**: Employees API (Connect v2) &amp;mdash; New fields to capture contact info for employee profiles.
+* **Improved functionality**: `V1Tender.CardBrand` &amp;mdash; New Connect v1 enum to represent brand information for credit c...]]></description>
+                <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+                <guid>5mzlNkXNjgurq7csnk3P0Q</guid>
+            </item>
+            <item>
+                <title>New source information for Orders objects and better linking between v2 Catalog objects and v1 data types.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-04-10</link>
+                <description><![CDATA[* **Improved functionality**: Connect v2 Catalog IDs in Connect v1 objects &amp;mdash; The following Connect v1 data types now include a `v2_id` field that makes it easier to link information from Connect v1 endpoints to related Connect v2 Cata...]]></description>
+                <pubDate>Wed, 10 Apr 2019 00:00:00 +0000</pubDate>
+                <guid>0RaOPuHXpPn4ehr7Kzbj3</guid>
+            </item>
+            <item>
+                <title>New catalog image endpoint for Catalog API and deprecation of the `image_url` field in `CatalogItem`.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-03-27</link>
+                <description><![CDATA[* **New endpoint**: Catalog.CreateCatalogImage &amp;mdash; The Connect v2 Catalog API now includes a [CreateCatalogImage](https://developer.{{SQUARE_DOMAIN}}/docs/api/connect/v2#endpoint-catalog-createcatalogimage) endpoint that developers can ...]]></description>
+                <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+                <guid>2Y3JrFYkjFJyM7EITXclRE</guid>
+            </item>
+            <item>
+                <title>Release of Connect v2 Labor API and a barebones v2 Employees API.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-03-13</link>
+                <description><![CDATA[* **New API**: Labor API &amp;mdash; The new [Labor API](/labor-api/how-it-works) now includes functionality that gives a Square account the ability to track and retrieve employee labor hours including multiple hourly wage rates per employee, w...]]></description>
+                <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+                <guid>2szoxau57J2zwiSIuJDWPe</guid>
+            </item>
+            <item>
+                <title>Order fulfillment BETA, general improvements to CreateOrder, and a new HTTP error code.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2019-02-13</link>
+                <description><![CDATA[* **New functionality**: Orders.CreateOrder &amp;mdash; The [Orders API](/orders-api/what-it-does) now includes beta functionality that supports in-person fulfillment through Square Point of Sale for orders placed online. See the [Connect v2 Te...]]></description>
+                <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+                <guid>1dubHazTOaNa1qgpBpYmZi</guid>
+            </item>
+            <item>
+                <title>Increased return set for ListCustomers.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2018-12-12</link>
+                <description><![CDATA[* **New functionality**: Customers.ListCustomers &amp;mdash; Requests to the [ListCustomers](https://developer.{{SQUARE_DOMAIN}}/docs/api/connect/v2#endpoint-customers-listcustomers) endpoint now returns all available customer profiles. Previou...]]></description>
+                <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
+                <guid>4DAGxhHJh3QkFauYab0cgN</guid>
+            </item>
+            <item>
+                <title>Idempotency support for customer creation to avoid unintended duplication.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2018-12-05</link>
+                <description><![CDATA[* **New field**: Customers.CreateCustomer supports `idempotency_key` &amp;mdash; Requests to the [CreateCustomer](https://developer.{{SQUARE_DOMAIN}}/docs/api/connect/v2#endpoint-customers-createcustomer) endpoint now include a `idempotency_key...]]></description>
+                <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
+                <guid>5sBJFiY1ByCH3nVaC3mEGO</guid>
+            </item>
+            <item>
+                <title>New Inventory API and birthday support for customer profiles.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2018-09-18</link>
+                <description><![CDATA[* **New API**: Inventory API &amp;mdash; The Connect v2 Inventory API replaces the Connect v1 Inventory API and introduces new functionality:
+ * Moving item variations quantities through predefined states (e.g., from `IN_STOCK` to `WASTE`).
+ * ...]]></description>
+                <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+                <guid>4PaEvJiHx85tvploIk81gr</guid>
+            </item>
+            <item>
+                <title>Versioning for Connect v2 AP: new Square-Version API header</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2018-07-12</link>
+                <description><![CDATA[
+Square API versions (`Square-Version`) track changes in the evolution of Connect
+v2 APIs. The `Square-Version` naming scheme is `YYYY-MM-DD`, which indicates
+the date the version was released. Connect v1 APIs are not versioned. Square
+cont...]]></description>
+                <pubDate>Thu, 12 Jul 2018 00:00:00 +0000</pubDate>
+                <guid>3tzpIr3fRwXcFBJH0zLAYj</guid>
+            </item>
+            <item>
+                <title>We have added search functionality to the Connect v2 Customer API.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2018-06-28</link>
+                <description><![CDATA[* **New endpoint**: Customers.SearchCustomers &amp;mdash; retrieves groups of customer profiles based on a related characteristic. For example, retrieving all customers created in the past 24 hours.
+* **New field**: `Customer` supports `creatio...]]></description>
+                <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+                <guid>64h0krbiqHZ0cX1J0hOKNA</guid>
+            </item>
+            <item>
+                <title>We have added sorting functionality to the Connect v2 Customer API, updated the Connect v1 Payments API to include information about surcharges, and made improvements to the Item data type.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2018-05-24</link>
+                <description><![CDATA[* **New functionality**: Customers.ListCustomers endpoint supports sorting &amp;mdash;
+ The endpoint provides the ability to sort customers by their creation date using the `sort_field` and `sort_order` parameters.
+* **New functionality**: V1Tr...]]></description>
+                <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+                <guid>70mN6KS12l2NG1FOkknbwL</guid>
+            </item>
+            <item>
+                <title>Refunds v1 API and Transactions v2 API now include information about in-person exchanges. Exchange functionality is launching as a phased rollout with full account coverage expected by the end of April 2018.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2018-04-09</link>
+                <description><![CDATA[* **New functionality**: V1Refunds.List &amp;mdash;
+ Responses may contain more results than the limit when refunds are made simultaneously to multiple tenders in a payment, or when refunds are generated to account for the value of returned goo...]]></description>
+                <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+                <guid>3gAeaPI8ZUsRMyhTyx8IwA</guid>
+            </item>
+            <item>
+                <title>New fields added to datatypes for Catalog API, Locations API, and Transactions API.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2017-11-10</link>
+                <description><![CDATA[* **New field**: `CatalogItemVariation` supports `ordinal`.
+* **New field**: `Location` supports `website_url`.
+* **New field**: `Tender` supports `tip_money`.
+* **New functionality**: `V1PageCell` fields `object_type` and `placeholder_type...]]></description>
+                <pubDate>Fri, 10 Nov 2017 00:00:00 +0000</pubDate>
+                <guid>5Eo2RDi5TECGiNzGys1EoL</guid>
+            </item>
+            <item>
+                <title>Developers and platform building on Square Payment Form or Checkout API can now monetize a portion of those transactions.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2017-11-02</link>
+                <description><![CDATA[Developers and platform building on Square Payment Form or Checkout API can now monetize a portion of those transactions. This is the first step in bringing economic empowerment not just to Square sellers but also Developers building with S...]]></description>
+                <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+                <guid>2tVwhllslnvHyohli5PPa6</guid>
+            </item>
+            <item>
+                <title>Square Payment Form now accepts MasterCard Masterpass payments. MasterPass is a free digital wallet designed to make online shopping easier by storing all of your payment and shipping information in one convenient location.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2017-10-30</link>
+                <description><![CDATA[ ]]></description>
+                <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
+                <guid>2qfMxpIilFQuVtw012Cfa9</guid>
+            </item>
+            <item>
+                <title>Square Payment Form and Checkout API now accept Apple Pay on the Web payments from customers using the Safari browser.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2017-09-27</link>
+                <description><![CDATA[Square Payment Form and Checkout API now accept Apple Pay on the Web payments from customers using the Safari browser. Web Apple Pay is a cleaner way to accept mobile web payments from iPhone users. Consumers are increasingly making purchas...]]></description>
+                <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+                <guid>6M9qKag9oVdXbZ4VuuYfW0</guid>
+            </item>
+            <item>
+                <title>Updates to ListLocations, Charge, and Orders API.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2017-09-13</link>
+                <description><![CDATA[* **New functionality**: Locations.ListLocations &amp;mdash; returns fields that were previously only available with the v1 List Locations endpoint. This should enable most developers to migrate their solutions off of the v1 Locations API.
+* **...]]></description>
+                <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+                <guid>5w4cNqPHgR7VirROnHFBGE</guid>
+            </item>
+            <item>
+                <title>As part of our work to close gaps between the Connect V1 and Connect V2 APIs, the v2 List Locations endpoint now returns fields that were previously only available with the v1 List Locations endpoint.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2017-08-22</link>
+                <description><![CDATA[* **New functionality**: Locations.ListLocations &amp;mdash; now returns the following information, which can be set in the Square Dashboard. This should enable most developers to migrate their solutions off of the v1 Locations API.
+ * `busines...]]></description>
+                <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
+                <guid>2U0yHAw7nv5vGB6RQ9ajPV</guid>
+            </item>
+            <item>
+                <title>General availability of a new eCommerce API, Checkout API, and relaxed postal code requirements for Square Payment Form for merchants based in Japan and Australia.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2017-06-22</link>
+                <description><![CDATA[* **New API**: Checkout API &amp;mdash; After a few months of Beta testing, Square Checkout API is now generally available. The Checkout API lets developers accept online payments using a checkout UI hosted on Square servers. The Checkout UI cu...]]></description>
+                <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+                <guid>5AfkJ5l0xb5AvEUOl9MIwK</guid>
+            </item>
+            <item>
+                <title>Catalog API released for Connect v2.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2017-05-23</link>
+                <description><![CDATA[* **New API**: Catalog API &amp;mdash; Square Catalog API replaces the Item Management V1 API. With this new release, developers can manage their product catalog in a faster and more scalable fashion. The Catalog API moves from a per-location m...]]></description>
+                <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
+                <guid>1GE8shCvIzgcVNXo1ucJ1h</guid>
+            </item>
+            <item>
+                <title>Square Point of Sale API and Version 2 of the Square Connect API are now generally available.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2016-03-30</link>
+                <description><![CDATA[* Version 2 of the Square Connect API (Connect v2) is now available. Connect v2 provides the following new features:
+ * Accepting eCommerce payments from a webpage with a secure, customizable web form.
+ * Managing customer data for online b...]]></description>
+                <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
+                <guid>2ooxulRWZ8uL36EiyjD9Er</guid>
+            </item>
+            <item>
+                <title>Changes made to the representation of a Square merchant in the Connect API.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2016-02-16</link>
+                <description><![CDATA[We have made changes made to the representation of a Square merchant in the Connect API.
+
+These changes have different effects on Connect API applications created before and after February 16. **Applications created before February 16 conti...]]></description>
+                <pubDate>Tue, 16 Feb 2016 00:00:00 +0000</pubDate>
+                <guid>7dR1ckuXbV7FVVdXlcGw7z</guid>
+            </item>
+    </channel>
+</rss>
