@@ -40,6 +40,6 @@ final readonly class ChangelogHistoryRSSBuilder implements ChangelogHistoryRSSBu
             ], $changelogHistories),
         ]);
 
-        file_put_contents($this->publicDirectory . '/square-apis-and-sdks.xml', $rss);
+        file_put_contents($this->publicDirectory . '/rss/square-apis-and-sdks.xml', $rss);
     }
 }
