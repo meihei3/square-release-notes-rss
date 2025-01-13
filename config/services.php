@@ -26,7 +26,7 @@ return function (ContainerConfigurator $configurator) {
         ->autowire(true)      // Automatically injects dependencies in your services.
         ->autoconfigure(true) // Automatically registers your services as commands, event subscribers, etc.
         ->bind('$squareDeveloperUrl', '%square_developer_url%')
-        ->bind('$publicDirectory', '%kernel.project_dir%/public')
+        ->bind('$publicDirectory', '%kernel.project_dir%/docs')
     ;
 
     // Twig の Environment サービスを定義
