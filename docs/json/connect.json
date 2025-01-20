@@ -1,5 +1,26 @@
 [
     {
+        "id": "3XinBHmlGKzb5frvQpe8E0",
+        "slug": "changelog\/connect-logs\/2024-12-18",
+        "linkBack": "changelog\/connect",
+        "changelogType": "API (Connect and Authorization)",
+        "changelogDate": "2024-12-18T08:00:00Z",
+        "summary": "Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.",
+        "details": "### New SDK release\n* **Go SDK:**\n * New [Go SDK](sdks\/go) provides access to Square APIs in a language-idiomatic way. Download the SDK package and read the [quickstart guide](sdks\/go\/quick-start) to get started.\n\n### API updates\n* **Customers API:**\n * [Customer](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/Customer) object - The `cards` field will be retired in Square API version 2025-01-23. This field is replaced by the `ListCards` and `ListGiftCards` endpoints with the `customer_id` query parameter.\n\n Note that the retirement date for the deprecated `CreateCustomerCard` and `DeleteCustomerCard` endpoints isn't currently scheduled, but you should migrate to the Cards API and Gift Cards API as soon as possible. For more information, see [Migration notes](customers-api\/what-it-does#deprecated-createcustomercard-endpoint).\n\n* **GraphQL:**\n * [Square GraphQL](devtools\/graphql) queries now support the Payouts graph (Alpha). See an [example query](graphql\/query-examples#graphql-get-payout-entries-query).\n\n* **Payments API:**\n * [CreatePayment](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/payments\/create-payment) endpoint - New `buyer_phone_number` field.\n * [ListPayments](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/payments\/list-payments) endpoint - New `updated_at_begin_time`, `updated_at_end_time`, and `sort_field` filters that can be used to filter the results by the payment's `updated_at` field. \n\n* **Team API:**\n * New [Job](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/Job) object and job management endpoints (Beta):\n * [CreateJob](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/team-api\/create-job)\n * [UpdateJob](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/team-api\/update-job)\n * [ListJobs](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/team-api\/list-jobs)\n * [RetrieveJob](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/team-api\/retrieve-job)\n * [TeamMember](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/TeamMember) object - New `wage_setting` field (Beta), which provides direct access to a team member's overtime exemption status and job and compensation information using `TeamMember` endpoints (instead of `RetrieveWageSetting` or `UpdateWageSetting`). \n * [JobAssignment](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/JobAssignment) object - New `job_id` field (Beta), which now serves as the unique job identifier instead of `job_title`.\n\n For more information about using these new Team API features, see [Integration Guide](team\/integration).\n\n* **Terminal API:**\n * [CreateTerminalCheckout](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/terminal-api\/create-terminal-checkout) endpoint - New `QR_CODE` enum value for `payment_type`, which allows the Square Terminal to support a single QR code payment that integrates with multiple Japanese digital wallet brands.\n * [CheckoutOptionsPaymentType](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/enums\/CheckoutOptionsPaymentType) enum - Deprecates the `PAYPAY` enum value. The `QR_CODE` enum value now supports PayPay as well as other digital wallets.\n\n### Documentation updates\n\n* **Square SDKs:**\n * Reorganized the [Square SDKs](https:\/\/developer.squareup.com\/docs\/sdks) overview page for easy access to each SDK package and GitHub repos, and added information about mobile and frontend SDKs.\n * Removed the **Stay Current with SDK Version** topic for each SDK. This content is now present on each SDK landing page. \n\n* **Point of Sale API:**\n * [Offline Mode](pos-api\/cookbook\/offline-mode) - Added a **Requirements and limitations** section to clarify how to maintain a Bluetooth connection and a secure connection to take payments while offline.\n\n* **Web Payments SDK:**\n * [Integrate Digital Wallets with the Web Payments SDK](web-payments\/digital-wallets) - Removed the note that Apple Pay and Google Pay already comply with SCA. Developers are encouraged to implement SCA for all digital wallet payments.\n\n{% line-break \/%}\nLearn about [versioning for the Square API and SDKs](build-basics\/versioning-overview).",
+        "tags": [
+            "Square",
+            "Documentation",
+            "Customers API",
+            "GraphQL",
+            "Payments API",
+            "Team API",
+            "Terminal API",
+            "Web Payments SDK",
+            "BETA",
+            "DEPRECATED"
+        ]
+    },
+    {
         "id": "6kYB5jvJpdLc1HhejSylZu",
         "slug": "changelog\/connect-logs\/2024-11-20",
         "linkBack": "changelog\/connect",

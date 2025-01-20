@@ -5,10 +5,22 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Sun, 12 Jan 2025 07:24:24 +0000</lastBuildDate>
-        <pubDate>Sun, 12 Jan 2025 07:24:24 +0000</pubDate>
+        <lastBuildDate>Mon, 20 Jan 2025 13:37:41 +0000</lastBuildDate>
+        <pubDate>Mon, 20 Jan 2025 13:37:41 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-12-18</link>
+                <description><![CDATA[### New SDK release
+* **Go SDK:**
+ * New [Go SDK](sdks/go) provides access to Square APIs in a language-idiomatic way. Download the SDK package and read the [quickstart guide](sdks/go/quick-start) to get started.
+
+### API updates
+* **Custom...]]></description>
+                <pubDate>Wed, 18 Dec 2024 08:00:00 +0000</pubDate>
+                <guid>3XinBHmlGKzb5frvQpe8E0</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-11-20</link>
