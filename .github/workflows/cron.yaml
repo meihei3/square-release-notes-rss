@@ -1,0 +1,55 @@
+name: cron
+
+on:
+  schedule:
+    - cron: "30 * * * *"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.4
+
+      - uses: actions/checkout@v4
+
+      - name: Get Composer cache directory path
+        id: composer-cache-dir-path
+        run: echo "path=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
+
+      - name: Cache Composer dependencies
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.composer-cache-dir-path.outputs.path }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('composer.lock') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Install Composer Dependencies
+        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist --no-dev
+
+      - name: Build JSON & RSS files
+        run: bin/console retrieve-square-change-log
+
+      - name: Check diff
+        id: diff
+        run: |
+          git add -N .
+          git diff --name-only --exit-code
+        continue-on-error: true
+
+      - name: Commit and push to GitHub if needed
+        if: steps.diff.outcome == 'failure'
+        # https://github.com/actions/checkout/issues/13#issuecomment-724415212
+        run: |
+          set -x
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add .
+          git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "Automatically committed"
+          git push
