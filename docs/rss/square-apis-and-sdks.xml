@@ -5,8 +5,8 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 23 Jan 2025 22:14:22 +0000</lastBuildDate>
-        <pubDate>Thu, 23 Jan 2025 22:14:22 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Jan 2025 23:15:08 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Jan 2025 23:15:08 +0000</pubDate>
         <ttl>1800</ttl>
 
             <item>
@@ -677,8 +677,8 @@ Square APIs and SDKs are now available in Ireland. For Ireland-specific payment 
 
 * **Customers API:**
 
- * [New webhooks](/customers-api/use-the-api/customer-webhooks) (beta). Square now sends notifications for the following events:
- * [customer.created](https://developer.{{SQUARE_DOMAIN}}/refere...]]></description>
+ * [New webhooks](customers-api/use-the-api/customer-webhooks) (beta). Square now sends notifications for the following events:
+ * [customer.created](https://developer.{{SQUARE_DOMAIN}}/referen...]]></description>
                 <pubDate>Fri, 26 Feb 2021 10:00:00 +0000</pubDate>
                 <guid>6KkiQdVWBzguqtKIDZH0Wa</guid>
             </item>
