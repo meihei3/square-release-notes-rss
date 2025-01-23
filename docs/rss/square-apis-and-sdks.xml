@@ -5,10 +5,20 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 20 Jan 2025 13:37:41 +0000</lastBuildDate>
-        <pubDate>Mon, 20 Jan 2025 13:37:41 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Jan 2025 18:21:28 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Jan 2025 18:21:28 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-01-23</link>
+                <description><![CDATA[### API updates
+
+* **Customers API:**
+ * [Customer](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Customer) object - The `cards` field is retired in Square API version 2025-01-23 and later. This field is replaced by the `List...]]></description>
+                <pubDate>Thu, 23 Jan 2025 08:00:00 +0000</pubDate>
+                <guid>ruyKeFgt9ioFpqChFLAvj</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2024-12-18</link>
