@@ -167,7 +167,8 @@
             "Documentation",
             "Bookings API",
             "Catalog API",
-            "OAuth API"
+            "OAuth API",
+            "RETIRED"
         ]
     },
     {
@@ -373,7 +374,8 @@
         "details": "### API updates\n* **Connect V1 Payments API:**\n * The retirement date for the V1 Payments API is extended to July 17, 2023. For more information, see [Migrate from the Connect V1 Payments API](migrate-from-v1\/guides\/v1-payments).\n\n### Documentation updates\n* **Subscriptions API:**\n * [CreateSubscription](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/subscriptions-api\/create-subscription) endpoint. The `plan_id` field was marked as `DEPRECATED`. It's now `RETIRED` and removed from public documentation. Use the `plan_variation_id` field instead.",
         "tags": [
             "Documentation",
-            "Connect v1"
+            "Connect v1",
+            "RETIRED"
         ]
     },
     {
@@ -518,8 +520,9 @@
             "Orders API",
             "Terminal API",
             "Square Payment Form",
+            "Documentation",
             "BETA",
-            "Documentation"
+            "RETIRED"
         ]
     },
     {
@@ -822,7 +825,8 @@
             "Locations API",
             "Merchants API",
             "Catalog API",
-            "Bookings API"
+            "Bookings API",
+            "RETIRED"
         ]
     },
     {
