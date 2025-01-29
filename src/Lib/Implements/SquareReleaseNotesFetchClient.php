@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Lib\Implements;
@@ -8,20 +9,23 @@ use App\Lib\SquareReleaseNotesFetchClientInterface;
 use Symfony\Component\DomCrawler\Crawler;
 use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
+
 use function json_decode;
 
 final readonly class SquareReleaseNotesFetchClient implements SquareReleaseNotesFetchClientInterface
 {
     public function __construct(
-        private HttpClientInterface   $httpClient,
-        private string                $squareDeveloperUrl,
+        private HttpClientInterface $httpClient,
+        private string $squareDeveloperUrl,
         private DenormalizerInterface $denormalizer,
-    ) {}
+    ) {
+    }
 
     /**
      * @inheritDoc
      */
-    public function fetchSquareAPIsAndSDKsChangelogHistoryList(): array {
+    public function fetchSquareAPIsAndSDKsChangelogHistoryList(): array
+    {
         // retrieve Square API and SDKs changelog
         $response = $this->httpClient->request('GET', $this->squareDeveloperUrl . '/docs/changelog/connect');
         $html = $response->getContent();

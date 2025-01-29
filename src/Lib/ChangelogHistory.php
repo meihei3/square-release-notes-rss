@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Lib;
@@ -14,5 +15,6 @@ final readonly class ChangelogHistory
         public string $summary,
         public string $details,
         public array $tags,
-    ) {}
+    ) {
+    }
 }

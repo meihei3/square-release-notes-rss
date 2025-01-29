@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace App\Command;
@@ -10,6 +11,7 @@ use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+
 use function array_filter;
 use function count;
 use function in_array;
@@ -19,13 +21,14 @@ final class RetrieveSquareChangeLogCommand extends Command
 {
     public function __construct(
         readonly private SquareReleaseNotesFetchClientInterface $fetchClient,
-        readonly private ChangelogHistoryFileStoreInterface     $fileStore,
-        readonly private ChangelogHistoryRSSBuilderInterface    $rssBuilder,
+        readonly private ChangelogHistoryFileStoreInterface $fileStore,
+        readonly private ChangelogHistoryRSSBuilderInterface $rssBuilder,
     ) {
         parent::__construct();
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output): int {
+    protected function execute(InputInterface $input, OutputInterface $output): int
+    {
         $changelogs = $this->fetchClient->fetchSquareAPIsAndSDKsChangelogHistoryList();
         $previous = $this->fileStore->loadSquareAPIsAndSDKs();
 
