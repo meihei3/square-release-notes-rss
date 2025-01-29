@@ -40,5 +40,8 @@
     },
     "conflict": {
         "symfony/symfony": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.11"
     }
 }
