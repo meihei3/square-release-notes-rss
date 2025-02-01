@@ -10,4 +10,9 @@ interface SquareReleaseNotesFetchClientInterface
      * @return list<ChangelogHistory>
      */
     public function fetchSquareAPIsAndSDKsChangelogHistoryList(): array;
+
+    /**
+     * @return list<ChangelogHistory>
+     */
+    public function fetchMobileSDKsChangelogHistoryList(): array;
 }
