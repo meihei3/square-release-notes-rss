@@ -12,4 +12,5 @@
 
     <!-- 対象ディレクトリを指定 -->
     <file>src</file>
+    <file>config/</file>
 </ruleset>

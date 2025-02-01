@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 /*
@@ -12,6 +13,7 @@ declare(strict_types=1);
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 use Twig\Loader\FilesystemLoader;
 use Twig\Environment;
+
 use function Symfony\Component\DependencyInjection\Loader\Configurator\service;
 
 return function (ContainerConfigurator $configurator) {
@@ -38,10 +40,10 @@ return function (ContainerConfigurator $configurator) {
         ]);
 
     // App\ namespace のクラスをサービスとして自動登録
-    $services->load('App\\', dirname(__DIR__).'/src/')
+    $services->load('App\\', dirname(__DIR__) . '/src/')
         ->exclude([
-            dirname(__DIR__).'/src/DependencyInjection/',
-            dirname(__DIR__).'/src/Entity/',
-            dirname(__DIR__).'/src/Kernel.php',
+            dirname(__DIR__) . '/src/DependencyInjection/',
+            dirname(__DIR__) . '/src/Entity/',
+            dirname(__DIR__) . '/src/Kernel.php',
         ]);
 };
