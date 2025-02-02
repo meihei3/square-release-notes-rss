@@ -10,4 +10,9 @@ interface ChangelogHistoryRSSBuilderInterface
      * @param list<ChangelogHistory> $changelogHistories
      */
     public function buildSquareAPIsAndSDKs(array $changelogHistories): void;
+
+    /**
+     * @param list<ChangelogHistory> $changelogHistories
+     */
+    public function buildMobileSDKs(array $changelogHistories): void;
 }

@@ -38,12 +38,42 @@ final readonly class ChangelogHistoryRSSBuilder implements ChangelogHistoryRSSBu
             'items'       => array_map(fn($changelogHistory) => [
                 'title'       => $changelogHistory->summary,
                 'link'        => "{$this->squareDeveloperUrl}/docs/{$changelogHistory->slug}",
-                'description' => mb_strlen($changelogHistory->details) > 240 ? mb_substr($changelogHistory->details, 0, 240) . '...' : $changelogHistory->details,
+                'description' => mb_strlen($changelogHistory->details) > 240 ? mb_substr(
+                    $changelogHistory->details,
+                    0,
+                    240
+                ) . '...' : $changelogHistory->details,
                 'pubDate'     => new DateTime($changelogHistory->changelogDate)->format(DateTimeInterface::RSS),
                 'guid'        => $changelogHistory->id,
             ], $changelogHistories),
         ]);
 
         file_put_contents($this->publicDirectory . '/rss/square-apis-and-sdks.xml', $rss);
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function buildMobileSDKs(array $changelogHistories): void
+    {
+        $rss = $this->twig->render('connect.xml.twig', [
+            'title'       => 'Release Notes: Square APIs and SDKs',
+            'link'        => "{$this->squareDeveloperUrl}/docs/changelog/connect",
+            'description' => 'Release notes for Square APIs and SDKs.',
+            'pubDate'     => $this->clock->now()->format(DateTimeInterface::RSS),
+            'items'       => array_map(fn($changelogHistory) => [
+                'title'       => $changelogHistory->summary,
+                'link'        => "{$this->squareDeveloperUrl}/docs/{$changelogHistory->slug}",
+                'description' => mb_strlen($changelogHistory->details) > 240 ? mb_substr(
+                    $changelogHistory->details,
+                    0,
+                    240
+                ) . '...' : $changelogHistory->details,
+                'pubDate'     => new DateTime($changelogHistory->changelogDate)->format(DateTimeInterface::RSS),
+                'guid'        => $changelogHistory->id,
+            ], $changelogHistories),
+        ]);
+
+        file_put_contents($this->publicDirectory . '/rss/mobile-sdks.xml', $rss);
     }
 }
