@@ -15,4 +15,14 @@ interface ChangelogHistoryFileStoreInterface
      * @return list<ChangelogHistory>
      */
     public function loadSquareAPIsAndSDKs(): array;
+
+    /**
+     * @param list<ChangelogHistory> $changelogHistories
+     */
+    public function storeMobileSDKs(array $changelogHistories): void;
+
+    /**
+     * @return list<ChangelogHistory>
+     */
+    public function loadMobileSDKs(): array;
 }
