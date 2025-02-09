@@ -1,0 +1,1192 @@
+[
+    {
+        "id": "7kpxtpZSH3R79xI9D5eBUF",
+        "slug": "changelog\/mobile-logs\/2025-01-29",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-01-29T00:00",
+        "summary": "Mobile Payments SDK improvements",
+        "details": "### iOS Mobile Payments SDK 2.0.2\n* This release contains general improvements to ensure a smoother and more reliable SDK experience.",
+        "tags": [
+            "iOS",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
+        "id": "5iTxU5e1F0kov0fPByi5YS",
+        "slug": "changelog\/mobile-logs\/2025-01-23",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-01-23T00:00",
+        "summary": "Reader SDK Deprecation and Mobile Payments SDK React Native plugin",
+        "details": "* **Mobile Payments SDK:**\n * New [React Native plugin](mobile-payments-sdk\/react-native) for the Mobile Payments SDK.\n\n* **Reader SDK:** Deprecation notice\n * The Reader SDK is now deprecated and will be retired on **December 31, 2025**. Developers must [migrate to the Mobile Payments SDK](mobile-payments-sdk\/migrate) to ensure continued support and application functionality.\n",
+        "tags": [
+            "Android",
+            "iOS",
+            "Mobile Payments SDK",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "7l21r7fGivKKLCdFymoz3z",
+        "slug": "changelog\/mobile-logs\/2024-12-16",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-12-16T00:00",
+        "summary": "Mobile Payments SDK for iOS and Android : General Availability in the United States",
+        "details": "### Android Mobile Payments SDK 2.0.2\n* Fixed a bug that caused payment failures on devices with barcode scanners.\n* Previously, devices running Android 10 or older could experience a `SQLiteException` crash when upgrading Mobile Payments SDK. This has been fixed.\n* Logging and documentation improvements.\n",
+        "tags": [
+            "Android",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
+        "id": "14xQMokgH6Gl8SCQZwDcF7",
+        "slug": "changelog\/mobile-logs\/2024-12-12",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-12-12T00:00",
+        "summary": "In-App Payments SDK 1.6.4 for iOS: Updates and Bug Fixes",
+        "details": "## iOS In-App Payments SDK: iOS 1.6.4\n\n- This release contains bug fixes.\n",
+        "tags": [
+            "iOS",
+            "In-App Payments SDK"
+        ]
+    },
+    {
+        "id": "hEt15q2MpbGrdN0RR83sO",
+        "slug": "changelog\/mobile-logs\/2024-11-20",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-11-20T00:00",
+        "summary": "Mobile Payments SDK for iOS and Android : General Availability in the United States",
+        "details": "### Android Mobile Payments SDK 2.0.1\n* The Mobile Payments SDK is now in General Availability in the United States.\n* New [sample application](https:\/\/github.com\/square\/mobile-payments-sdk-android) written in Kotlin and Compose.\n* `AuthorizationManager` - The `authorizedLocation` field has been renamed to `location`.\n* The [Offline Payments](mobile-payments-sdk\/android\/offline-payments) feature is now in Beta. Sellers must continue to [opt in to offline payments](mobile-payments-sdk\/android\/offline-payments#seller-onboarding) to participate. \n* `OfflinePaymentQueue` - Removed the `location` field from the offline payment queue (Beta feature). Applications should use the `AuthorizationManager` `location` field instead.\n\n### iOS Mobile Payments SDK 2.0.1\n* The Mobile Payments SDK is now in General Availability in the United States.\n* New [sample application](https:\/\/github.com\/square\/mobile-payments-sdk-ios) written in Swift and Swift UI.\n* The [Offline Payments](mobile-payments-sdk\/ios\/offline-payments) feature is now in Beta. Sellers must continue to [opt in to offline payments](mobile-payments-sdk\/ios\/offline-payments#seller-onboarding) to participate. \n* `OfflinePaymentQueue` - Removed the `location` field from the offline payment queue (Beta feature). Applications should use the `AuthorizationManager`'s `location` field instead.\n* The `notSupported` and `ReaderPairingError` are removed and replaced by more descriptive errors: `simulatorNotSupported` and `sandboxNotSupported`. For more information, see [Handling Errors](mobile-payments-sdk\/ios\/handling-errors).",
+        "tags": [
+            "Android",
+            "iOS",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
+        "id": "4WfTVLrSH5ujlxx6u1qrHD",
+        "slug": "changelog\/mobile-logs\/2024-10-24",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-10-24T00:00",
+        "summary": "Reader SDK for iOS: Bug fixes",
+        "details": "### iOS Reader SDK 1.7.5\n* This release fixes a bug that caused crashes for applications using AppsFlyer.\n",
+        "tags": [
+            "iOS",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "69E3zWkMFGR7r1EpLdwydG",
+        "slug": "changelog\/mobile-logs\/2024-10-08",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-10-08T00:00",
+        "summary": "Mobile Payments SDK for Android: Bug fixes",
+        "details": "### Android Mobile Payments SDK 2.0.0-beta5\n* This release contains various bug fixes.",
+        "tags": [
+            "Android",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
+        "id": "64iKPIHcmRDxmlHzXKjrsu",
+        "slug": "changelog\/mobile-logs\/2024-08-29",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-08-29T00:00",
+        "summary": "Mobile Payments SDK for Android: Support for API 34",
+        "details": "### Android Mobile Payments SDK 2.0.0-beta4\n* Support for targeting Android API 34. The minimum target remains 24, but starting August 31 [Google requires all Google Play apps to target API level 34](https:\/\/support.google.com\/googleplay\/android-developer\/answer\/11926878).\n\n### iOS Reader SDK 1.7.4\n* This release includes support for iOS 18 and adds a privacy manifest (required by Apple).",
+        "tags": [
+            "Android",
+            "Mobile Payments SDK",
+            "iOS",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "GQf6U0ic7op0yNiCSrRCr",
+        "slug": "changelog\/mobile-logs\/2024-08-28",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-08-28T00:00",
+        "summary": "Mobile Payments SDK for iOS: Support for iOS 18",
+        "details": "### iOS Mobile Payments SDK 2.0.0-beta3\n* This release includes support for iOS 18, adds a privacy manifest (required by Apple) and code signatures.\n* When [delaying the capture of a payment](mobile-payments-sdk\/ios\/take-payments#delay-the-capture-of-payments), developers can now set a `delayDuration` and `delayAction` in their `PaymentParameters`.\n* Added `teamMemberId` as a new `PaymentParameters` field to associate a payment with a particular team member. To use this field, your application must request the `EMPLOYEES_READ` permission. \n",
+        "tags": [
+            "iOS",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
+        "id": "7dt4sM8XMi5wtCTrrTsr8m",
+        "slug": "changelog\/mobile-logs\/2024-08-22",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-08-22T00:00",
+        "summary": "Reader SDK for Android 1.7.7",
+        "details": "### Android Reader SDK 1.7.7\n* This release contains a security fix. \n",
+        "tags": [
+            "Android",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "34MJvQqqBq8pMCLk3ULmbC",
+        "slug": "changelog\/mobile-logs\/2024-08-07",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-08-07T00:00",
+        "summary": "Reader SDK 1.7.6 for Android: Support for API 34",
+        "details": "## Android Reader SDK: 1.7.6\n\n- Support for targeting Android API 34. The minimum target remains 24, but starting August 31 [Google requires all Google Play apps to target API level 34](https:\/\/support.google.com\/googleplay\/android-developer\/answer\/11926878).",
+        "tags": [
+            "Android",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "1X3CAvOXHrkwBREARf2bC9",
+        "slug": "changelog\/mobile-logs\/2024-07-17",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-07-17T00:00",
+        "summary": "Mobile Payments SDK: Documentation Updates",
+        "details": "## Mobile Payments SDK: Documentation Updates\n* [Mobile Payments SDK](mobile-payments-sdk) \u2013 Added a \"Requirements and Limitations\" section and clarified the requirements for using the Mobile Payments SDK with attended terminals or kiosks.\n * [Build on iOS](mobile-payments-sdk\/ios) \u2013 Added installation instructions using Swift Package Manager.\n * [Configure the Mobile Payments SDK for Square Stand](mobile-payments-sdk\/ios\/square-stand) - Added a topic describing how to configure your Mobile Payments SDK iOS application to work with Square Stand.",
+        "tags": [
+            "Documentation",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
+        "id": "2qb5SVhaWbC6sirSpWEqmZ",
+        "slug": "changelog\/mobile-logs\/2024-06-25",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-06-25T00:00",
+        "summary": "Android Mobile Payments SDK: ",
+        "details": "## Android Mobile Payments SDK: 2.0.0-beta2\n\n* Fixed a bug where restarting an application while offline could cause readers to stop working, and make them unable to take payments until online again.\n* Fixed a bug with clearing new lambda-based callbacks after use.\n* Fixed a bug in which `customerId` and `teamMemberId`, although correctly associated with the payment and accessible via dashboard or the Payments API, were incorrectly not associated in the returned `Payment` object.\n\n### Documentation Updates\n* [Quickstart Guide](mobile-payments-sdk\/android#quickstart) \u2013 Revised the initialization example code and clarified that developers should implement a helper method to access their application ID value.",
+        "tags": [
+            "Android",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
+        "id": "27F1IcJlnqv963TCXaQZa8",
+        "slug": "changelog\/mobile-logs\/2024-06-04",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-06-04T00:00",
+        "summary": "NEW: Square Mobile Payments SDK",
+        "details": "### New release: Mobile Payments SDK: 2.0.0-beta1\nThe [Square Mobile Payments SDK](mobile-payments-sdk) has launched as the successor to the Reader SDK, enabling developers to accept in-person payments using an embedded Square payment flow in iOS and Android applications. Features include:\n\n* Support for in-person payments with Square Reader or Square Stand.\n* The ability to take payments offline (Alpha).\n* Integration with the Square Payments API and Orders API.\n* Sandbox support for testing with virtual readers.\n* Programmatic reader management.\n\nThe Mobile Payments SDK is now available in Beta for [iOS](mobile-payments-sdk\/ios) and [Android](mobile-payments-sdk\/android). ",
+        "tags": [
+            "Android",
+            "iOS",
+            "Mobile Payments SDK",
+            "BETA"
+        ]
+    },
+    {
+        "id": "7FdylmuvfAvCtrrilOeXZt",
+        "slug": "changelog\/mobile-logs\/2024-03-29",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-03-29T00:00",
+        "summary": "Reader SDK 1.7.2 for iOS: Bug Fix",
+        "details": "## iOS Reader SDK: iOS 1.7.2\n\n- This release ends support for iOS 14. The minimum supported iOS version is now 15. \n- Addresses a potential naming conflict with a private Apple API.",
+        "tags": [
+            "iOS",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "5btci5lxYKFQQjwNdUbUys",
+        "slug": "changelog\/mobile-logs\/2024-03-22",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-03-22T00:00",
+        "summary": "Android In-App Payments SDK: Android 1.6.6: Updates",
+        "details": "## Android In-App Payments SDK: Android 1.6.6\n- Improved the buyer verification experience and addressed issues with buyer verification in sandbox.",
+        "tags": [
+            "Android",
+            "In-App Payments SDK"
+        ]
+    },
+    {
+        "id": "5uPu5YuQMdtE1abi0x7oAS",
+        "slug": "changelog\/mobile-logs\/2024-03-21",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2024-03-21T00:00",
+        "summary": "In-App Payments SDK 1.6.3 and Reader SDK 1.7.1 for iOS: Updates and Bug Fixes",
+        "details": "## iOS In-App Payments SDK: iOS 1.6.3\n\n- Improved buyer verification experience and addressed issues with buyer verification sandbox.\n- Fixed issue using Xcode 15 and Swift Package Manager.\n- Fixed M1 support for simulators.\n\n## iOS Reader SDK: iOS 1.7.1\n{% aside type=\"warning\" %}\nApple is currently rejecting apps submitted to the App Store which include Reader SDK 1.7.1. This is due to a private API naming collision. [Reader SDK 1.7.2](changelog\/mobile-logs\/2024-03-29) addresses this issue.\n{% \/aside %}\n\n- China UnionPay is now UnionPay International and Reader SDK v1.7.1 has been updated with this name change.\n- Fixed crashes that occur when Square stand is unplugged.\n- Fixed reader connectivity issues when inactive for a period longer than 30 minutes.\n- Fixed a checkout issue that displayed a white bar when using an S3 stand.",
+        "tags": [
+            "iOS",
+            "In-App Payments SDK",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "1UQCZoKuchFbSQTk2HcJRt",
+        "slug": "changelog\/mobile-logs\/2023-10-08",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-10-08T00:00",
+        "summary": "In-App Payments SDK 1.6.5 for Android: Bug fixes",
+        "details": "## Android In-App Payments SDK: Android 1.6.5\n\nFixed an Android Gradle plug-in (AGP) issue in In-App Payments SDK version 1.6.4, which resulted in sandbox assets being omitted. Version 1.6.5 restores sandbox functionality.",
+        "tags": [
+            "Android",
+            "In-App Payments SDK"
+        ]
+    },
+    {
+        "id": "7JVHbgjIb0a6lsBA7Pfhnm",
+        "slug": "changelog\/mobile-logs\/2023-09-14",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-09-14T00:00",
+        "summary": "In-App Payments SDK 1.6.4 for Android: Updates",
+        "details": "## Android In-App Payments SDK: Android 1.6.4\n\nUpdated certificate for American Express buyer verification, without which AmEx cards cannot be verified starting October 1, 2023.",
+        "tags": [
+            "Android",
+            "In-App Payments SDK"
+        ]
+    },
+    {
+        "id": "56AwsxT2GG19tSiXaEgy7s",
+        "slug": "changelog\/mobile-logs\/2023-09-01",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-09-01T00:00",
+        "summary": "In-App Payments SDK 1.6.2 for iOS: Updates and bug fixes",
+        "details": "## iOS In-App Payments SDK: iOS 1.6.2\n\n### Updates\n- Buyer verification can now be tested in Sandbox on the iOS simulator.\n- Improved fraud detection for buyer verification.\n- Updated resources: \"China UnionPay\" to \"UnionPay International\".\n- Updated expiring certificates for AmEx buyer verification. Please update to iOS In-App Payments SDK 1.6.2 in order for AmEx customers to be eligible for buyer verification.\n\n### Bug fixes\n- Fixed buyer verification support for Sandbox environments.\n",
+        "tags": [
+            "In-App Payments SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "5URHL8DoBJc9CObtgJMUDA",
+        "slug": "changelog\/mobile-logs\/2023-08-10",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-08-10T20:00",
+        "summary": "In-App Payments SDK 1.6.3 for Android: Updates and bug fixes",
+        "details": "## Android In-App Payments SDK: Android 1.6.3\n\n- Minimum supported Kotlin version is now 1.8.10.\n- Added new buyer actions, Charge and Store, for buyer verification.\n- Updated resources: China UnionPay to UnionPay International.\n- Fixed support for Sandbox for buyer verification.\n- Improved fraud detection for buyer verification.\n- Deprecated the Secure Remote Commerce SDK, which has led to the removal of Masterpass from the In-App Payments SDK. This deprecation occurred due to low usage numbers, and because Square\u2019s contractual obligations with Masterpass have ended.",
+        "tags": [
+            "Android",
+            "In-App Payments SDK"
+        ]
+    },
+    {
+        "id": "30xaBz5G3igHNQcGlyleZF",
+        "slug": "changelog\/mobile-logs\/2023-07-27",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-07-27T00:00",
+        "summary": "Reader SDK 1.7.5 for Android: Support for Android API v.33 and other updates",
+        "details": "## Android Reader SDK: 1.7.5\n\n- Support for Android API `targetSdkVersion` 33. The `minSdkVersion` is still API 24. As of August 31, 2023, Google requires all PlayStore apps to target API 33.\n\n- China UnionPay is now UnionPay International and Reader SDK v1.7.5 has been updated with this name change.\n\n- New dependency for Google's `android.savedstate:1.2.0` library from version 1.1.0. Kotlin apps are incompatible with the previous version of `SavedStateRegistryOwner`. Kotlin developers that depend on the previous version of the library will need to upgrade as described in the [Android Developers documentation](https:\/\/developer.android.com\/jetpack\/androidx\/releases\/savedstate#1.2.0) on the `SavedState` library. \n\n- Various other improvements and bug fixes.",
+        "tags": [
+            "Android",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "4JR3rrsfEs0GdleV9ZQdLg",
+        "slug": "changelog\/mobile-logs\/2023-05-31",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-05-31T00:00",
+        "summary": "PayPay payments support for Point of Sale API",
+        "details": "## Point of Sale API for Android 2.1 and iOS 3.5.4\n\nThis release updates the Point of Sale API versions to Android 2.1 and to iOS 3.5.4 to support PayPay QR code payments in Japan. For more information, see [Accept PayPay Payments in Japan](pos-api\/qr-code-payments-paypay).",
+        "tags": [
+            "Android",
+            "iOS",
+            "Point of Sale API"
+        ]
+    },
+    {
+        "id": "knwVzlRAabbwQr35gdeip",
+        "slug": "changelog\/mobile-logs\/2023-04-04",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-04-04T00:00",
+        "summary": "In-App Payments SDK for Android 1.6.2 bug fix",
+        "details": "## In-App Payments SDK for Android 1.6.2\n\nThis release updates the SDK version to 1.6.2.\n\nThis release includes a fix to address an expired demo license issue that prevented the buyer verification flow from starting.",
+        "tags": [
+            "Android",
+            "In-App Payments SDK"
+        ]
+    },
+    {
+        "id": "3nmOK6KENh90hgJWNnDeiD",
+        "slug": "changelog\/mobile-logs\/2023-03-30",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-03-30T00:00",
+        "summary": "In-App Payments SDK for iOS 1.6.1 bug fixes",
+        "details": "## In-App Payments SDK for iOS 1.6.1\n\nThis release updates the version to 1.6.1.\n\nThis release includes fixes for a localization issue for zip codes and postcodes, and issues with adding the SDK using Swift Package Manager.",
+        "tags": [
+            "In-App Payments SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "1bsZCPuIXHWaE2FWymA8OY",
+        "slug": "changelog\/mobile-logs\/2023-03-02",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-03-02T00:00",
+        "summary": "In-App Payments SDK for iOS 1.6.0 bug fixes",
+        "details": "## In-App Payments SDK for iOS 1.6.0\n\nThis release updates the version to 1.6.0.\n\nChanges include:\n- An important update to `SquareBuyerVerificationSDK` that mitigates the risk of declining 3-D Secure (3DS) payments.\n- Various bug fixes.\n\nIf you are using `SquareBuyerVerificationSDK` earlier than version 1.6.0 for iOS, please upgrade to 1.6.0 so that the SDK can process 3DS-enabled payments. The SDK will decline 3DS-enabled payments made after March 31, 2023 if the SDK version is earlier than 1.6.0.",
+        "tags": [
+            "In-App Payments SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "3Xb9UUtELy2P8pE3EoWOJK",
+        "slug": "changelog\/mobile-logs\/2023-02-17",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-02-17T00:00",
+        "summary": "In-App Payments SDK: Android 1.6.1 and iOS 1.5.7 bug fixes",
+        "details": "### In-App Payments SDK: Android 1.6.1 and iOS 1.5.7\n\nYou must upgrade to the latest versions of In-App Payments SDK to apply the following fixes:\n\n- In-App Payments version 1.6.1 for Android fixes an issue with payment cancelation flows, as well as completing a verification check with NuData.\n- In-App Payments version 1.5.7 for iOS fixes a React Native plugin issue with payments failing if the issuer's challenge screen contained `HREF` elements.\n\nTo upgrade to the latest version, see [Install the In-App Payments SDK](in-app-payments-sdk\/installation) for Java (Android) or Swift (iOS) environments.",
+        "tags": [
+            "Android",
+            "In-App Payments SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "Yume0mqQ3Ke0FKrtCDoFL",
+        "slug": "changelog\/mobile-logs\/2023-02-13",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-02-13T00:00",
+        "summary": "iOS Reader SDK: iOS 1.6.9",
+        "details": "## iOS Reader SDK: iOS 1.6.9\n\nReader SDK v1.6.9 for iOS adds support for Xcode 14 and addresses other bug fixes.\n",
+        "tags": [
+            "iOS",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "7o6k6uhtcH6qq84wkBDA2U",
+        "slug": "changelog\/mobile-logs\/2023-02-10",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2023-02-10T12:00",
+        "summary": "In-App Payments SDK 1.6.0 for Android: fix for processing 3DS payments",
+        "details": "### In-App Payments SDK: Android 1.6.0\n\n!!!important\nIn-App Payment SDK version 1.6.0 includes an important update that mitigates the risk of declining 3-D Secure (3DS) payments. \n\nIf you are using In-App Payment SDK versions earlier than 1.6.0 for Android, you must upgrade to 1.6.0 so that the SDK can process 3DS-enabled payments. The SDK will decline 3DS-enabled payments made after March 31, 2023 if the SDK version is earlier than 1.6.0.\n!!!\n\nTo upgrade the version, update the version number in the In-App Payments SDK dependency in the module build.gradle file. For more information, see [Step 1: Add the In-App Payments SDK dependency.](in-app-payments-sdk\/installation#step-1-add-the-in-app-payments-sdk-dependency) \n\n- In-App Payments SDK for Android 1.6.0",
+        "tags": [
+            "Android",
+            "In-App Payments SDK"
+        ]
+    },
+    {
+        "id": "7tWevvVJyEzqdGD4umFKmW",
+        "slug": "changelog\/mobile-logs\/2022-11-17",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-11-17T00:00",
+        "summary": "Reader SDK for Android 1.7.4: Fixed crash when targeting API 30 and other improvements",
+        "details": "## Android Reader SDK: 1.7.4\n\n- Fixed crash on Android 12+ (API 31+) when targeting API 30.\n- Slightly decreased SDK size.\n- Minimum compile SDK version is now 32.\n- Fixed an issue where the \"Connect a Reader\" button would not display.",
+        "tags": [
+            "Android",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "5w151GJ9TzmveNnGSzcDMb",
+        "slug": "changelog\/mobile-logs\/2022-10-31",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-10-31T16:00",
+        "summary": "Reader SDK for iOS 1.6.8: Fix for Connecting to the Square Stand",
+        "details": "## iOS Reader SDK: iOS 1.6.8\n\nReader SDK v1.6.8 for iOS includes a bug fix that addresses a connection issue with the Square Stand.",
+        "tags": [
+            "iOS",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "1hpotaQqQ9TCgjCzZuldXo",
+        "slug": "changelog\/mobile-logs\/2022-09-26",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-09-26T17:00",
+        "summary": "Reader SDK for Android 1.7.1: Support for Android API 31",
+        "details": "## Android Reader SDK: Android 1.7.1\n\nReader SDK v1.7.1 now supports applications targeting Android API 31, in accordance to Google's Play Store [guidelines](https:\/\/developer.android.com\/google\/play\/requirements\/target-sdk). However, if you're adopting version 1.7.1, you will need to make a change to your application code, regardless of whether you use Google Play Store or want to target Android API 31.\n\nIf you do update the new target SDK version (which is recommended), you will need to update both the Reader SDK version and the target SDK version. For an example of how to perform this step from the Reader SDK Android quickstart application, click [here](https:\/\/github.com\/square\/reader-sdk-android-quickstart\/pull\/45\/files#diff-51a0b488f963eb0be6c6599bf5df497313877cf5bdff3950807373912ac1cdc9).\n\nIf you don't update the target SDK version, you'll still need to update the Reader SDK version and also add lines to `AndroidManifest.xml` to remove the new Bluetooth permissions from the Android application. The required lines are illustrated and commented out in the Quickstart application [here](https:\/\/github.com\/square\/reader-sdk-android-quickstart\/blob\/10e488db13fc56df42fc566693ded20b137d339c\/app\/src\/main\/AndroidManifest.xml#L13). \n\n!!!important\nSquare recommends upgrading the target version to API 31 by November 2022. Otherwise, you won't be able to deploy applications that don't target API 31 to Google Play Store.\n!!!",
+        "tags": [
+            "Android",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "4ObHw4C8XRkjc0exMssQH1",
+        "slug": "changelog\/mobile-logs\/2022-08-26",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-08-26T00:00",
+        "summary": "Reader SDK for Android and iOS 1.6.2: Bug fixes",
+        "details": "## Android Reader SDK: Android 1.6.2\n- Fixes crashes occurring for certain screens on Android devices.\n\n## iOS Reader SDK: iOS 1.6.2\n- Fixes bluetooth connectivity issues with iOS 16.\n",
+        "tags": [
+            "Android",
+            "iOS",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "1m4ZCNxDRiWfn9lpdCK2Y2",
+        "slug": "changelog\/mobile-logs\/2022-06-30",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-06-30T00:00",
+        "summary": "Reader SDK for iOS 1.6.1: Support for Afterpay",
+        "details": "Added Afterpay support for Reader SDK for iOS, version 1.6.1.\n\nA new field `coBrand` is added to `SQRDCard`, which returns the value `SQRDCardCoBrandAfterPay` for an Afterpay transaction.\n",
+        "tags": [
+            "iOS",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "3m7y71phOl6shFbzEupFNB",
+        "slug": "changelog\/mobile-logs\/2022-06-29",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-06-29T00:00",
+        "summary": "Improved Reader SDK Quickstart",
+        "details": "**Reader SDK:**\n * [Reader SDK Quickstart.](reader-sdk\/quickstart-guide) Revised to improve usability.",
+        "tags": [
+            "Documentation"
+        ]
+    },
+    {
+        "id": "2X7OhfJCTZ1IW8BVaOR7R",
+        "slug": "changelog\/mobile-logs\/2022-06-17",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-06-17T00:00",
+        "summary": "Reader SDK for iOS 1.6.0: Support for Square Stand and Apple Silicon",
+        "details": "Reader SDK for iOS, version 1.6.0, now supports Square Stand S3 and Apple Silicon devices.\n\nFor more information about the stand, see [Square Stand.](https:\/\/squareup.com\/us\/en\/hardware\/stand)",
+        "tags": [
+            "iOS",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "6Gs3HCCvXq6Oti6DK4bse5",
+        "slug": "changelog\/mobile-logs\/2022-06-16",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-06-16T00:00",
+        "summary": "Android Reader SDK 1.6.1: Afterpay support and version updates",
+        "details": "Android Reader SDK, version 1.6.1, addresses the following updates:\n\n* Added Afterpay support. The SDK returns `Afterpay` as a co-branded card associated with the tender in the `CheckoutResult` object.\n* The minimum SDK version supported is 24, up from 21.\n* Other general fixes and improvements.",
+        "tags": [
+            "Android",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "hR68Ov8rdNkqO8qlx50x5",
+        "slug": "changelog\/mobile-logs\/2022-06-02",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-06-02T00:00",
+        "summary": "In-App Payments SDK Documentation Updates",
+        "details": "### In-App Payments SDK: Android documentation updates\n\nThe code samples in [Enable Google Pay](\/in-app-payments-sdk\/add-digital-wallets\/google-pay), for integrating Google Pay with the SDK on an Android device, have been updated with the correct SDK version number.",
+        "tags": [
+            "Documentation"
+        ]
+    },
+    {
+        "id": "Snqkat6vILLzYnljIAiqR",
+        "slug": "changelog\/mobile-logs\/2022-05-24",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-05-24T00:00",
+        "summary": "In-App Payments SDK updates for Flutter and React Native plugins",
+        "details": "## In-App Payments SDK: Flutter Plugin 1.7.4 and React Native Plugin 1.7.2\n\n!!!important\nIn-App Payment SDK version 1.5.6 included in Flutter plugin version 1.7.4, and React Native plugin version 1.7.2, includes an important update that mitigates the risk of SCA (Strong Customer Authentication) declining on payments made with Visa after May 4, 2022.\n\nIf you are using an earlier version of Flutter or React Native plugins, you must upgrade so that the SDK can perform SCA on payments made with Visa.\n!!!\n\n- In-App Payments SDK for Flutter Plugin 1.7.4\n- In-App Payments SDK for React Native Plugin 1.7.2",
+        "tags": [
+            "In-App Payments SDK",
+            "Flutter",
+            "React Native"
+        ]
+    },
+    {
+        "id": "XaakMsrQezQ6sHgherNr4",
+        "slug": "changelog\/mobile-logs\/2022-05-19",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-05-19T00:00",
+        "summary": "In-App Payments SDK updates for Android and iOS",
+        "details": "## In-App Payments SDK: Android and iOS 1.5.6\n!!!important\nIn-App Payment SDK version 1.5.6 includes an important update that mitigates the risk of SCA (Strong Customer Authentication) declining on payments made with Visa after May 4, 2022. \n\nIf you are using In-App Payment SDK version 1.5.5 or earlier, you must upgrade to 1.5.6 so that the SDK can perform SCA on payments made with Visa.\n!!!\n\n- In-App Payments SDK for Android 1.5.6\n- In-App Payments SDK for iOS 1.5.6",
+        "tags": [
+            "Android",
+            "iOS",
+            "In-App Payments SDK"
+        ]
+    },
+    {
+        "id": "6yi2l8LdPOgnMIe1H4dMik",
+        "slug": "changelog\/mobile-logs\/2022-03-30",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-03-30T00:00",
+        "summary": "Android Reader SDK 1.5.6 bug fixes and improvements",
+        "details": "## Reader SDK 1.5.6 - Android\n\nReader SDK version 1.5.6 addresses various bug fixes and improvements.\n\n- Fix for delayed capture of card payments.\n- No official support for _targeting_ Android 12 (API 31). Enabling `BLUETOOTH_CONNECT` and `BLUETOOTH_SCAN` permissions may allow running on Android 12 with an app that's targeted at an earlier version, which is supported.\n- Other general fixes and improvements.",
+        "tags": [
+            "Android",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "6rmecIIiSLmKBzINu0D8MF",
+        "slug": "changelog\/mobile-logs\/2022-01-25",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-01-25T17:00",
+        "summary": "iOS Reader SDK 1.5.4 bug fixes and improvements",
+        "details": "## Reader SDK 1.5.4 - iOS\n\nReader SDK version 1.5.4 addresses various bug fixes and improvements.",
+        "tags": [
+            "iOS",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "1B1QTSwIVMZWvNgpPmlyfO",
+        "slug": "changelog\/mobile-logs\/2022-01-21",
+        "linkBack": "changelog\/mobile\/",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-01-21T12:00",
+        "summary": "In-app payments SDK for Android and iOS, and Android Reader SDK updates",
+        "details": "## In-App Payments SDK: Android and iOS 1.5.5\n!!!important\nIn-App Payment SDK version 1.5.5 for Android and iOS includes an important update that mitigates the risk of SCA (Strong Customer Authentication) declining on payments made with American Express after December 18, 2021. \n\nIf you are using In-App Payment SDK version 1.5.4 or earlier, you must upgrade to 1.5.5 so that the SDK can perform SCA on payments made with American Express.\n!!!\n\n- In-App Payments SDK for Android 1.5.5\n- In-App Payments SDK for iOS 1.5.5\n\n## Android Reader SDK: Android 1.5.5\n\nAndroid Reader SDK version 1.5.5 has been updated with various bug fixes and improvements. The bug fix addresses an issue related to external storage permissions for Android API version 30 (Android 11) and later.\n",
+        "tags": [
+            "Android",
+            "iOS",
+            "In-App Payments SDK",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "3IsLks9jWGOpDjlc4cfFBj",
+        "slug": "changelog\/mobile-logs\/2022-01-19",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-01-19T12:00",
+        "summary": "Android Reader SDK new release and API changes",
+        "details": "## Android Reader SDK: Android 1.5.4\n\nAndroid Reader SDK version 1.5.4 has been updated with various bug fixes and improvements. Although the update doesn't provide any new functionality, some of the improvements greatly improve Square's ability to provide support for issues that may arise. Therefore, we strongly encourage developers to adopt this version and update their applications to use it.\n\nDue to dependency updates, version 1.5.4 also requires updating the `compileSdkVersion` build setting to 31. The `targetSdkVersion` build setting should remain at 30 or lower, depending on your application.",
+        "tags": [
+            "Android",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "5AXyqGqk7COQO2JcQY80FJ",
+        "slug": "changelog\/mobile-logs\/2022-01-18",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2022-01-18T12:00",
+        "summary": "Android Reader SDK updates and fixes",
+        "details": "## Android Reader SDK: Android 1.5.3\n\nAndroid Reader SDK version 1.5.3 has been updated with various bug fixes and improvements.\n\n!!!important\nWhen a Square Reader fails to connect for retryable reasons while it has a network connection, it will retry every 30 seconds until it either reestablishes a connection, loses network connection, the application de-authorizes, or the reconnection attempt fails for a non-retryable reason.\n!!!",
+        "tags": [
+            "Android",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "2jmPDeYK0itbQE2btO7UZk",
+        "slug": "changelog\/mobile-logs\/2021-11-01",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2021-11-01T00:00",
+        "summary": "In-app payments SDK updated for SCA regulations in Europe",
+        "details": "## In-App Payments SDK: Android and iOS 1.5.4\n!!!important\nIn-App Payment SDK version 1.5.4 for Android and iOS includes an important update that mitigates the risk of SCA (Strong Customer Authentication) declining on payments made after October 31, 2021. \n\nIf you are using In-App Payment SDK version 1.5.2 or earlier, you must upgrade to 1.5.4 so that the SDK can perform SCA on payments.\n!!!\n\n- In-App Payments SDK for Android 1.5.4\n- In-App Payments SDK for iOS 1.5.4\n",
+        "tags": [
+            "Android",
+            "iOS",
+            "In-App Payments SDK"
+        ]
+    },
+    {
+        "id": "2NfXqKiBRDrHgP2dMQiElU",
+        "slug": "changelog\/mobile-logs\/2021-10-26",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2021-10-26T00:00",
+        "summary": "Reader SDK 1.5.3",
+        "details": "## Reader SDK 1.5.3\n\n!!!important\nThis release resolves an issue with Reader SDK 1.5.2 that prevents a new checkout request from starting under certain scenarios.\n!!!\n\nThe following error: \n```json\n{\n \"code\":\"USAGE_ERROR\",\n \"debugCode\":\"checkout_already_presented\",\n \"debugMessage\":\"Square Reader SDK cannot present a checkout controller while another checkout controller is already presented.\"\n}\n```\nprevented the host device from completing a payment until the device was restarted. ",
+        "tags": [
+            "Reader SDK",
+            "iOS",
+            "Point of Sale API"
+        ]
+    },
+    {
+        "id": "7GjmRbVySjXPNPGpT5Z8M2",
+        "slug": "changelog\/mobile-logs\/2021-09-22",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2021-09-22T00:00",
+        "summary": "Reader SDK 1.5.2 - iOS",
+        "details": "## Reader SDK 1.5.2 - iOS\n!!!important\n * Fix to iOS 15 Bluetooth connections. \n!!!\n",
+        "tags": [
+            "Reader SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "7wnW5IdftGeIoTJW1141GA",
+        "slug": "changelog\/mobile-logs\/2021-07-21",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2021-07-21T00:00",
+        "summary": "Reader SDK 1.5.1 - Android",
+        "details": "## SDK Changes\n\n* Upgrade to Kotlin 1.5\n* Various fixes addressing native crashes\n* Fix for conflicting versions of Kotlin Coroutines libraries\n* Various bug fixes and performance improvements\n\n## Breaking changes\n\n* If your app is still using Kotlin 1.3 or 1.4 you must upgrade to 1.5 to use Reader SDK 1.5.1. In general, the Kotlin plugin takes care of the migration, but Square suggests that you follow these guidelines for migration:\n * [Migrating from 1.3 to 1.4](https:\/\/kotlinlang.org\/docs\/whatsnew14.html#migrating-to-kotlin-1-4-0)\n * [Migrating from 1.4 to 1.5](https:\/\/kotlinlang.org\/docs\/whatsnew15.html#migrating-to-kotlin-1-5-0)\n\n## Upgrade to Reader SDK 1.5.1\n\nTo use Reader SDK 1.5.1 you must add a workaround for a packaging issue the Square Reader SDK development team discovered during testing. This is a temporary fix. The issue will be resolved in the next Reader SDK release.\n\nAdd following inside the `android{}` block of your application `build.gradle` file:\n\n```gradle copy_code\npackagingOptions {\n exclude(\"META-INF\/*.kotlin_module\")\n}\n```\n\nRefer to the Square [Quickstart App](https:\/\/github.com\/square\/reader-sdk-android-quickstart\/blob\/master\/app\/build.gradle#L15) on GitHub for an example of the correct configuration.\n\nAfter adding the snippet, set the version of Reader SDK to 1.5.1\n\n```kotlin copy_code\ndef readerSdkVersion = \"1.5.1\"\n\/\/ SQUARE_READER_SDK_APPLICATION_ID is defined in .\/gradle.properties\nimplementation \"com.squareup.sdk.reader:reader-sdk-$SQUARE_READER_SDK_APPLICATION_ID:$readerSdkVersion\"\nruntimeOnly \"com.squareup.sdk.reader:reader-sdk-internals:$readerSdkVersion\"\n```\n",
+        "tags": [
+            "Reader SDK",
+            "Android"
+        ]
+    },
+    {
+        "id": "56lE5HcVA6tdEDxGhqF6Aa",
+        "slug": "changelog\/mobile-logs\/2021-07-08",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2021-07-08T00:00",
+        "summary": "Localization support for France",
+        "details": "## In-App Payments SDK - Android and iOS 1.5.2\n* Added localization support for France (fr-FR)\n* Fixed issue blocking verifyBuyer() with Flutter and React Native plugins.\n",
+        "tags": [
+            "Android",
+            "iOS",
+            "In-App Payments SDK"
+        ]
+    },
+    {
+        "id": "5hQ9M810hAo1JZC1GLTt2L",
+        "slug": "changelog\/mobile-logs\/2021-04-07",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2021-04-07T08:00",
+        "summary": "Reader SDK support",
+        "details": "## Reader SDK - iOS 1.4.9\n* Various bug fixes and performance improvement.\n\n {% aside type=\"important\" %}\n This update corrects issues with iOS 14.6. If your application reports a **Reinstallation Required - Please reinstall Point of Sale** message or encounters errors such as:\n\n * `DEBUG CODE: authorization_no_network\n * `DEBUG MESSAGE: Reader SDK could not complete the authorize request because there was no network connection.` Then you must update your the Reader SDK to 1.4.9\n {% \/aside %}\n\n## In-App Payments SDK - Android and iOS 1.5.1\n* Various bug fixes and performance improvement.\n",
+        "tags": [
+            "Reader SDK",
+            "In-App Payments SDK",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "id": "1GgRjXqJE12hTVaGG9r4sQ",
+        "slug": "changelog\/mobile-logs\/2021-02-03",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2021-02-03T00:00",
+        "summary": "Reader SDK",
+        "details": "## Details\n\n### Reader SDK 1.4.7 - iOS: \n* iOS 1.4.7. SDK is updated to use an xcFramework for compatibility with Xcode 12.3. There are no object model changes. However, the [iOS project configuration](\/reader-sdk\/build-on-ios#step-3-configure-your-ios-project-for-reader-sdk) for the Reader SDK has changed and now requires that the `SquareReaderSDK.xcframework` be downloaded.",
+        "tags": [
+            "Reader SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "5evY5mxDh902umkshF0GMD",
+        "slug": "changelog\/mobile-logs\/2021-01-28",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2021-01-28T00:00",
+        "summary": "In-App Payments SDK",
+        "details": "## Details\n\n### In-App Payments SDK 1.5.0 - Android, iOS\n* Added support for the Secure Remote Commerce (Mastercard Click to Pay) payment method. \n * [Android](\/in-app-payments-sdk\/add-digital-wallets\/src\/android)\n * [iOS](\/in-app-payments-sdk\/add-digital-wallets\/src\/ios)",
+        "tags": [
+            "In-App Payments SDK",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "id": "6MHUMR8k5nuvMfgG8f5otw",
+        "slug": "changelog\/mobile-logs\/2020-11-18",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-11-18T00:00",
+        "summary": "Reader SDK - iOS",
+        "details": "## Details \n\n### Reader SDK 1.4.5 - iOS:\n* Various bug fixes and performance improvement.",
+        "tags": [
+            "Reader SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "1W4MVMEViihxtb8sFROY3w",
+        "slug": "changelog\/mobile-logs\/2020-10-14",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-10-14T00:00",
+        "summary": "Reader SDK - Android",
+        "details": "## Details \n\n### Reader SDK 1.4.4 - Android:\n* Fixed crash affecting certain devices when targetSdkVersion is set to 29\n* Various bug fixes",
+        "tags": [
+            "Android",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "3dPw56VYGduLRaSNBtRIb1",
+        "slug": "changelog\/mobile-logs\/2020-10-05",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-10-05T00:00",
+        "summary": "Reader SDK - iOS",
+        "details": "## Details \n\n### Reader SDK 1.4.4 - iOS:\nFixes problem that prevents Reader SDK apps from being submitted to the App Store.\n",
+        "tags": [
+            "Reader SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "1oW3B1OhtrqC0nJro2D0kF",
+        "slug": "changelog\/mobile-logs\/2020-09-23",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-09-23T00:00",
+        "summary": "Reader SDK - iOS",
+        "details": "## Details \n\n### Reader SDK 1.4.3 - iOS:\nAdds support for newest version of the Square Stand. To get the new **Plist entry**, see [Configure Reader SDK on iOS for Square Stand](\/reader-sdk\/cookbook\/square-stand).\n\n### Reader SDK 1.4.3 - Android:\nFixed issue that caused Reader SDK apps to crash on Samsung devices running Android 10. ",
+        "tags": [
+            "Reader SDK",
+            "iOS",
+            "Android"
+        ]
+    },
+    {
+        "id": "3mQ0lsa9lcRSyTn9R5rqPY",
+        "slug": "changelog\/mobile-logs\/2020-08-26",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-08-26T00:00",
+        "summary": "Reader SDK ",
+        "details": "## Reader SDK \n\n### Android\n**1.4.2** fixes a compilation error introduced in **1.4.1** when Reader SDK was used with any of the following libraries:\n- LeakCanary\n- AndroidX View Binding\n- AndroidX Lifecycle Runtime KTX\n- Protocol Buffers\n\nIf you are currently on version **1.4.1**, you should update to **1.4.2**. If you were on version **1.3.x**, you should skip **1.4.1**. \n\n",
+        "tags": [
+            "Reader SDK",
+            "Android"
+        ]
+    },
+    {
+        "id": "4aC6DQS58XpKz9gug3CfhZ",
+        "slug": "changelog\/mobile-logs\/2020-06-10",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-06-10T00:00",
+        "summary": "Reader SDK - Android 10 support",
+        "details": "## Reader SDK 1.3.10 - Android:\n\n* Adds support for targeting Android 10.",
+        "tags": [
+            "Reader SDK",
+            "Android"
+        ]
+    },
+    {
+        "id": "5jkkVqHg4MWrTL0UFRNuwL",
+        "slug": "changelog\/mobile-logs\/2020-05-28",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-05-28T00:00",
+        "summary": "Reader SDK - Android improvements and Android 10 support",
+        "details": "## Reader SDK 1.3.9 - Android:\n\n* Improved the SDK by adding bug fixes and code improvements.\n",
+        "tags": [
+            "Reader SDK",
+            "Android"
+        ]
+    },
+    {
+        "id": "4gz4WaPUQz1jQv8Fi5fzMa",
+        "slug": "changelog\/mobile-logs\/2020-05-13",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-05-13T00:00",
+        "summary": "Mobile SDK features added and performance improved.",
+        "details": "## In-App Payments SDK: Android, iOS\n\nThe In-App Payments SDK 1.4.0 now supports [Square Gift Card payments (beta)](\/in-app-payments-sdk\/cookbook\/giftcards).\n\n\n## Reader SDK 1.3.8 - iOS:\n\nImproved the SDK by making miscellaneous bug fixes.",
+        "tags": [
+            "In-App Payments SDK",
+            "Reader SDK"
+        ]
+    },
+    {
+        "id": "6r3orRZaK4BhrCZXGmmOJZ",
+        "slug": "changelog\/mobile-logs\/2020-04-22",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-04-22T00:00",
+        "summary": "In-App Payments SDK for Android 1.3.1, iOS 1.3.0",
+        "details": "## In-App Payments SDK: Android, iOS\nThe current versions of these SDKs now support digital wallet payments for Apple Pay and Google Pay in Great Britain for transactions in GBP.",
+        "tags": [
+            "In-App Payments SDK",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "id": "72kFq1TawU5Infh36o9n4W",
+        "slug": "changelog\/mobile-logs\/2020-03-25",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-03-25",
+        "summary": "Reader SDK for Android 1.3.6",
+        "details": "## Details\n\n**Reader SDK 1.3.6 - Android** This release fixes an issue preventing readers from reconnecting during certain instances of poor network connectivity.",
+        "tags": [
+            "Reader SDK",
+            "Android"
+        ]
+    },
+    {
+        "id": "1l1XAPrj3Os7B5Fq07JN6V",
+        "slug": "changelog\/mobile-logs\/2020-02-26",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-02-26",
+        "summary": "Reader SDK 1.3.7: Fixes performance and other issues.",
+        "details": "## Details \n\n**Reader SDK 1.3.7 - iOS**:\n\n* Minor bug fixes and performance improvements.\n* Fixes an issue when using Reader SDK in a project that uses scenes.\n* Fixes an issue that prevented entry of some expiration dates when performing card not present (keying in card numbers) transactions.\n* Removed references to UIWebView . Apple will stop accepting submissions of apps that use UIWebView APIs.",
+        "tags": [
+            "Reader SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "6MZ8ecAKX9e0iCWH9qjBpD",
+        "slug": "changelog\/mobile-logs\/2020-01-22",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2020-01-22",
+        "summary": "Reader SDK 1.3.5: Fixes 3 bugs that cause exceptions on Android devices.",
+        "details": "## New release: Reader SDK (Android)\n\n* Android version: `1.3.5`\n\n## Details\n\n### Bug fixes\n\n* Miscellaneous bug fixes that resulted in exceptions. Additional performance and efficiency improvements.\n",
+        "tags": [
+            "Reader SDK",
+            "Android"
+        ]
+    },
+    {
+        "id": "01Kl6KdEUZYOrBNrfzosBc",
+        "slug": "changelog\/mobile-logs\/2019-12-17",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-12-17",
+        "summary": "In-App-Payments SDK 1.3.1: Fixes a bug that causes an exception in Flutter plugin apps on Android devices.",
+        "details": "## New release: In-App Payments SDK (Android)\n\n* Android version: `1.3.1`\n\n## Details\n\n### Bug fixes\n\n* Resolved exception on new card entry in Flutter plugin applications installed on Android devices.\n",
+        "tags": [
+            "In-App Payments SDK",
+            "Android"
+        ]
+    },
+    {
+        "id": "5d9MTJiNAYaIL5a567zrNe",
+        "slug": "changelog\/mobile-logs\/2019-11-20",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-11-20",
+        "summary": "Reader SDK 1.3.5: Fixes a bug that prevents and iOS 13 device paring with a Square Reader. ",
+        "details": "## New release: Reader SDK \n\n* Reader SDK iOS version: 1.3.5\n\n\n### Details \n\n\n#### iOS\n\n* Resolves a condition that can prevent an iOS 13 device from pairing with a Square Reader.\n\n\n",
+        "tags": [
+            "Reader SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "2w4VB6RnpjeBzpvumjKmvS",
+        "slug": "changelog\/mobile-logs\/2019-11-13",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-11-13",
+        "summary": "In-App Payments SDK 1.3.0, Reader SDK 1.3.4: Minor bug fixes and improvements. ",
+        "details": "## New release: Reader SDK \n\n* Reader SDK iOS version: 1.3.4\n\n\n### Details \n\n\n#### iOS\n\n* Performance improvements\n* Resolves a condition that can result in a crash on application launch on iOS 13 devices.\n\n\n## New release: In-App Payments SDK \n\n* In-App Payments SDK Android, iOS version: 1.3.0\n\n\n### Details \nIn-App Payments SDK for Android and iOS added support for Strong Customer Authentication (SCA) with a new method to start a buyer verification flow and get a verification token for use in completing payments. \n\n#### Android\n\n* New class: [BuyerAction](https:\/\/developer.{{SQUARE_DOMAIN}}\/docs\/api\/in-app-payment\/android\/\/sqip\/BuyerAction.html) \n* New interface: [BuyerVerificationDetails](https:\/\/developer.{{SQUARE_DOMAIN}}\/docs\/api\/in-app-payment\/android\/\/sqip\/BuyerVerifiedDetails.html)\n\n#### iOS\n\n* New SDK: [SQIPBuyerVerificationSDK](https:\/\/developer.{{SQUARE_DOMAIN}}\/docs\/api\/in-app-payment\/ios\/Classes\/SQIPBuyerVerificationSDK.html) \n \n",
+        "tags": [
+            "Reader SDK",
+            "In-App Payments SDK",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "id": "764vjbGY6epEYqYwNOZTum",
+        "slug": "changelog\/mobile-logs\/2019-09-25",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-09-25",
+        "summary": "Reader SDK 1.3.3: Minor bug fixes and improvements for Android and iOS. ",
+        "details": "## New release: Reader SDK \n\n* Reader SDK iOS version: 1.3.3\n* Reader SDK Android version: 1.3.3\n\n### Details \n\n\n#### iOS\n\n\n* Now requires Xcode 10.2+\n* For Xcode 11+: Add the permission `NSBluetoothAlwaysUsageDescription` to your info.plist\n* If your application target is pure Objective-C and contains no Swift code, you must include the standard Swift libraries with your application. To do this:\n\n 1. Open the Build Settings tab for your application target.\n 2. In the top right search field, search for 'embed swift'.\n 3. Change the value of **Always Embed Swift Standard Libraries** to **Yes**.\n\n\n\n",
+        "tags": [
+            "Reader SDK",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "id": "5gb0mRkeix6P5QQBSsyoO0",
+        "slug": "changelog\/mobile-logs\/2019-08-28",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-08-28",
+        "summary": "Reader SDK 1.3.2: Support for Android 10 (Q) in Reader SDK for Android.",
+        "details": "## New release: Reader SDK \n\n* Reader SDK Android version: 1.3.2\n\n\n## Details \n\nReader SDK Android supports Android 10 improvements, including behavioral changes, privacy features, and security enhancements.\n\nNote: The [Dark Theme](https:\/\/developer.android.com\/preview\/features\/darktheme) is not currently supported in Reader SDK Android\n",
+        "tags": [
+            "Reader SDK",
+            "Android"
+        ]
+    },
+    {
+        "id": "4YKcqimbS6HgurqNvpQKkk",
+        "slug": "changelog\/mobile-logs\/2019-08-15",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-08-15",
+        "summary": "Reader SDK 1.3.1: Bug fixes, performance improvements, and full support for AndroidX in Reader SDK for Android.",
+        "details": "## New release: Reader SDK \n\n* Reader SDK Android version: 1.3.1\n* Reader SDK iOS version: 1.3.1\n\n## Details \n\nReader SDK Android fully supports AndroidX, so developers will be required to either migrate to AndroidX or enable Jetifier.\n\n### Improvements \n* **Android and iOS**: Minor bug fixes and performance improvements.\n",
+        "tags": [
+            "Reader SDK",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "id": "4HyQvppHBXXgyXb373YCnt",
+        "slug": "changelog\/mobile-logs\/2019-07-23",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-07-23",
+        "summary": "Add support for Sandbox v2 Application IDs",
+        "details": "## New release: In-App Payments SDK (Android, iOS)\n\n* iOS version: `1.2.0`\n* Android version: `1.2.0`\n\n## Details\n\n\n### Improvements\n\n* Added support for Sandbox v2 Application IDs for In-App Payments apps in the sandbox.",
+        "tags": [
+            "In-App Payments SDK",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "id": "5gPDe6o7Luy8zYiT4hrHQ9",
+        "slug": "changelog\/mobile-logs\/2019-07-10",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-07-10",
+        "summary": "Adds bug fixes and support for Apple Pay in Sandbox mode when using iOS simulator.",
+        "details": "## New release: In-App Payments SDK (iOS)\n\n* iOS version: `1.1.2`\n\n## Details\n\n### Bug fixes\n\n* Resolved warnings generated while running against Swift 5.0 & XCode 10.2.1.\n* Fixed iOS 10.3.1 issue that hides the card entry bar under the navigation bar when translucency is enabled.\n\n### Improvements\n\n* Added support for Apple Pay in Sandbox mode when using the iOS simulator.",
+        "tags": [
+            "In-App Payments SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "51IyPkQAa1jp7tiYJWIUp",
+        "slug": "changelog\/mobile-logs\/2019-05-29",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-05-29",
+        "summary": "Reader SDK now supports delayed the capture for payments.",
+        "details": "## New release: Reader SDK\n\n* Reader SDK Android version: `1.3.0`\n* Reader SDK iOS version: `1.3.0`\n\n## Details\n\n### Delay Capture of Payments\n\nBy default, Reader SDK will immediately capture all card payments in a transaction, but the SDK also supports delayed capture of card payments.\n\nFor example, when a customer makes an in-store purchase from a merchant, the merchant may want to authorize funds at the time of purchase, and capture funds when the item ships from the warehouse.\n\nThe `SQRDCheckoutController` (iOS) and `CheckoutManager` (Android) can be configured to delay capture of all card payments in a transaction.\n\n* See the Reader SDK recipe for [Delay Capture of Payments](\/reader-sdk\/cookbook\/delay-capture-of-payment) for more information about configuring the checkout flow to delay capture of card payments.\n* See the [Capture a Transaction](\/reader-sdk\/cookbook\/capture-a-transaction) cookbook for instructions to capture a delayed transaction using the Transactions API.\n\n### Improvements\n\n* Minor bug fixes and performance improvements.",
+        "tags": [
+            "Reader SDK",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "id": "7wSPc6sDGp2ix67BZ1K29B",
+        "slug": "changelog\/mobile-logs\/2019-04-30",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-04-30",
+        "summary": "Minor bug fixes, performance improvements, and SDK size reduction.",
+        "details": "## New release: Reader SDK (iOS)\n\n* Reader SDK iOS version: `1.2.0`\n\n## Details\n\n* Minor bug fixes and performance improvements.\n* SDK size reduction.\n",
+        "tags": [
+            "Reader SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "2ZCAwktWTEs60pv7e7KqtM",
+        "slug": "changelog\/mobile-logs\/2019-03-27",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-03-27",
+        "summary": "In-App Payments SDK iOS 1.1.1 removes the need to add a build phase when using Cocoapods or Carthage and adds support for app extensions.",
+        "details": "## New release: In-App Payments SDK (iOS)\n\n* iOS version: `1.1.1`\n\n## Details\n\n* Removes the need to add a build phase when using Cocoapods or Carthage.\n* Adds support for app extensions.\n* Minor bug fixes and performance improvements.\n",
+        "tags": [
+            "In-App Payments SDK",
+            "iOS"
+        ]
+    },
+    {
+        "id": "1NW7nHt24ZFv0Y39iolkvt",
+        "slug": "changelog\/mobile-logs\/2019-03-13",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-03-13",
+        "summary": "Bug fixes and improvements for Reader SDK on Android.",
+        "details": "## New release: Reader SDK (Android)\n\n* Android version: `1.2.0`\n\n## Details\n\n* Updated dependency versions:\n * The Support Library version is now 28.0.0\n * The Play Services version is now 16.0.1 for play-services-base and 16.0.0 for play-services-safetynet\n* Minor bug fixes and performance improvements.\n",
+        "tags": [
+            "Reader SDK",
+            "Android"
+        ]
+    },
+    {
+        "id": "4o1MVIkifD3Wj4pt7DyKjA",
+        "slug": "changelog\/mobile-logs\/2019-02-27",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-02-27",
+        "summary": "React Native plugin for In-App Payments SDK now available!",
+        "details": "## New release: In-App Payments SDK\n\n* Android version: `1.1.0`\n* iOS version: `1.1.0`\n\n## Details\n\n### React Native plugin release\n\nA React Native plugin for In-App Payments SDK is now available as an open source\nproject on GitHub.\n\nSee the [React Native plugin](\/in-app-payments-sdk\/react-native) page for more information.\n\n\n### Remove postal code requirements for supported regions\n\nThe In-App Payments SDK for Android, iOS, Flutter, and React Native now lets you\nremove the postal code requirement for regions **outside** the United States,\nCanada, and the United Kingdom.\n\nSee the [Remove Postal Code Requirement](\/in-app-payments-sdk\/cookbook\/disable-postal-code) recipe for more information.\n",
+        "tags": [
+            "In-App Payments SDK",
+            "Android",
+            "iOS",
+            "React Native"
+        ]
+    },
+    {
+        "id": "2Tphge4DjbGIqz6T9VKhIe",
+        "slug": "changelog\/mobile-logs\/2019-02-13",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2019-02-13",
+        "summary": "Release of Reader SDK 1.1 with card-on-file support.",
+        "details": "## New release: Reader SDK\n\n* Android version: `1.1.3`\n* iOS version: `1.1.1`\n\n## Details\n\n### Store customer card\n\nUse the new `CustomerCardManager` (Android) or `StoreCustomerCardController`\n(iOS) objects to store a customer card on file. Customers must provide a valid\nemail address and billing zip code. And the card must be linked to an existing\nSquare customer profile to save a card on file.\n\n* See the [Customers API Overview](\/customers-api\/what-it-does) for more information about working with customer profiles.\n* See the [Save Cards on File](\/reader-sdk\/cookbook\/save-cards-on-file) recipe in the Reader SDK cookbook for more information about saving customer cards on file.\n\n### New `Card` properties\n\nThe `Card` object now includes the following properties:\n\n* expirationMonth\n* expirationYear\n* id(Android) or cardID(iOS)\n* cardholderName()\n\nThe new properties are only set for Card instances supplied in the result of the\nstore card flow. In all other contexts, the fields will be `null` (e.g,. in\n`TenderCardDetails` after a checkout).\n\n### Always skip signature\n\nSquare now allows sellers to skip collecting signatures on all card transactions.\nPreviously, the option was only available for transactions under $25.\nSet the new `collectSignature` checkout parameter to indicates whether signature\ncollection is required during checkout.\n\nThe `collectSignature` parameter replaces `alwaysRequireSignature`, which has\nbeen deprecated and will be ignored by the SDK.\n\n### Bug fixes\n\n* Removed SocketRocket Framework from iOS SDK to avoid dependency conflicts.\n* Various small bug and crash fixes.\n",
+        "tags": [
+            "Reader SDK",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "id": "1IIwAJa17nvvxMrZDhOoUA",
+        "slug": "changelog\/mobile-logs\/2018-08-27",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2018-08-27",
+        "summary": "Bug fix for Reader SDK on Android.",
+        "details": "## New release: Reader SDK (Android)\n\n* Android version: `1.0.4`\n\n## Details\n\n* Fixed an issue that caused crashes when initializing the SDK on x86 devices.\n",
+        "tags": [
+            "Reader SDK",
+            "Android"
+        ]
+    },
+    {
+        "id": "1aNQxREpzMjdXYtv65DlIE",
+        "slug": "changelog\/mobile-logs\/2018-08-02",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2018-08-02",
+        "summary": "The Square Reader SDK for Android and iOS is now available!",
+        "details": "## New release: Reader SDK\n\n* Reader SDK Android version: `1.0.3`\n* Reader SDK iOS version: `1.0.1`\n\n## Details\n\nThe Square Reader SDK for Android and iOS is now available!\n\nReader SDK lets developers embed the Square checkout flow and accept in-person payments in custom apps using Square Readers. You can try Reader SDK right away by following the [Reader Quick Start](\/reader-sdk\/quick-start\/start). When you are ready to dig deeper, learn more about [how Reader SDK works](\/reader-sdk\/how-it-works), or start building custom integrations for ([Android](\/reader-sdk\/build-on-android) and [iOS](\/reader-sdk\/build-on-ios)).\n",
+        "tags": [
+            "Reader SDK",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "id": "5mZLALT6Xy0FlB8AWShlO7",
+        "slug": "changelog\/mobile-logs\/2017-06-19",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2017-06-19",
+        "summary": "Version 1.3 of the Point of Sale API is available for iOS.",
+        "details": "## New release: Point of Sale API (iOS)\n\n* iOS version: `1.3`\n\n## Details\n\nPoint of Sale API v1.3 includes improvements to API parameter naming and is available in the [Square Point of Sale](https:\/\/itunes.apple.com\/us\/app\/square-register-point-sale\/id335393788?mt=8) app version 4.59 and later.\n\nThe optional `merchant_id` API request parameter is now `location_id`. When used, the identifier for the business location that the Square Point of Sale application is logged in to must match the value of this parameter.\n\nSee the [SquarePointOfSaleSDK-iOS GitHub repository](https:\/\/github.com\/square\/SquarePointOfSaleSDK-iOS) for the easiest solution to add Point of Sale API to your iOS app.",
+        "tags": [
+            "Point of Sale API",
+            "iOS"
+        ]
+    },
+    {
+        "id": "4TMFo3jCBbYj5AvWWnDJnj",
+        "slug": "changelog\/mobile-logs\/2017-05-30",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2017-05-30",
+        "summary": "Register API for iOS and Android is now called Point of Sale API.",
+        "details": "## Product rebranding: Register API is now Point of Sale API\n\n* Android version: `2.0`\n* iOS version: `3.0`\n\n## Details\n\nRegister API for iOS and Android is now called Point of Sale API.\n\nChanges as part of this name change include the following:\n* A new [SquarePointOfSaleSDK-iOS](https:\/\/github.com\/square\/SquarePointOfSaleSDK-iOS) repository.\n* A new [point-of-sale-android-sdk](https:\/\/github.com\/square\/point-of-sale-android-sdk) repository.\n* Updated [Android Point of Sale API](\/pos-api\/build-on-android) version to v2.0.\n* New [Maven](https:\/\/search.maven.org\/#search%7Cga%7C1%7Ca%3A%22point-of-sale-sdk%22), [CocoaPods](https:\/\/cocoapods.org\/pods\/SquarePointOfSaleSDK), and [Carthage](https:\/\/github.com\/Carthage\/Carthage) projects.\n\nFor more information and upgrade instructions, please view our [blog post](https:\/\/medium.com\/square-corner-blog\/squares-register-api-is-now-point-of-sale-api-a9956032c32a) describing the changes.\n",
+        "tags": [
+            "Point of Sale API",
+            "Android",
+            "iOS"
+        ]
+    },
+    {
+        "id": "3A35Vl6IG0hnKHYZfJ04hq",
+        "slug": "changelog\/mobile-logs\/2016-11-17",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2016-11-17",
+        "summary": "Version 1.2 of the Register API is now available on iOS.",
+        "details": "## New release: Register API (iOS)\n\n* iOS version: `1.2`\n\n## Details\n\nVersion 1.2 of the Register API is now available on iOS as of [Square Register](https:\/\/itunes.apple.com\/us\/app\/square-register-point-sale\/id335393788?mt=8) version 4.53.\n\nVersion 1.2 includes:\n\n* Support for linking customers to transactions using the new `CUSTOMER_ID` request parameter.\n* A new `CARD_ON_FILE` tender type to allow charging a previously-stored card instrument. Learn more about [how to use Card on File with Square](http:\/\/{{SQUARE_DOMAIN}}\/help\/article\/5770).\n\nFor more information:\n\n* See [Register API Overview](\/pos-api\/what-it-does) for an overview of how the Register API works.\n* See [Using the Register API for iOS](\/pos-api\/build-on-ios) to learn how to add Register API functionality to your iOS app.\n* See the [SquarePointOfSaleSDK-iOS](https:\/\/github.com\/square\/SquarePointOfSaleSDK-iOS) repository for the easiest solution to add Register API to your iOS app.\n",
+        "tags": [
+            "Point of Sale API",
+            "iOS"
+        ]
+    },
+    {
+        "id": "3rBTgRNxmwzannqQhzC43k",
+        "slug": "changelog\/mobile-logs\/2016-11-02",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2016-11-02",
+        "summary": "The Square POS Web API is now available for Android.",
+        "details": "## New release: Square POS Web API (Android)\n\n## Details\n\n* The Square Web API is now available for Android. With this feature, developers can now launch the Square Register Android app from a website to process in-person payments with Square hardware.\n* See [Using the Web API for Android](\/pos-api\/build-mobile-web) to learn how Web API for Android works.\n* See [Register API Overview](\/pos-api\/what-it-does) for an overview of how the Register API works.\n* See [Using the Register API for Android](\/pos-api\/build-on-android) to learn how to add Register API functionality to your Android app.\n",
+        "tags": [
+            "Point of Sale API",
+            "Android",
+            "Mobile Web"
+        ]
+    },
+    {
+        "id": "25JkLkHPZbYQg56pq3KGve",
+        "slug": "changelog\/mobile-logs\/2016-10-10",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2016-10-10",
+        "summary": "Version 1.1 of the Register API is now available on iOS",
+        "details": "## New release: Register API (iOS)\n\n* iOS version: `1.1`\n\n## Details\n\nVersion 1.1 of the Register API is now available on iOS as of [Square Register](https:\/\/itunes.apple.com\/us\/app\/square-register-point-sale\/id335393788?mt=8) version 4.50.\n\nVersion 1.1 includes:\n\n* Support for [split tender transactions](https:\/\/{{SQUARE_DOMAIN}}\/help\/article\/5097).\n* A new `CASH` tender type to support cash transactions.\n* A new `OTHER` tender type to support other tender transactions.\n* A new `SQUARE_GIFT_CARD` tender type to support Square Prepaid Gift Card transactions.\n\nFor more information:\n\n* See [Register API Overview](\/pos-api\/what-it-does) for an overview of how the Register API works.\n* See [Using the Register API for iOS](\/pos-api\/build-on-ios) to learn how to add Register API functionality to your iOS app.\n* See the [SquarePointOfSaleSDK-iOS repository](https:\/\/github.com\/square\/SquarePointOfSaleSDK-iOS) for the easiest solution to add Register API to your iOS app.\n",
+        "tags": [
+            "Point of Sale API",
+            "iOS"
+        ]
+    },
+    {
+        "id": "3h8qybz6fIhclnvsNoYTju",
+        "slug": "changelog\/mobile-logs\/2016-10-05",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2016-10-05",
+        "summary": "New open-source Sample App for Register API",
+        "details": "## New release: Open-source Sample App\n\n## Details\n\nA new open-source sample application is now available for Register API for\nAndroid. The sample app is a point-of-sale application for a bike shop that uses\nRegister API for Android to process in-person payments.\n\n* The new application can be found in [the Github repo](https:\/\/github.com\/square\/point-of-sale-android-sdk).\n* See [Register API Overview](\/pos-api\/what-it-does) for an overview of how the Register API works.\n* See [Using the Register API for Android](\/pos-api\/build-on-android) to learn how to add Register API functionality to your Android app.\n",
+        "tags": [
+            "Point of Sale API",
+            "Android"
+        ]
+    },
+    {
+        "id": "12oLp0HMxasu5qUrFqsRig",
+        "slug": "changelog\/mobile-logs\/2016-09-21",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2016-09-21",
+        "summary": "Version 1.1 of the Register API is now available on Android.",
+        "details": "## New release: Register API (Android)\n\n* Android version: `1.1`\n\n## Details\n\nVersion 1.1 of the Register API is now available on Android as of [Square Register](https:\/\/play.google.com\/store\/apps\/details?id=com.squareup) version 4.48.\n\nVersion 1.1 includes:\n\n* Support for split tender transactions: transactions completed using multiple tender instruments.\n* Support for Square Prepaid Gift Card transactions, as part of the CARD tender type.\n* A new `CARD_ON_FILE` tender type to allow charging a previously-stored card instrument.\n* Support for linking customers to transactions.\n\nFor more information:\n\n* See the [GitHub CHANGELOG](https:\/\/github.com\/square\/point-of-sale-android-sdk\/blob\/master\/CHANGELOG.md#version-11) for Version 1.1.\n* See [Register API Overview](\/pos-api\/what-it-does) for an overview of how the Register API works.\n* See [Using the Register API for Android](\/pos-api\/build-on-android) to learn how to add Register API functionality to your Android app.\n* See [this Github repo](https:\/\/github.com\/square\/point-of-sale-android-sdk) for a sample Android application that uses the Register API.\n",
+        "tags": [
+            "Point of Sale API",
+            "Android"
+        ]
+    },
+    {
+        "id": "nWYVNShLUcTn53w5reHAB",
+        "slug": "changelog\/mobile-logs\/2016-05-25",
+        "linkBack": "\/changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2016-05-25",
+        "summary": "Square Register API is now available for Android",
+        "details": "## New release: Square Register API (Android)\n\n* Android version: `1.0`\n\n## Details\n\nThe Square Register API is now available for Android. Like the iOS version, it lets your app open the Square Register app to process in-person payments with Square hardware.\n\n* See [Register API Overview](\/pos-api\/what-it-does) for an overview of how the Register API works.\n* See [Using the Register API for Android](\/pos-api\/build-on-android) to learn how to add Register API functionality to your Android app.\n* See [this Github repo](https:\/\/github.com\/square\/point-of-sale-android-sdk) for a sample Android application that uses the Register API.\n",
+        "tags": [
+            "Point of Sale API",
+            "Android"
+        ]
+    }
+]

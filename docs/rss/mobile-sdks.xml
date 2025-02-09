@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Release Notes: Square APIs and SDKs</title>
+        <link>https://developer.squareup.com/docs/changelog/connect</link>
+        <description>Release notes for Square APIs and SDKs.</description>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 09 Feb 2025 14:05:27 +0000</lastBuildDate>
+        <pubDate>Sun, 09 Feb 2025 14:05:27 +0000</pubDate>
+        <ttl>1800</ttl>
+
+            <item>
+                <title>Mobile Payments SDK improvements</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-01-29</link>
+                <description><![CDATA[### iOS Mobile Payments SDK 2.0.2
+* This release contains general improvements to ensure a smoother and more reliable SDK experience.]]></description>
+                <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
+                <guid>7kpxtpZSH3R79xI9D5eBUF</guid>
+            </item>
+            <item>
+                <title>Reader SDK Deprecation and Mobile Payments SDK React Native plugin</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-01-23</link>
+                <description><![CDATA[* **Mobile Payments SDK:**
+ * New [React Native plugin](mobile-payments-sdk/react-native) for the Mobile Payments SDK.
+
+* **Reader SDK:** Deprecation notice
+ * The Reader SDK is now deprecated and will be retired on **December 31, 2025**. D...]]></description>
+                <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+                <guid>5iTxU5e1F0kov0fPByi5YS</guid>
+            </item>
+            <item>
+                <title>Mobile Payments SDK for iOS and Android : General Availability in the United States</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-12-16</link>
+                <description><![CDATA[### Android Mobile Payments SDK 2.0.2
+* Fixed a bug that caused payment failures on devices with barcode scanners.
+* Previously, devices running Android 10 or older could experience a `SQLiteException` crash when upgrading Mobile Payments S...]]></description>
+                <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
+                <guid>7l21r7fGivKKLCdFymoz3z</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK 1.6.4 for iOS: Updates and Bug Fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-12-12</link>
+                <description><![CDATA[## iOS In-App Payments SDK: iOS 1.6.4
+
+- This release contains bug fixes.
+]]></description>
+                <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+                <guid>14xQMokgH6Gl8SCQZwDcF7</guid>
+            </item>
+            <item>
+                <title>Mobile Payments SDK for iOS and Android : General Availability in the United States</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-11-20</link>
+                <description><![CDATA[### Android Mobile Payments SDK 2.0.1
+* The Mobile Payments SDK is now in General Availability in the United States.
+* New [sample application](https://github.com/square/mobile-payments-sdk-android) written in Kotlin and Compose.
+* `Authori...]]></description>
+                <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+                <guid>hEt15q2MpbGrdN0RR83sO</guid>
+            </item>
+            <item>
+                <title>Reader SDK for iOS: Bug fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-10-24</link>
+                <description><![CDATA[### iOS Reader SDK 1.7.5
+* This release fixes a bug that caused crashes for applications using AppsFlyer.
+]]></description>
+                <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+                <guid>4WfTVLrSH5ujlxx6u1qrHD</guid>
+            </item>
+            <item>
+                <title>Mobile Payments SDK for Android: Bug fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-10-08</link>
+                <description><![CDATA[### Android Mobile Payments SDK 2.0.0-beta5
+* This release contains various bug fixes.]]></description>
+                <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+                <guid>69E3zWkMFGR7r1EpLdwydG</guid>
+            </item>
+            <item>
+                <title>Mobile Payments SDK for Android: Support for API 34</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-08-29</link>
+                <description><![CDATA[### Android Mobile Payments SDK 2.0.0-beta4
+* Support for targeting Android API 34. The minimum target remains 24, but starting August 31 [Google requires all Google Play apps to target API level 34](https://support.google.com/googleplay/an...]]></description>
+                <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+                <guid>64iKPIHcmRDxmlHzXKjrsu</guid>
+            </item>
+            <item>
+                <title>Mobile Payments SDK for iOS: Support for iOS 18</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-08-28</link>
+                <description><![CDATA[### iOS Mobile Payments SDK 2.0.0-beta3
+* This release includes support for iOS 18, adds a privacy manifest (required by Apple) and code signatures.
+* When [delaying the capture of a payment](mobile-payments-sdk/ios/take-payments#delay-the-...]]></description>
+                <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+                <guid>GQf6U0ic7op0yNiCSrRCr</guid>
+            </item>
+            <item>
+                <title>Reader SDK for Android 1.7.7</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-08-22</link>
+                <description><![CDATA[### Android Reader SDK 1.7.7
+* This release contains a security fix. 
+]]></description>
+                <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
+                <guid>7dt4sM8XMi5wtCTrrTsr8m</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.7.6 for Android: Support for API 34</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-08-07</link>
+                <description><![CDATA[## Android Reader SDK: 1.7.6
+
+- Support for targeting Android API 34. The minimum target remains 24, but starting August 31 [Google requires all Google Play apps to target API level 34](https://support.google.com/googleplay/android-develope...]]></description>
+                <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+                <guid>34MJvQqqBq8pMCLk3ULmbC</guid>
+            </item>
+            <item>
+                <title>Mobile Payments SDK: Documentation Updates</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-07-17</link>
+                <description><![CDATA[## Mobile Payments SDK: Documentation Updates
+* [Mobile Payments SDK](mobile-payments-sdk) – Added a &quot;Requirements and Limitations&quot; section and clarified the requirements for using the Mobile Payments SDK with attended terminals or kiosks.
+...]]></description>
+                <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+                <guid>1X3CAvOXHrkwBREARf2bC9</guid>
+            </item>
+            <item>
+                <title>Android Mobile Payments SDK: </title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-06-25</link>
+                <description><![CDATA[## Android Mobile Payments SDK: 2.0.0-beta2
+
+* Fixed a bug where restarting an application while offline could cause readers to stop working, and make them unable to take payments until online again.
+* Fixed a bug with clearing new lambda-b...]]></description>
+                <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+                <guid>2qb5SVhaWbC6sirSpWEqmZ</guid>
+            </item>
+            <item>
+                <title>NEW: Square Mobile Payments SDK</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-06-04</link>
+                <description><![CDATA[### New release: Mobile Payments SDK: 2.0.0-beta1
+The [Square Mobile Payments SDK](mobile-payments-sdk) has launched as the successor to the Reader SDK, enabling developers to accept in-person payments using an embedded Square payment flow ...]]></description>
+                <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
+                <guid>27F1IcJlnqv963TCXaQZa8</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.7.2 for iOS: Bug Fix</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-03-29</link>
+                <description><![CDATA[## iOS Reader SDK: iOS 1.7.2
+
+- This release ends support for iOS 14. The minimum supported iOS version is now 15. 
+- Addresses a potential naming conflict with a private Apple API.]]></description>
+                <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+                <guid>7FdylmuvfAvCtrrilOeXZt</guid>
+            </item>
+            <item>
+                <title>Android In-App Payments SDK: Android 1.6.6: Updates</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-03-22</link>
+                <description><![CDATA[## Android In-App Payments SDK: Android 1.6.6
+- Improved the buyer verification experience and addressed issues with buyer verification in sandbox.]]></description>
+                <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+                <guid>5btci5lxYKFQQjwNdUbUys</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK 1.6.3 and Reader SDK 1.7.1 for iOS: Updates and Bug Fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2024-03-21</link>
+                <description><![CDATA[## iOS In-App Payments SDK: iOS 1.6.3
+
+- Improved buyer verification experience and addressed issues with buyer verification sandbox.
+- Fixed issue using Xcode 15 and Swift Package Manager.
+- Fixed M1 support for simulators.
+
+## iOS Reader ...]]></description>
+                <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+                <guid>5uPu5YuQMdtE1abi0x7oAS</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK 1.6.5 for Android: Bug fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-10-08</link>
+                <description><![CDATA[## Android In-App Payments SDK: Android 1.6.5
+
+Fixed an Android Gradle plug-in (AGP) issue in In-App Payments SDK version 1.6.4, which resulted in sandbox assets being omitted. Version 1.6.5 restores sandbox functionality.]]></description>
+                <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+                <guid>1UQCZoKuchFbSQTk2HcJRt</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK 1.6.4 for Android: Updates</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-09-14</link>
+                <description><![CDATA[## Android In-App Payments SDK: Android 1.6.4
+
+Updated certificate for American Express buyer verification, without which AmEx cards cannot be verified starting October 1, 2023.]]></description>
+                <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+                <guid>7JVHbgjIb0a6lsBA7Pfhnm</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK 1.6.2 for iOS: Updates and bug fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-09-01</link>
+                <description><![CDATA[## iOS In-App Payments SDK: iOS 1.6.2
+
+### Updates
+- Buyer verification can now be tested in Sandbox on the iOS simulator.
+- Improved fraud detection for buyer verification.
+- Updated resources: &quot;China UnionPay&quot; to &quot;UnionPay International&quot;....]]></description>
+                <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+                <guid>56AwsxT2GG19tSiXaEgy7s</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK 1.6.3 for Android: Updates and bug fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-08-10</link>
+                <description><![CDATA[## Android In-App Payments SDK: Android 1.6.3
+
+- Minimum supported Kotlin version is now 1.8.10.
+- Added new buyer actions, Charge and Store, for buyer verification.
+- Updated resources: China UnionPay to UnionPay International.
+- Fixed sup...]]></description>
+                <pubDate>Thu, 10 Aug 2023 20:00:00 +0000</pubDate>
+                <guid>5URHL8DoBJc9CObtgJMUDA</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.7.5 for Android: Support for Android API v.33 and other updates</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-07-27</link>
+                <description><![CDATA[## Android Reader SDK: 1.7.5
+
+- Support for Android API `targetSdkVersion` 33. The `minSdkVersion` is still API 24. As of August 31, 2023, Google requires all PlayStore apps to target API 33.
+
+- China UnionPay is now UnionPay International ...]]></description>
+                <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+                <guid>30xaBz5G3igHNQcGlyleZF</guid>
+            </item>
+            <item>
+                <title>PayPay payments support for Point of Sale API</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-05-31</link>
+                <description><![CDATA[## Point of Sale API for Android 2.1 and iOS 3.5.4
+
+This release updates the Point of Sale API versions to Android 2.1 and to iOS 3.5.4 to support PayPay QR code payments in Japan. For more information, see [Accept PayPay Payments in Japan]...]]></description>
+                <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+                <guid>4JR3rrsfEs0GdleV9ZQdLg</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK for Android 1.6.2 bug fix</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-04-04</link>
+                <description><![CDATA[## In-App Payments SDK for Android 1.6.2
+
+This release updates the SDK version to 1.6.2.
+
+This release includes a fix to address an expired demo license issue that prevented the buyer verification flow from starting.]]></description>
+                <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+                <guid>knwVzlRAabbwQr35gdeip</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK for iOS 1.6.1 bug fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-03-30</link>
+                <description><![CDATA[## In-App Payments SDK for iOS 1.6.1
+
+This release updates the version to 1.6.1.
+
+This release includes fixes for a localization issue for zip codes and postcodes, and issues with adding the SDK using Swift Package Manager.]]></description>
+                <pubDate>Thu, 30 Mar 2023 00:00:00 +0000</pubDate>
+                <guid>3nmOK6KENh90hgJWNnDeiD</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK for iOS 1.6.0 bug fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-03-02</link>
+                <description><![CDATA[## In-App Payments SDK for iOS 1.6.0
+
+This release updates the version to 1.6.0.
+
+Changes include:
+- An important update to `SquareBuyerVerificationSDK` that mitigates the risk of declining 3-D Secure (3DS) payments.
+- Various bug fixes.
+
+I...]]></description>
+                <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+                <guid>1bsZCPuIXHWaE2FWymA8OY</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK: Android 1.6.1 and iOS 1.5.7 bug fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-02-17</link>
+                <description><![CDATA[### In-App Payments SDK: Android 1.6.1 and iOS 1.5.7
+
+You must upgrade to the latest versions of In-App Payments SDK to apply the following fixes:
+
+- In-App Payments version 1.6.1 for Android fixes an issue with payment cancelation flows, a...]]></description>
+                <pubDate>Fri, 17 Feb 2023 00:00:00 +0000</pubDate>
+                <guid>3Xb9UUtELy2P8pE3EoWOJK</guid>
+            </item>
+            <item>
+                <title>iOS Reader SDK: iOS 1.6.9</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-02-13</link>
+                <description><![CDATA[## iOS Reader SDK: iOS 1.6.9
+
+Reader SDK v1.6.9 for iOS adds support for Xcode 14 and addresses other bug fixes.
+]]></description>
+                <pubDate>Mon, 13 Feb 2023 00:00:00 +0000</pubDate>
+                <guid>Yume0mqQ3Ke0FKrtCDoFL</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK 1.6.0 for Android: fix for processing 3DS payments</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2023-02-10</link>
+                <description><![CDATA[### In-App Payments SDK: Android 1.6.0
+
+!!!important
+In-App Payment SDK version 1.6.0 includes an important update that mitigates the risk of declining 3-D Secure (3DS) payments. 
+
+If you are using In-App Payment SDK versions earlier than 1...]]></description>
+                <pubDate>Fri, 10 Feb 2023 12:00:00 +0000</pubDate>
+                <guid>7o6k6uhtcH6qq84wkBDA2U</guid>
+            </item>
+            <item>
+                <title>Reader SDK for Android 1.7.4: Fixed crash when targeting API 30 and other improvements</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-11-17</link>
+                <description><![CDATA[## Android Reader SDK: 1.7.4
+
+- Fixed crash on Android 12+ (API 31+) when targeting API 30.
+- Slightly decreased SDK size.
+- Minimum compile SDK version is now 32.
+- Fixed an issue where the &quot;Connect a Reader&quot; button would not display.]]></description>
+                <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+                <guid>7tWevvVJyEzqdGD4umFKmW</guid>
+            </item>
+            <item>
+                <title>Reader SDK for iOS 1.6.8: Fix for Connecting to the Square Stand</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-10-31</link>
+                <description><![CDATA[## iOS Reader SDK: iOS 1.6.8
+
+Reader SDK v1.6.8 for iOS includes a bug fix that addresses a connection issue with the Square Stand.]]></description>
+                <pubDate>Mon, 31 Oct 2022 16:00:00 +0000</pubDate>
+                <guid>5w151GJ9TzmveNnGSzcDMb</guid>
+            </item>
+            <item>
+                <title>Reader SDK for Android 1.7.1: Support for Android API 31</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-09-26</link>
+                <description><![CDATA[## Android Reader SDK: Android 1.7.1
+
+Reader SDK v1.7.1 now supports applications targeting Android API 31, in accordance to Google&#039;s Play Store [guidelines](https://developer.android.com/google/play/requirements/target-sdk). However, if yo...]]></description>
+                <pubDate>Mon, 26 Sep 2022 17:00:00 +0000</pubDate>
+                <guid>1hpotaQqQ9TCgjCzZuldXo</guid>
+            </item>
+            <item>
+                <title>Reader SDK for Android and iOS 1.6.2: Bug fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-08-26</link>
+                <description><![CDATA[## Android Reader SDK: Android 1.6.2
+- Fixes crashes occurring for certain screens on Android devices.
+
+## iOS Reader SDK: iOS 1.6.2
+- Fixes bluetooth connectivity issues with iOS 16.
+]]></description>
+                <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
+                <guid>4ObHw4C8XRkjc0exMssQH1</guid>
+            </item>
+            <item>
+                <title>Reader SDK for iOS 1.6.1: Support for Afterpay</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-06-30</link>
+                <description><![CDATA[Added Afterpay support for Reader SDK for iOS, version 1.6.1.
+
+A new field `coBrand` is added to `SQRDCard`, which returns the value `SQRDCardCoBrandAfterPay` for an Afterpay transaction.
+]]></description>
+                <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+                <guid>1m4ZCNxDRiWfn9lpdCK2Y2</guid>
+            </item>
+            <item>
+                <title>Improved Reader SDK Quickstart</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-06-29</link>
+                <description><![CDATA[**Reader SDK:**
+ * [Reader SDK Quickstart.](reader-sdk/quickstart-guide) Revised to improve usability.]]></description>
+                <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+                <guid>3m7y71phOl6shFbzEupFNB</guid>
+            </item>
+            <item>
+                <title>Reader SDK for iOS 1.6.0: Support for Square Stand and Apple Silicon</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-06-17</link>
+                <description><![CDATA[Reader SDK for iOS, version 1.6.0, now supports Square Stand S3 and Apple Silicon devices.
+
+For more information about the stand, see [Square Stand.](https://squareup.com/us/en/hardware/stand)]]></description>
+                <pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate>
+                <guid>2X7OhfJCTZ1IW8BVaOR7R</guid>
+            </item>
+            <item>
+                <title>Android Reader SDK 1.6.1: Afterpay support and version updates</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-06-16</link>
+                <description><![CDATA[Android Reader SDK, version 1.6.1, addresses the following updates:
+
+* Added Afterpay support. The SDK returns `Afterpay` as a co-branded card associated with the tender in the `CheckoutResult` object.
+* The minimum SDK version supported is...]]></description>
+                <pubDate>Thu, 16 Jun 2022 00:00:00 +0000</pubDate>
+                <guid>6Gs3HCCvXq6Oti6DK4bse5</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK Documentation Updates</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-06-02</link>
+                <description><![CDATA[### In-App Payments SDK: Android documentation updates
+
+The code samples in [Enable Google Pay](/in-app-payments-sdk/add-digital-wallets/google-pay), for integrating Google Pay with the SDK on an Android device, have been updated with the c...]]></description>
+                <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+                <guid>hR68Ov8rdNkqO8qlx50x5</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK updates for Flutter and React Native plugins</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-05-24</link>
+                <description><![CDATA[## In-App Payments SDK: Flutter Plugin 1.7.4 and React Native Plugin 1.7.2
+
+!!!important
+In-App Payment SDK version 1.5.6 included in Flutter plugin version 1.7.4, and React Native plugin version 1.7.2, includes an important update that mit...]]></description>
+                <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+                <guid>Snqkat6vILLzYnljIAiqR</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK updates for Android and iOS</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-05-19</link>
+                <description><![CDATA[## In-App Payments SDK: Android and iOS 1.5.6
+!!!important
+In-App Payment SDK version 1.5.6 includes an important update that mitigates the risk of SCA (Strong Customer Authentication) declining on payments made with Visa after May 4, 2022....]]></description>
+                <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+                <guid>XaakMsrQezQ6sHgherNr4</guid>
+            </item>
+            <item>
+                <title>Android Reader SDK 1.5.6 bug fixes and improvements</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-03-30</link>
+                <description><![CDATA[## Reader SDK 1.5.6 - Android
+
+Reader SDK version 1.5.6 addresses various bug fixes and improvements.
+
+- Fix for delayed capture of card payments.
+- No official support for _targeting_ Android 12 (API 31). Enabling `BLUETOOTH_CONNECT` and `...]]></description>
+                <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
+                <guid>6yi2l8LdPOgnMIe1H4dMik</guid>
+            </item>
+            <item>
+                <title>iOS Reader SDK 1.5.4 bug fixes and improvements</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-01-25</link>
+                <description><![CDATA[## Reader SDK 1.5.4 - iOS
+
+Reader SDK version 1.5.4 addresses various bug fixes and improvements.]]></description>
+                <pubDate>Tue, 25 Jan 2022 17:00:00 +0000</pubDate>
+                <guid>6rmecIIiSLmKBzINu0D8MF</guid>
+            </item>
+            <item>
+                <title>In-app payments SDK for Android and iOS, and Android Reader SDK updates</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-01-21</link>
+                <description><![CDATA[## In-App Payments SDK: Android and iOS 1.5.5
+!!!important
+In-App Payment SDK version 1.5.5 for Android and iOS includes an important update that mitigates the risk of SCA (Strong Customer Authentication) declining on payments made with Ame...]]></description>
+                <pubDate>Fri, 21 Jan 2022 12:00:00 +0000</pubDate>
+                <guid>1B1QTSwIVMZWvNgpPmlyfO</guid>
+            </item>
+            <item>
+                <title>Android Reader SDK new release and API changes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-01-19</link>
+                <description><![CDATA[## Android Reader SDK: Android 1.5.4
+
+Android Reader SDK version 1.5.4 has been updated with various bug fixes and improvements. Although the update doesn&#039;t provide any new functionality, some of the improvements greatly improve Square&#039;s ab...]]></description>
+                <pubDate>Wed, 19 Jan 2022 12:00:00 +0000</pubDate>
+                <guid>3IsLks9jWGOpDjlc4cfFBj</guid>
+            </item>
+            <item>
+                <title>Android Reader SDK updates and fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2022-01-18</link>
+                <description><![CDATA[## Android Reader SDK: Android 1.5.3
+
+Android Reader SDK version 1.5.3 has been updated with various bug fixes and improvements.
+
+!!!important
+When a Square Reader fails to connect for retryable reasons while it has a network connection, it...]]></description>
+                <pubDate>Tue, 18 Jan 2022 12:00:00 +0000</pubDate>
+                <guid>5AXyqGqk7COQO2JcQY80FJ</guid>
+            </item>
+            <item>
+                <title>In-app payments SDK updated for SCA regulations in Europe</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2021-11-01</link>
+                <description><![CDATA[## In-App Payments SDK: Android and iOS 1.5.4
+!!!important
+In-App Payment SDK version 1.5.4 for Android and iOS includes an important update that mitigates the risk of SCA (Strong Customer Authentication) declining on payments made after Oc...]]></description>
+                <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+                <guid>2jmPDeYK0itbQE2btO7UZk</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.5.3</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2021-10-26</link>
+                <description><![CDATA[## Reader SDK 1.5.3
+
+!!!important
+This release resolves an issue with Reader SDK 1.5.2 that prevents a new checkout request from starting under certain scenarios.
+!!!
+
+The following error: 
+```json
+{
+ &quot;code&quot;:&quot;USAGE_ERROR&quot;,
+ &quot;debugCode&quot;:&quot;che...]]></description>
+                <pubDate>Tue, 26 Oct 2021 00:00:00 +0000</pubDate>
+                <guid>2NfXqKiBRDrHgP2dMQiElU</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.5.2 - iOS</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2021-09-22</link>
+                <description><![CDATA[## Reader SDK 1.5.2 - iOS
+!!!important
+ * Fix to iOS 15 Bluetooth connections. 
+!!!
+]]></description>
+                <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+                <guid>7GjmRbVySjXPNPGpT5Z8M2</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.5.1 - Android</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2021-07-21</link>
+                <description><![CDATA[## SDK Changes
+
+* Upgrade to Kotlin 1.5
+* Various fixes addressing native crashes
+* Fix for conflicting versions of Kotlin Coroutines libraries
+* Various bug fixes and performance improvements
+
+## Breaking changes
+
+* If your app is still us...]]></description>
+                <pubDate>Wed, 21 Jul 2021 00:00:00 +0000</pubDate>
+                <guid>7wnW5IdftGeIoTJW1141GA</guid>
+            </item>
+            <item>
+                <title>Localization support for France</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2021-07-08</link>
+                <description><![CDATA[## In-App Payments SDK - Android and iOS 1.5.2
+* Added localization support for France (fr-FR)
+* Fixed issue blocking verifyBuyer() with Flutter and React Native plugins.
+]]></description>
+                <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+                <guid>56lE5HcVA6tdEDxGhqF6Aa</guid>
+            </item>
+            <item>
+                <title>Reader SDK support</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2021-04-07</link>
+                <description><![CDATA[## Reader SDK - iOS 1.4.9
+* Various bug fixes and performance improvement.
+
+ {% aside type=&quot;important&quot; %}
+ This update corrects issues with iOS 14.6. If your application reports a **Reinstallation Required - Please reinstall Point of Sale**...]]></description>
+                <pubDate>Wed, 07 Apr 2021 08:00:00 +0000</pubDate>
+                <guid>5hQ9M810hAo1JZC1GLTt2L</guid>
+            </item>
+            <item>
+                <title>Reader SDK</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2021-02-03</link>
+                <description><![CDATA[## Details
+
+### Reader SDK 1.4.7 - iOS: 
+* iOS 1.4.7. SDK is updated to use an xcFramework for compatibility with Xcode 12.3. There are no object model changes. However, the [iOS project configuration](/reader-sdk/build-on-ios#step-3-config...]]></description>
+                <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
+                <guid>1GgRjXqJE12hTVaGG9r4sQ</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2021-01-28</link>
+                <description><![CDATA[## Details
+
+### In-App Payments SDK 1.5.0 - Android, iOS
+* Added support for the Secure Remote Commerce (Mastercard Click to Pay) payment method. 
+ * [Android](/in-app-payments-sdk/add-digital-wallets/src/android)
+ * [iOS](/in-app-payments-...]]></description>
+                <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+                <guid>5evY5mxDh902umkshF0GMD</guid>
+            </item>
+            <item>
+                <title>Reader SDK - iOS</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-11-18</link>
+                <description><![CDATA[## Details 
+
+### Reader SDK 1.4.5 - iOS:
+* Various bug fixes and performance improvement.]]></description>
+                <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+                <guid>6MHUMR8k5nuvMfgG8f5otw</guid>
+            </item>
+            <item>
+                <title>Reader SDK - Android</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-10-14</link>
+                <description><![CDATA[## Details 
+
+### Reader SDK 1.4.4 - Android:
+* Fixed crash affecting certain devices when targetSdkVersion is set to 29
+* Various bug fixes]]></description>
+                <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+                <guid>1W4MVMEViihxtb8sFROY3w</guid>
+            </item>
+            <item>
+                <title>Reader SDK - iOS</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-10-05</link>
+                <description><![CDATA[## Details 
+
+### Reader SDK 1.4.4 - iOS:
+Fixes problem that prevents Reader SDK apps from being submitted to the App Store.
+]]></description>
+                <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+                <guid>3dPw56VYGduLRaSNBtRIb1</guid>
+            </item>
+            <item>
+                <title>Reader SDK - iOS</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-09-23</link>
+                <description><![CDATA[## Details 
+
+### Reader SDK 1.4.3 - iOS:
+Adds support for newest version of the Square Stand. To get the new **Plist entry**, see [Configure Reader SDK on iOS for Square Stand](/reader-sdk/cookbook/square-stand).
+
+### Reader SDK 1.4.3 - And...]]></description>
+                <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+                <guid>1oW3B1OhtrqC0nJro2D0kF</guid>
+            </item>
+            <item>
+                <title>Reader SDK </title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-08-26</link>
+                <description><![CDATA[## Reader SDK 
+
+### Android
+**1.4.2** fixes a compilation error introduced in **1.4.1** when Reader SDK was used with any of the following libraries:
+- LeakCanary
+- AndroidX View Binding
+- AndroidX Lifecycle Runtime KTX
+- Protocol Buffers
+
+...]]></description>
+                <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+                <guid>3mQ0lsa9lcRSyTn9R5rqPY</guid>
+            </item>
+            <item>
+                <title>Reader SDK - Android 10 support</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-06-10</link>
+                <description><![CDATA[## Reader SDK 1.3.10 - Android:
+
+* Adds support for targeting Android 10.]]></description>
+                <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+                <guid>4aC6DQS58XpKz9gug3CfhZ</guid>
+            </item>
+            <item>
+                <title>Reader SDK - Android improvements and Android 10 support</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-05-28</link>
+                <description><![CDATA[## Reader SDK 1.3.9 - Android:
+
+* Improved the SDK by adding bug fixes and code improvements.
+]]></description>
+                <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+                <guid>5jkkVqHg4MWrTL0UFRNuwL</guid>
+            </item>
+            <item>
+                <title>Mobile SDK features added and performance improved.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-05-13</link>
+                <description><![CDATA[## In-App Payments SDK: Android, iOS
+
+The In-App Payments SDK 1.4.0 now supports [Square Gift Card payments (beta)](/in-app-payments-sdk/cookbook/giftcards).
+
+
+## Reader SDK 1.3.8 - iOS:
+
+Improved the SDK by making miscellaneous bug fixes.]]></description>
+                <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+                <guid>4gz4WaPUQz1jQv8Fi5fzMa</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK for Android 1.3.1, iOS 1.3.0</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-04-22</link>
+                <description><![CDATA[## In-App Payments SDK: Android, iOS
+The current versions of these SDKs now support digital wallet payments for Apple Pay and Google Pay in Great Britain for transactions in GBP.]]></description>
+                <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+                <guid>6r3orRZaK4BhrCZXGmmOJZ</guid>
+            </item>
+            <item>
+                <title>Reader SDK for Android 1.3.6</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-03-25</link>
+                <description><![CDATA[## Details
+
+**Reader SDK 1.3.6 - Android** This release fixes an issue preventing readers from reconnecting during certain instances of poor network connectivity.]]></description>
+                <pubDate>Wed, 25 Mar 2020 00:00:00 +0000</pubDate>
+                <guid>72kFq1TawU5Infh36o9n4W</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.3.7: Fixes performance and other issues.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-02-26</link>
+                <description><![CDATA[## Details 
+
+**Reader SDK 1.3.7 - iOS**:
+
+* Minor bug fixes and performance improvements.
+* Fixes an issue when using Reader SDK in a project that uses scenes.
+* Fixes an issue that prevented entry of some expiration dates when performing c...]]></description>
+                <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+                <guid>1l1XAPrj3Os7B5Fq07JN6V</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.3.5: Fixes 3 bugs that cause exceptions on Android devices.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2020-01-22</link>
+                <description><![CDATA[## New release: Reader SDK (Android)
+
+* Android version: `1.3.5`
+
+## Details
+
+### Bug fixes
+
+* Miscellaneous bug fixes that resulted in exceptions. Additional performance and efficiency improvements.
+]]></description>
+                <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+                <guid>6MZ8ecAKX9e0iCWH9qjBpD</guid>
+            </item>
+            <item>
+                <title>In-App-Payments SDK 1.3.1: Fixes a bug that causes an exception in Flutter plugin apps on Android devices.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-12-17</link>
+                <description><![CDATA[## New release: In-App Payments SDK (Android)
+
+* Android version: `1.3.1`
+
+## Details
+
+### Bug fixes
+
+* Resolved exception on new card entry in Flutter plugin applications installed on Android devices.
+]]></description>
+                <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+                <guid>01Kl6KdEUZYOrBNrfzosBc</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.3.5: Fixes a bug that prevents and iOS 13 device paring with a Square Reader. </title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-11-20</link>
+                <description><![CDATA[## New release: Reader SDK 
+
+* Reader SDK iOS version: 1.3.5
+
+
+### Details 
+
+
+#### iOS
+
+* Resolves a condition that can prevent an iOS 13 device from pairing with a Square Reader.
+
+
+]]></description>
+                <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+                <guid>5d9MTJiNAYaIL5a567zrNe</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK 1.3.0, Reader SDK 1.3.4: Minor bug fixes and improvements. </title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-11-13</link>
+                <description><![CDATA[## New release: Reader SDK 
+
+* Reader SDK iOS version: 1.3.4
+
+
+### Details 
+
+
+#### iOS
+
+* Performance improvements
+* Resolves a condition that can result in a crash on application launch on iOS 13 devices.
+
+
+## New release: In-App Payments ...]]></description>
+                <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+                <guid>2w4VB6RnpjeBzpvumjKmvS</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.3.3: Minor bug fixes and improvements for Android and iOS. </title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-09-25</link>
+                <description><![CDATA[## New release: Reader SDK 
+
+* Reader SDK iOS version: 1.3.3
+* Reader SDK Android version: 1.3.3
+
+### Details 
+
+
+#### iOS
+
+
+* Now requires Xcode 10.2+
+* For Xcode 11+: Add the permission `NSBluetoothAlwaysUsageDescription` to your info.plis...]]></description>
+                <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+                <guid>764vjbGY6epEYqYwNOZTum</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.3.2: Support for Android 10 (Q) in Reader SDK for Android.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-08-28</link>
+                <description><![CDATA[## New release: Reader SDK 
+
+* Reader SDK Android version: 1.3.2
+
+
+## Details 
+
+Reader SDK Android supports Android 10 improvements, including behavioral changes, privacy features, and security enhancements.
+
+Note: The [Dark Theme](https://...]]></description>
+                <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+                <guid>5gb0mRkeix6P5QQBSsyoO0</guid>
+            </item>
+            <item>
+                <title>Reader SDK 1.3.1: Bug fixes, performance improvements, and full support for AndroidX in Reader SDK for Android.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-08-15</link>
+                <description><![CDATA[## New release: Reader SDK 
+
+* Reader SDK Android version: 1.3.1
+* Reader SDK iOS version: 1.3.1
+
+## Details 
+
+Reader SDK Android fully supports AndroidX, so developers will be required to either migrate to AndroidX or enable Jetifier.
+
+###...]]></description>
+                <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+                <guid>4YKcqimbS6HgurqNvpQKkk</guid>
+            </item>
+            <item>
+                <title>Add support for Sandbox v2 Application IDs</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-07-23</link>
+                <description><![CDATA[## New release: In-App Payments SDK (Android, iOS)
+
+* iOS version: `1.2.0`
+* Android version: `1.2.0`
+
+## Details
+
+
+### Improvements
+
+* Added support for Sandbox v2 Application IDs for In-App Payments apps in the sandbox.]]></description>
+                <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+                <guid>4HyQvppHBXXgyXb373YCnt</guid>
+            </item>
+            <item>
+                <title>Adds bug fixes and support for Apple Pay in Sandbox mode when using iOS simulator.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-07-10</link>
+                <description><![CDATA[## New release: In-App Payments SDK (iOS)
+
+* iOS version: `1.1.2`
+
+## Details
+
+### Bug fixes
+
+* Resolved warnings generated while running against Swift 5.0 &amp; XCode 10.2.1.
+* Fixed iOS 10.3.1 issue that hides the card entry bar under the nav...]]></description>
+                <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
+                <guid>5gPDe6o7Luy8zYiT4hrHQ9</guid>
+            </item>
+            <item>
+                <title>Reader SDK now supports delayed the capture for payments.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-05-29</link>
+                <description><![CDATA[## New release: Reader SDK
+
+* Reader SDK Android version: `1.3.0`
+* Reader SDK iOS version: `1.3.0`
+
+## Details
+
+### Delay Capture of Payments
+
+By default, Reader SDK will immediately capture all card payments in a transaction, but the SDK ...]]></description>
+                <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+                <guid>51IyPkQAa1jp7tiYJWIUp</guid>
+            </item>
+            <item>
+                <title>Minor bug fixes, performance improvements, and SDK size reduction.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-04-30</link>
+                <description><![CDATA[## New release: Reader SDK (iOS)
+
+* Reader SDK iOS version: `1.2.0`
+
+## Details
+
+* Minor bug fixes and performance improvements.
+* SDK size reduction.
+]]></description>
+                <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+                <guid>7wSPc6sDGp2ix67BZ1K29B</guid>
+            </item>
+            <item>
+                <title>In-App Payments SDK iOS 1.1.1 removes the need to add a build phase when using Cocoapods or Carthage and adds support for app extensions.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-03-27</link>
+                <description><![CDATA[## New release: In-App Payments SDK (iOS)
+
+* iOS version: `1.1.1`
+
+## Details
+
+* Removes the need to add a build phase when using Cocoapods or Carthage.
+* Adds support for app extensions.
+* Minor bug fixes and performance improvements.
+]]></description>
+                <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+                <guid>2ZCAwktWTEs60pv7e7KqtM</guid>
+            </item>
+            <item>
+                <title>Bug fixes and improvements for Reader SDK on Android.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-03-13</link>
+                <description><![CDATA[## New release: Reader SDK (Android)
+
+* Android version: `1.2.0`
+
+## Details
+
+* Updated dependency versions:
+ * The Support Library version is now 28.0.0
+ * The Play Services version is now 16.0.1 for play-services-base and 16.0.0 for play-...]]></description>
+                <pubDate>Wed, 13 Mar 2019 00:00:00 +0000</pubDate>
+                <guid>1NW7nHt24ZFv0Y39iolkvt</guid>
+            </item>
+            <item>
+                <title>React Native plugin for In-App Payments SDK now available!</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-02-27</link>
+                <description><![CDATA[## New release: In-App Payments SDK
+
+* Android version: `1.1.0`
+* iOS version: `1.1.0`
+
+## Details
+
+### React Native plugin release
+
+A React Native plugin for In-App Payments SDK is now available as an open source
+project on GitHub.
+
+See th...]]></description>
+                <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+                <guid>4o1MVIkifD3Wj4pt7DyKjA</guid>
+            </item>
+            <item>
+                <title>Release of Reader SDK 1.1 with card-on-file support.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2019-02-13</link>
+                <description><![CDATA[## New release: Reader SDK
+
+* Android version: `1.1.3`
+* iOS version: `1.1.1`
+
+## Details
+
+### Store customer card
+
+Use the new `CustomerCardManager` (Android) or `StoreCustomerCardController`
+(iOS) objects to store a customer card on file....]]></description>
+                <pubDate>Wed, 13 Feb 2019 00:00:00 +0000</pubDate>
+                <guid>2Tphge4DjbGIqz6T9VKhIe</guid>
+            </item>
+            <item>
+                <title>Bug fix for Reader SDK on Android.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2018-08-27</link>
+                <description><![CDATA[## New release: Reader SDK (Android)
+
+* Android version: `1.0.4`
+
+## Details
+
+* Fixed an issue that caused crashes when initializing the SDK on x86 devices.
+]]></description>
+                <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+                <guid>1IIwAJa17nvvxMrZDhOoUA</guid>
+            </item>
+            <item>
+                <title>The Square Reader SDK for Android and iOS is now available!</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2018-08-02</link>
+                <description><![CDATA[## New release: Reader SDK
+
+* Reader SDK Android version: `1.0.3`
+* Reader SDK iOS version: `1.0.1`
+
+## Details
+
+The Square Reader SDK for Android and iOS is now available!
+
+Reader SDK lets developers embed the Square checkout flow and acce...]]></description>
+                <pubDate>Thu, 02 Aug 2018 00:00:00 +0000</pubDate>
+                <guid>1aNQxREpzMjdXYtv65DlIE</guid>
+            </item>
+            <item>
+                <title>Version 1.3 of the Point of Sale API is available for iOS.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2017-06-19</link>
+                <description><![CDATA[## New release: Point of Sale API (iOS)
+
+* iOS version: `1.3`
+
+## Details
+
+Point of Sale API v1.3 includes improvements to API parameter naming and is available in the [Square Point of Sale](https://itunes.apple.com/us/app/square-register-p...]]></description>
+                <pubDate>Mon, 19 Jun 2017 00:00:00 +0000</pubDate>
+                <guid>5mZLALT6Xy0FlB8AWShlO7</guid>
+            </item>
+            <item>
+                <title>Register API for iOS and Android is now called Point of Sale API.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2017-05-30</link>
+                <description><![CDATA[## Product rebranding: Register API is now Point of Sale API
+
+* Android version: `2.0`
+* iOS version: `3.0`
+
+## Details
+
+Register API for iOS and Android is now called Point of Sale API.
+
+Changes as part of this name change include the foll...]]></description>
+                <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+                <guid>4TMFo3jCBbYj5AvWWnDJnj</guid>
+            </item>
+            <item>
+                <title>Version 1.2 of the Register API is now available on iOS.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2016-11-17</link>
+                <description><![CDATA[## New release: Register API (iOS)
+
+* iOS version: `1.2`
+
+## Details
+
+Version 1.2 of the Register API is now available on iOS as of [Square Register](https://itunes.apple.com/us/app/square-register-point-sale/id335393788?mt=8) version 4.53....]]></description>
+                <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
+                <guid>3A35Vl6IG0hnKHYZfJ04hq</guid>
+            </item>
+            <item>
+                <title>The Square POS Web API is now available for Android.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2016-11-02</link>
+                <description><![CDATA[## New release: Square POS Web API (Android)
+
+## Details
+
+* The Square Web API is now available for Android. With this feature, developers can now launch the Square Register Android app from a website to process in-person payments with Squa...]]></description>
+                <pubDate>Wed, 02 Nov 2016 00:00:00 +0000</pubDate>
+                <guid>3rBTgRNxmwzannqQhzC43k</guid>
+            </item>
+            <item>
+                <title>Version 1.1 of the Register API is now available on iOS</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2016-10-10</link>
+                <description><![CDATA[## New release: Register API (iOS)
+
+* iOS version: `1.1`
+
+## Details
+
+Version 1.1 of the Register API is now available on iOS as of [Square Register](https://itunes.apple.com/us/app/square-register-point-sale/id335393788?mt=8) version 4.50....]]></description>
+                <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
+                <guid>25JkLkHPZbYQg56pq3KGve</guid>
+            </item>
+            <item>
+                <title>New open-source Sample App for Register API</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2016-10-05</link>
+                <description><![CDATA[## New release: Open-source Sample App
+
+## Details
+
+A new open-source sample application is now available for Register API for
+Android. The sample app is a point-of-sale application for a bike shop that uses
+Register API for Android to proc...]]></description>
+                <pubDate>Wed, 05 Oct 2016 00:00:00 +0000</pubDate>
+                <guid>3h8qybz6fIhclnvsNoYTju</guid>
+            </item>
+            <item>
+                <title>Version 1.1 of the Register API is now available on Android.</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2016-09-21</link>
+                <description><![CDATA[## New release: Register API (Android)
+
+* Android version: `1.1`
+
+## Details
+
+Version 1.1 of the Register API is now available on Android as of [Square Register](https://play.google.com/store/apps/details?id=com.squareup) version 4.48.
+
+Ver...]]></description>
+                <pubDate>Wed, 21 Sep 2016 00:00:00 +0000</pubDate>
+                <guid>12oLp0HMxasu5qUrFqsRig</guid>
+            </item>
+            <item>
+                <title>Square Register API is now available for Android</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2016-05-25</link>
+                <description><![CDATA[## New release: Square Register API (Android)
+
+* Android version: `1.0`
+
+## Details
+
+The Square Register API is now available for Android. Like the iOS version, it lets your app open the Square Register app to process in-person payments wit...]]></description>
+                <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
+                <guid>nWYVNShLUcTn53w5reHAB</guid>
+            </item>
+    </channel>
+</rss>

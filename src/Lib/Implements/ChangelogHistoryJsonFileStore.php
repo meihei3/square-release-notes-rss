@@ -15,7 +15,7 @@ use function file_put_contents;
 final readonly class ChangelogHistoryJsonFileStore implements ChangelogHistoryFileStoreInterface
 {
     private const string CONNECT_JSON_FILE = '/json/connect.json';
-    private const string MOBILE_SDKS_JSON_FILE = '/json/mobile_sdks.json';
+    private const string MOBILE_SDKS_JSON_FILE = '/json/mobile-sdks.json';
 
     public function __construct(
         private string $publicDirectory,
