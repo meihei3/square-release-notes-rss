@@ -5,10 +5,20 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 28 Jan 2025 21:14:17 +0000</lastBuildDate>
-        <pubDate>Tue, 28 Jan 2025 21:14:17 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Feb 2025 23:15:41 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Feb 2025 23:15:41 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-02-20</link>
+                <description><![CDATA[### API updates
+
+* **Mobile Authorization API:**
+ * **Deprecation notice** - The Mobile Authorization API is used by the Reader SDK, which is now deprecated. This API will be retired along with the Reader SDK on **December 31, 2025**. Devel...]]></description>
+                <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+                <guid>5hp20sYVbUndEEDG50Le1G</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-01-23</link>
