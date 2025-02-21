@@ -1,5 +1,19 @@
 [
     {
+        "id": "1VmI5GGB9t4F5wlC0iPAXb",
+        "slug": "changelog\/mobile-logs\/2025-02-20",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-02-20T00:00",
+        "summary": "Mobile Payments SDK for iOS and Android : Tap to Pay, Canada and Australia launch",
+        "details": "### Mobile Payments SDK\n * New [Flutter plugin](mobile-payments-sdk\/flutter) for the Mobile Payments SDK. \n * The Mobile Payments SDK is now available in Canada and Australia.\n * Tap to Pay support - Sellers can use their supported iPhone or Android phone to accept card payments with the Mobile Payments SDK, without requiring the use of a Square Reader. \n * Application signature requirement - Developers are required to provide Square with an Application signature before taking production payments with version 2.1.0 or later of the SDK.\n\n### Android Mobile Payments SDK 2.1.0\n* The Mobile Payments SDK is now available in Canada and Australia.\n* Tap to Pay on Android - Sellers can use their supported Android phone to accept card payments with the Mobile Payments SDK, without requiring the use of a Square Reader. \n* Application signature requirement - Developers are required to provide Square with an [application signature](mobile-payments-sdk\/android#application-signature) before taking production payments with version 2.1.0 or later.\n\n### iOS Mobile Payments SDK 2.1.0\n* The Mobile Payments SDK is now available in Canada and Australia.\n* Tap to Pay on iPhone - Sellers can use their supported iPhone to accept card payments with the Mobile Payments SDK, without requiring the use of a Square Reader.\n* Application signature requirement - Developers are required to provide Square with an [application signature](mobile-payments-sdk\/ios#application-signature) before taking production payments with version 2.1.0 or later.\n\n{% aside type=\"info\" %}\niOS developers using Xcode 16 might receive warnings when uploading to the App Store regarding missing [dSYMs](https:\/\/developer.apple.com\/documentation\/xcode\/building-your-app-to-include-debugging-information#Build-your-app-with-symbol-information). This is expected because the Mobile Payments SDK doesn't include its own dSYM. These warnings can be disregarded. For more information, see [Apple Developers](https:\/\/developer.apple.com\/forums\/thread\/761589?answerId=806733022#806733022).\n{% \/aside %}",
+        "tags": [
+            "Android",
+            "iOS",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
         "id": "7kpxtpZSH3R79xI9D5eBUF",
         "slug": "changelog\/mobile-logs\/2025-01-29",
         "linkBack": "changelog\/mobile",
