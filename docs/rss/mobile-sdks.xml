@@ -5,17 +5,18 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 21 Feb 2025 03:21:02 +0000</lastBuildDate>
-        <pubDate>Fri, 21 Feb 2025 03:21:02 +0000</pubDate>
+        <lastBuildDate>Fri, 21 Feb 2025 18:21:22 +0000</lastBuildDate>
+        <pubDate>Fri, 21 Feb 2025 18:21:22 +0000</pubDate>
         <ttl>1800</ttl>
 
             <item>
                 <title>Mobile Payments SDK for iOS and Android : Tap to Pay, Canada and Australia launch</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-02-20</link>
-                <description><![CDATA[### Mobile Payments SDK
- * New [Flutter plugin](mobile-payments-sdk/flutter) for the Mobile Payments SDK. 
+                <description><![CDATA[ * New [Flutter plugin](mobile-payments-sdk/flutter) for the Mobile Payments SDK. 
  * The Mobile Payments SDK is now available in Canada and Australia.
- * Tap to Pay support - Sellers can use their supported iPhone o...]]></description>
+
+### Android Mobile Payments SDK 2.1.0
+* [Tap to Pay on Android](mobile-payments-sdk/and...]]></description>
                 <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
                 <guid>1VmI5GGB9t4F5wlC0iPAXb</guid>
             </item>
