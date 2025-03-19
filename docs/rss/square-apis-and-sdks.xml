@@ -5,10 +5,21 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 21 Feb 2025 03:21:02 +0000</lastBuildDate>
-        <pubDate>Fri, 21 Feb 2025 03:21:02 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Mar 2025 18:24:00 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Mar 2025 18:24:00 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-03-19</link>
+                <description><![CDATA[### API and SDK updates
+
+* **Cards API:**
+ * [Card](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Card) object - New read-only Beta fields to help developers manage card declines more effectively:
+ * `hsa_fsa` - Indicates whe...]]></description>
+                <pubDate>Wed, 19 Mar 2025 08:00:00 +0000</pubDate>
+                <guid>1jybEL8GQNXzNduHXx9dlM</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-02-20</link>

@@ -1,5 +1,25 @@
 [
     {
+        "id": "1jybEL8GQNXzNduHXx9dlM",
+        "slug": "changelog\/connect-logs\/2025-03-19",
+        "linkBack": "changelog\/connect",
+        "changelogType": "API (Connect and Authorization)",
+        "changelogDate": "2025-03-19T08:00:00Z",
+        "summary": "Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.",
+        "details": "### API and SDK updates\n\n* **Cards API:**\n * [Card](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/Card) object - New read-only Beta fields to help developers manage card declines more effectively:\n * `hsa_fsa` - Indicates whether the card is linked to a Health Savings Account (HSA) or a Flexible Spending Account (FSA), which tend to have higher decline rates.\n * `issuer_alert` - An alert from the issuing bank about the card status. For select Mastercard payment cards, this field is set to `ISSUER_ALERT_CARD_CLOSED` if Square is notified that the underlying account is closed.\n * `issuer_alert_at` - The timestamp of when the alert was last received and processed.\n\n For more information, see [Manage Card-on-File Declines](cards-api\/manage-card-on-file-declines).\n\n * [CreateCard](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/cards-api\/create-card) endpoint - The `postal_code` field in the billing address can now be specified in ZIP+4 format (for example, `12345-6789`).\n\n* **Invoices API:**\n * [Invoice](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/Invoice) object - New read-only `creator_team_member_id` field that contains the ID of the team member who created the invoice. This field is present only on invoices created in the Square Dashboard or Square Invoices application by a logged-in team member.\n * [CreateInvoiceAttachment](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/invoices-api\/create-invoice-attachment) endpoint - In the Sandbox environment, invoices now have a total file size limit of 1 KB for all attachments. This change doesn't apply to invoices in production, where the total file size limit for all attachments is 25&nbsp;MB.\n\n These changes apply to all Square API versions.\n\n* **Square SDKs:**\n * The Square [Java SDK](sdks\/java) and [.NET SDK](sdks\/dotnet) have been rewritten. The new versions provide the same access to Square APIs, along with:\n * Auto-pagination - With the new SDKs, you can easily paginate through long responses.\n * Simplified classes and method names. \n\n Previous versions of the SDKs continue to work, but to take advantage of these new features and API updates moving forward, you should [migrate your Java integration](sdks\/java\/migration) and [migrate your .NET integration](sdks\/dotnet\/migration) to use the new version of the SDKs.\n\n* **Terminal API:**\n * General Availability - Support for localized receipts for orders, itemization, and ID for Japan and the EU. For more information, see [Take Payments for Orders](terminal-api\/take-payments-for-orders).\n\n### Documentation updates\n\n* **Checkout API:**\n * [Subscription Plan Checkout](checkout-api\/subscription-plan-checkout) - Rewrote content with updated examples. Customers subscribe to a subscription plan variation, not to a subscription plan. For this reason, the `subscription_plan_id` value in the `CreatePaymentLink` request must contain the ID value for a subscription plan variation.\n\n* **In-App Payments SDK:**\n * Removed SRC Masterpass guide topics and API Reference for iOS and Android, due to SRC deprecation that took place in May 2023.\n\n{% line-break \/%}\n\nLearn about [versioning for the Square API and SDKs](build-basics\/versioning-overview).",
+        "tags": [
+            "Square",
+            "Documentation",
+            "Cards API",
+            "Invoices API",
+            "Java",
+            ".NET",
+            "Square SDK",
+            "Terminal API",
+            "BETA"
+        ]
+    },
+    {
         "id": "5hp20sYVbUndEEDG50Le1G",
         "slug": "changelog\/connect-logs\/2025-02-20",
         "linkBack": "changelog\/connect",
