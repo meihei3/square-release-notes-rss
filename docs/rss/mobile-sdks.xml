@@ -5,15 +5,16 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 02 Apr 2025 19:13:55 +0000</lastBuildDate>
-        <pubDate>Wed, 02 Apr 2025 19:13:55 +0000</pubDate>
+        <lastBuildDate>Fri, 04 Apr 2025 20:18:22 +0000</lastBuildDate>
+        <pubDate>Fri, 04 Apr 2025 20:18:22 +0000</pubDate>
         <ttl>1800</ttl>
 
             <item>
                 <title>Mobile Payments SDK for iOS: Support for iOS 18.4</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-04-02</link>
                 <description><![CDATA[### iOS Mobile Payments SDK 2.2.1
-* This release addresses an issue causing crashes for some devices running iOS 18.4. Users of Mobile Payments SDK version 2.2.0 and below should upgrade to version 2.2.1 before updating their operating syst...]]></description>
+* Beginning with version `2.2.0`, the minimum Xcode iOS deployment target has been raised to 16+.
+* This release addresses an issue causing crashes for some devices running iOS 18.4. Users of Mobile Payment...]]></description>
                 <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
                 <guid>7sAhXBtDilQvlhRmpRVHeq</guid>
             </item>
