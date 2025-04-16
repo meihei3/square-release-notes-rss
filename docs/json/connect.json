@@ -1,5 +1,25 @@
 [
     {
+        "id": "6pPUrUlCGwWumLKgwa18St",
+        "slug": "changelog\/connect-logs\/2025-04-16",
+        "linkBack": "changelog\/connect",
+        "changelogType": "API (Connect and Authorization)",
+        "changelogDate": "2025-04-16T08:00:00Z",
+        "summary": "Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.",
+        "details": "### API updates\n\n* **Catalog API:**\n * [CatalogItem](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/CatalogItem) object - Added the `is_alcoholic` field that indicates whether the item is alcoholic.\n\n* **Invoices API:**\n * [Invoice](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/Invoice) object - After an invoice is published and reaches the scheduled date (if one is defined), Square adds the `public_url` field to the invoice. This field contains the link to the Square-hosted payment page where customers can pay the invoice. \n\n Invoice payment links are now temporary and expire after a certain period. Customers can provide the email address or phone number associated with the invoice and request a new link directly from the expired payment page, so no action is required from the developer. However, developers who need to share a payment link with the customer a few days or more after it was generated should retrieve the invoice first to automatically generate a new, up-to-date link.\n\n These changes apply across all Square API versions. Current invoice payment links will follow the same expiration process. Note that link expiry and dynamic link generation don't trigger `invoice.updated` webhook events.\n\n* **Locations API:**\n * [Location](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/Location) object - Additional [validation on address fields](build-basics\/common-data-types\/working-with-addresses#address-validation). Emojis, control characters, and special symbols are not allowed in address fields. \n\n* **Square SDKs:**\n * [Python SDK](sdks\/python) - The Square Python SDK has been rewritten. The new version provides the same access to Square APIs, along with:\n * Auto-pagination - With the SDK, you can easily paginate through long responses.\n * Simplified classes and method names. \n * API errors represented as `Exceptions`, inherited form the `ApiError` class.\n * Support for the [Pydantic](https:\/\/docs.pydantic.dev) validation library.\n * Python 3.8 is now the minimum required version. \n\n Previous versions of the SDK continue to work, but to take advantage of these new features and API updates moving forward, you should [migrate your code to use the new version of the SDK](sdks\/python\/migration).\n\n* **Terminal API:**\n * [CreateTerminalCheckout](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/terminal-api\/create-terminal-checkout) endpoint - Added support for the following payment features in Australia, Canada, France, Ireland, Japan, Spain, and the United Kingdom:\n * App fees\n * Delayed capture\n * Statement descriptor\n * Team member ID\n * Tip money \n\n For more information, see [Additional Payment and Checkout Features](terminal-api\/additional-payment-checkout-features).\n\n* **Webhooks:**\n * The [retry schedule](webhooks\/overview#notification-retries) for Square webhooks is changed. Square now makes a maximum of 11 retry attempts for up to 24 hours after the event. This change applies to webhook subscriptions for all Square API versions.\n\n### Documentation updates\n\n* **Square App Marketplace:**\n * New requirement - As of March 27, 2025, applications must have a minimum of five active Square sellers to be eligible for listing in the [Square App Marketplace](app-marketplace).\n\n* **International Development:**\n * [International Development](international-development) - Consolidated information on international development into a single topic.\n * [Develop for Japan](international-development\/japan) - Organized Japan-specific development information into a new topic.\n\n{% line-break \/%}\n\nLearn about [versioning for the Square API and SDKs](build-basics\/versioning-overview).",
+        "tags": [
+            "Square",
+            "Documentation",
+            "Catalog API",
+            "Invoices API",
+            "Locations API",
+            "Square SDK",
+            "Terminal API",
+            "Webhooks",
+            "App Marketplace Requirements"
+        ]
+    },
+    {
         "id": "1jybEL8GQNXzNduHXx9dlM",
         "slug": "changelog\/connect-logs\/2025-03-19",
         "linkBack": "changelog\/connect",

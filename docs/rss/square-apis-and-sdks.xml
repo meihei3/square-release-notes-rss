@@ -5,10 +5,23 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 19 Mar 2025 18:24:00 +0000</lastBuildDate>
-        <pubDate>Wed, 19 Mar 2025 18:24:00 +0000</pubDate>
+        <lastBuildDate>Wed, 16 Apr 2025 18:24:55 +0000</lastBuildDate>
+        <pubDate>Wed, 16 Apr 2025 18:24:55 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-04-16</link>
+                <description><![CDATA[### API updates
+
+* **Catalog API:**
+ * [CatalogItem](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/CatalogItem) object - Added the `is_alcoholic` field that indicates whether the item is alcoholic.
+
+* **Invoices API:**
+ * [In...]]></description>
+                <pubDate>Wed, 16 Apr 2025 08:00:00 +0000</pubDate>
+                <guid>6pPUrUlCGwWumLKgwa18St</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-03-19</link>
