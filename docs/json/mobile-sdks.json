@@ -1,5 +1,18 @@
 [
     {
+        "id": "OAVfTRohdrFUe3rweOopE",
+        "slug": "changelog\/mobile-logs\/2025-04-18",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-04-18T00:00",
+        "summary": "Mobile Payments SDK for iOS: Support for iOS 18.4.1",
+        "details": "### iOS Mobile Payments SDK 2.2.2\n* Beginning with version `2.2.0`, the minimum Xcode iOS deployment target has been raised to 16+.\n* This release addresses an issue causing crashes for some devices running iOS 18.4.1. Developers should upgrade the Mobile Payments SDK to version 2.2.2 before deploying their application to devices running iOS 18.4.1.",
+        "tags": [
+            "iOS",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
         "id": "7sAhXBtDilQvlhRmpRVHeq",
         "slug": "changelog\/mobile-logs\/2025-04-02",
         "linkBack": "changelog\/mobile",
