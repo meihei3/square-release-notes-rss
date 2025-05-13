@@ -1,5 +1,18 @@
 [
     {
+        "id": "3X0eNg4VfJIHzg68bHFYE1",
+        "slug": "changelog\/mobile-logs\/2025-05-12",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-05-12T00:00",
+        "summary": "Mobile Payments SDK for iOS: Bug fixes and new method for accessing the payment handle",
+        "details": "### iOS Mobile Payments SDK 2.2.3\n* Resolved a reader connection issue caused by a power-related update.\n* Fixed a crash when using Tap to Pay on unsupported iOS versions.\n* Improved error handling for `accountAlreadyLinked` errors.\n* Implemented timeout logic to avoid persistent \u201cpayment in progress\u201d errors.\n* Added a new backwards compatible API method: `PaymentManager.currentPaymentHandle` exposes the current active payment handle or returns nil if no payment is in progress.\n",
+        "tags": [
+            "iOS",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
         "id": "OAVfTRohdrFUe3rweOopE",
         "slug": "changelog\/mobile-logs\/2025-04-18",
         "linkBack": "changelog\/mobile",
