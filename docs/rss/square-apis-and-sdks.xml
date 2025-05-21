@@ -5,10 +5,23 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 17 Apr 2025 18:23:35 +0000</lastBuildDate>
-        <pubDate>Thu, 17 Apr 2025 18:23:35 +0000</pubDate>
+        <lastBuildDate>Wed, 21 May 2025 18:25:47 +0000</lastBuildDate>
+        <pubDate>Wed, 21 May 2025 18:25:47 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-05-21</link>
+                <description><![CDATA[### New releases
+**Square MCP Server**
+ * The [Square MCP Server](mcp) is now available. Control and interact with your Square account using AI assistants like [Goose](https://block.github.io/goose/).
+
+### API updates
+**Catalog API:**
+ * Im...]]></description>
+                <pubDate>Wed, 21 May 2025 08:00:00 +0000</pubDate>
+                <guid>46KVune31yD5eCf7qLiHya</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-04-16</link>
