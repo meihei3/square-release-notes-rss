@@ -10,7 +10,7 @@
         "ext-iconv": "*",
         "ext-libxml": "*",
         "symfony/clock": "^7.2",
-        "symfony/console": "7.2.*",
+        "symfony/console": "7.3.*",
         "symfony/css-selector": "^7.2",
         "symfony/dom-crawler": "^7.2",
         "symfony/dotenv": "7.3.*",
