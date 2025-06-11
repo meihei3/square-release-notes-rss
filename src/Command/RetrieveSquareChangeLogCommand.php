@@ -51,6 +51,39 @@ final class RetrieveSquareChangeLogCommand extends Command
             $this->rssBuilder->buildMobileSDKs($changelogs);
         }
 
+        $changelogs = $this->fetchClient->fetchWebPaymentsSDKChangelogHistoryList();
+        $previous = $this->fileStore->loadWebPaymentsSDK();
+
+        // Compare the changelogs and store the new ones
+        $diff = array_filter($changelogs, fn($changelog) => !in_array($changelog, $previous));
+        if (count($diff) > 0) {
+            // change log を上書き保存
+            $this->fileStore->storeWebPaymentsSDK($changelogs);
+            $this->rssBuilder->buildWebPaymentsSDK($changelogs);
+        }
+
+        $changelogs = $this->fetchClient->fetchPaymentFormChangelogHistoryList();
+        $previous = $this->fileStore->loadPaymentForm();
+
+        // Compare the changelogs and store the new ones
+        $diff = array_filter($changelogs, fn($changelog) => !in_array($changelog, $previous));
+        if (count($diff) > 0) {
+            // change log を上書き保存
+            $this->fileStore->storePaymentForm($changelogs);
+            $this->rssBuilder->buildPaymentForm($changelogs);
+        }
+
+        $changelogs = $this->fetchClient->fetchRequirementsChangelogHistoryList();
+        $previous = $this->fileStore->loadRequirements();
+
+        // Compare the changelogs and store the new ones
+        $diff = array_filter($changelogs, fn($changelog) => !in_array($changelog, $previous));
+        if (count($diff) > 0) {
+            // change log を上書き保存
+            $this->fileStore->storeRequirements($changelogs);
+            $this->rssBuilder->buildRequirements($changelogs);
+        }
+
         return Command::SUCCESS;
     }
 }

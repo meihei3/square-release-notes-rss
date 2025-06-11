@@ -1,0 +1,122 @@
+[
+    {
+        "id": "5bMEGt0ocgbniZE9tDGogU",
+        "slug": "changelog\/paymentform\/2022-10-31",
+        "linkBack": "changelog\/paymentform",
+        "changelogType": "Connect SDK",
+        "changelogDate": "2022-10-31T00:00",
+        "summary": "SqPaymentForm is retired",
+        "details": "## SqPaymentForm\nThe `SqPaymentForm` is retired as of October 31, 2022, with all functionality shut off. All `SqPaymentForm` documentation, including the `SqPaymentForm` technical reference, redirects to the Web Payments SDK documentation. \n\nUse the [Web Payments SDK](web-payments\/overview) for any new web client payment-acceptance integrations. ",
+        "tags": [
+            "Square Payment Form"
+        ]
+    },
+    {
+        "id": "4I8waBnV42LlQc8424z90m",
+        "slug": "changelog\/paymentform\/2021-05-13",
+        "linkBack": "\/changelog\/paymentform",
+        "changelogType": "Services",
+        "changelogDate": "2021-05-13T00:00",
+        "summary": "SqPaymentForm is deprecated",
+        "details": "## SqPaymentForm\nThe **SqPaymentForm** is deprecated. Please use the [Web Payments SDK](\/web-payments\/overview) for any new web client payment acceptance integrations.",
+        "tags": [
+            "Square Payment Form"
+        ]
+    },
+    {
+        "id": "7i7kCrTovQuOlklIVcqkTF",
+        "slug": "changelog\/paymentform\/2020-08-12",
+        "linkBack": "\/changelog\/paymentform",
+        "changelogType": "Services",
+        "changelogDate": "2020-08-12T00:00",
+        "summary": "Documentation and API updates",
+        "details": "## SqPaymentForm SDK updates\n\n* [SqPaymentForm.masterpassImageURL.](\/api\/paymentform#masterpassimageurl) This function is updated to return a Secure Remote Commerce background image URL.\n",
+        "tags": [
+            "Square Payment Form"
+        ]
+    },
+    {
+        "id": "413356efudoPZu5Fa6nfFg",
+        "slug": "changelog\/paymentform\/2019-11-13",
+        "linkBack": "\/changelog\/paymentform",
+        "changelogType": "Services",
+        "changelogDate": "2019-11-13T00:00",
+        "summary": "SqPaymentForm methodsSupported has new functionality",
+        "details": "* **New functionality**: Square Payment Form has updated the [SqPaymentForm.methodsSupported](https:\/\/developer.{{SQUARE_DOMAIN}}\/docs\/api\/paymentform#methodssupported) function to provide additional detail when it is reporting that a payment method is not supported in a given browser instance. ",
+        "tags": [
+            "Square Payment Form"
+        ]
+    },
+    {
+        "id": "3oTWvMNRvuw2v2kC2PAaGW",
+        "slug": "changelog\/paymentform\/2019-09-25",
+        "linkBack": "\/changelog\/paymentform",
+        "changelogType": "Services",
+        "changelogDate": "2019-09-25T00:00",
+        "summary": "SqPaymentForm has a new function for support of the Masterpass payment button",
+        "details": "* **New functionality**: Square Payment Form has the new [SqPaymentForm.masterpassImageUrl](https:\/\/developer.{{SQUARE_DOMAIN}}\/docs\/api\/paymentform#masterpassimageurl) function to support a dynamic way to get the Masterpass button background image URL that includes Secure Remote Commerce parameters. ",
+        "tags": [
+            "Square Payment Form"
+        ]
+    },
+    {
+        "id": "PS56x5Cu2ZSLY88jzwf5p",
+        "slug": "changelog\/paymentform\/2019-08-15",
+        "linkBack": "\/changelog\/paymentform",
+        "changelogType": "Services",
+        "changelogDate": "2019-08-15T00:00",
+        "summary": "SqPaymentForm support for Square Gift Card payments",
+        "details": "* **BETA release**: Square Gift Card support in Payments API, Orders API, and Square payment form.",
+        "tags": [
+            "Square Payment Form"
+        ]
+    },
+    {
+        "id": "2gNfn9pdE3K0v8WJ6cx3D1",
+        "slug": "changelog\/paymentform\/2019-06-12",
+        "linkBack": "\/changelog\/paymentform",
+        "changelogType": "Services",
+        "changelogDate": "2019-06-12T00:00",
+        "summary": "SqPaymentForm support for Strong Customer Authentication",
+        "details": "* **New functionality**: Square Payment Form &mdash; supports Strong Customer Authentication (SCA), which lets developers verify buyer identity with additional billing contact information or other authentication factors.",
+        "tags": [
+            "Square Payment Form"
+        ]
+    },
+    {
+        "id": "2zdhq1nGkU8SAvLmAHBTCn",
+        "slug": "changelog\/paymentform\/2017-10-30",
+        "linkBack": "\/changelog\/paymentform",
+        "changelogType": "Services",
+        "changelogDate": "2017-10-30T00:00",
+        "summary": "SqPaymentForm supports Masterpass",
+        "details": "* **New functionality**: Square Payment Form supports Masterpass &mdash;\n Square Payment Form now looks for HTML placeholders associated with Masterpass. If the HTML placeholders exist and Masterpass is enabled, a Masterpass button will display as part of the Square Payment form. To learn more, see the [Masterpass guide](\/payment-form\/add-digital-wallets\/masterpass) or our example code on Github:\n [C#](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/csharp_payment),\n [Java](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/java_payment),\n [Node.js](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/node_payment),\n [PHP](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/php_payment),\n [Python](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/python_payment), and\n [Ruby](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/rails_payment)\n",
+        "tags": [
+            "Square Payment Form"
+        ]
+    },
+    {
+        "id": "7kuDOpdtEMuxcRVEJJ3xkR",
+        "slug": "changelog\/paymentform\/2017-09-27",
+        "linkBack": "\/changelog\/paymentform",
+        "changelogType": "Services",
+        "changelogDate": "2017-09-27T00:00",
+        "summary": "New Payment Form functionality",
+        "details": "Square Payment Form and Checkout API now accept Apple Pay on the Web payments from customers using the Safari browser. Web Apple Pay is a cleaner way to accept mobile web payments from iPhone users. Consumers are increasingly making purchases on their mobile devices and we want to make it as easy and seamless as possible to provide that optimized checkout experience.\n\n* **New functionality**: Checkout API supports Apple Pay on the Web &mdash; Support for Apple Pay on the Web is built into the Checkout UI and is automatically enabled for anyone using the Checkout API. **Note**: Apple Pay on the Web is not currently supported in Sandbox.\n* **New functionality**: Square Payment Form supports Apple Pay on the Web &mdash; Square Payment Form now looks for placeholders associated with Web Apple Pay. If placeholders are set Apple Pay on the Web will trigger. The Apple Pay on the Web button will only render if the site domain is registered with Apple. To register your domain visit the [Application Dashboard](https:\/\/developer.{{SQUARE_DOMAIN}}\/apps) and click on the `Apple Pay` tab for your application.\n\nTo learn more about how to integrate with Web Apple Pay see the [Apple Pay guide](\/payment-form\/add-digital-wallets\/apple-pay) or our example code on Github:\n[C#](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/csharp_payment),\n[Java](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/java_payment),\n[Node.js](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/node_payment),\n[PHP](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/php_payment),\n[Python](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/python_payment),\n[Ruby](https:\/\/github.com\/square\/connect-api-examples\/tree\/master\/connect-examples\/v2\/rails_payment)\n",
+        "tags": [
+            "Square Payment Form"
+        ]
+    },
+    {
+        "id": "vMM46zveF9w5VKmAWvn3L",
+        "slug": "changelog\/paymentform\/2017-06-22",
+        "linkBack": "\/changelog\/paymentform",
+        "changelogType": "Services",
+        "changelogDate": "2017-06-22T00:00",
+        "summary": "SqPaymentForm relaxed postal code requirement",
+        "details": "* **New functionality**: Relaxed postal code requirements in Square Payment Form &mdash; As Square APIs expand outside the United States and Canada, we\u2019ve heard feedback from developers that they\u2019d like to remove the postal code field in the Square Payment Form. As a result, postal code is no longer a required field for merchants based in Japan and Australia.",
+        "tags": [
+            "Square Payment Form"
+        ]
+    }
+]

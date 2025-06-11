@@ -1,0 +1,146 @@
+[
+    {
+        "id": "6wQSIL9emxW1HpAEXnwRNL",
+        "slug": "changelog\/webpaymentsdk\/2025-04-22",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Connect SDK",
+        "changelogDate": "2025-04-22T00:00",
+        "summary": "ACH and Afterpay updates",
+        "details": "The Web Payments SDK's newest changes include updates to the `ach.tokenize()` parameters and a rebranded Afterpay experience for US-based buyers.\n\n* **ACH**\n * An [`intent`](web-payments\/add-ach) field has been added to the ACH tokenization result to indicate the executed authorization flow.\n * Within the [`AchChargeTokenOptions`](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/sdks\/web\/payments\/objects\/AchChargeTokenOptions) object, the `total` field has been deprecated in favor of individual `amount` and `currency` arguments.\n\n* **Afterpay**\n * US-based buyers see a new [Afterpay](https:\/\/developer.squareup.com\/reference\/sdks\/web\/payments\/objects\/AfterpayClearpay) experience in accordance with the announcement of [Cash App Afterpay](https:\/\/www.afterpay.com\/en-US\/for-retailers\/access\/news\/afterpay-now-cash-app-afterpay).\n * New [styling options](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/sdks\/web\/payments\/objects\/AfterpayCheckoutWidgetOptions) have been added for the [`AfterpayCheckoutWidget`](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/sdks\/web\/payments\/objects\/AfterpayClearpay#AfterpayClearpay.attachCheckoutWidget). Square is working on expanding this functionality to other locales. The new options include:\n - `border`: add or remove a border from the widget\n - `heading`: add or remove an instructional heading to the widget\n - `theme`: customizes the look and feel of the checkout widget\n",
+        "tags": [
+            "Web Payments SDK"
+        ]
+    },
+    {
+        "id": "4MObu5pB3MNUuwlIMY9NjZ",
+        "slug": "changelog\/webpaymentsdk\/2025-01-23",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Connect SDK",
+        "changelogDate": "2025-01-23T12:00",
+        "summary": "New card payment flow for card on file with `STORE` and `CHARGE` intents (beta)",
+        "details": "* **Web Payments SDK:**\n * (Beta) Support for a new payment flow with the `Card.tokenize()` method for payment processing, buyer verification, and cards on file use cases. For more information, see:\n * [Take a Card Payment](web-payments\/take-card-payment)\n * [Store a Card on File](web-payments\/sca-add-card)\n * [Charge a Card on File](web-payments\/sca-charge-card-on-file)\n * [Charge and Store a Card on File](web-payments\/sca-charge-and-store-card-on-file)",
+        "tags": [
+            "Web Payments SDK"
+        ]
+    },
+    {
+        "id": "6O01bQG1J9fwxvkAbk1h3g",
+        "slug": "changelog\/webpaymentsdk\/2024-11-20",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Connect SDK",
+        "changelogDate": "2024-11-20T12:00",
+        "summary": "New card payment flow for charging and storing a card on file (beta)",
+        "details": "(Beta) Support for `CHARGE_AND_STORE` card payments on file with the new payment method flow that uses additional parameters for `tokenize()` to initiate SCA and buyer verification without calling `verifyBuyer()` in payment requests.",
+        "tags": [
+            "Web Payments SDK"
+        ]
+    },
+    {
+        "id": "5uYSAeV7vAtwD6pnFP9cmt",
+        "slug": "changelog\/webpaymentsdk\/2024-10-17",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Connect SDK",
+        "changelogDate": "2024-10-17T13:00",
+        "summary": "New card payment flow (beta)",
+        "details": "(Beta) A new card payment method flow that uses additional parameters for `tokenize()` to initiate SCA and buyer verification without calling `verifyBuyer()` in payment requests. For more information, see [Take a Card Payment with the Web Payments SDK](web-payments\/take-card-payment).",
+        "tags": [
+            "Web Payments SDK"
+        ]
+    },
+    {
+        "id": "2UmgtAhU4JPi9srDJfI9RV",
+        "slug": "changelog\/webpaymentsdk\/2023-02-01",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Connect SDK",
+        "changelogDate": "2023-02-01T00:00",
+        "summary": "Documentation updates",
+        "details": "### Documentation updates\n\nThe [Migrate to the Web Payments SDK](web-payments\/migrate) guide has been updated to clarify what you need to do to start using the Web Payments SDK.",
+        "tags": [
+            "Documentation"
+        ]
+    },
+    {
+        "id": "2cFfq8zNfXHvIKNiHsh4cC",
+        "slug": "changelog\/webpaymentsdk\/2022-08-03",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Connect SDK",
+        "changelogDate": "2022-08-03T00:00",
+        "summary": "Updated ACH and Cash App Pay payment method documentation",
+        "details": "### Documentation updates\n\nThe following updates apply to the Web Payments SDK documentation:\n\n* [Take ACH Bank Transfer Payments](web-payments\/add-ach). Added more details and code samples about OAuth Plaid authorization and tokenization.\n* [Take a Payment with Cash App Pay](web-payments\/add-cash-app-pay). Documented limitations related to updating a [PaymentRequest](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/sdks\/web\/payments\/objects\/PaymentRequest) object while the Google Pay payment sheet is displayed to the buyer.",
+        "tags": [
+            "Documentation"
+        ]
+    },
+    {
+        "id": "43JytCJXr8itjHxDap9dIT",
+        "slug": "changelog\/webpaymentsdk\/2022-07-20",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Connect SDK",
+        "changelogDate": "2022-07-20T00:00",
+        "summary": "New Square Gift Card payment topics, and new Cash App Pay embedded video tutorial added to topic",
+        "details": "### Documentation updates\n\nThe following updates apply to the Web Payments SDK documentation:\n\n- Added the following topics about working with Square gift cards:\n - [Square Gift Card Payments with the Web Payments SDK](web-payments\/gift-card-overview)\n - [Walkthrough: Partial Payments with Gift Cards](web-payments\/gift-card-walkthrough)\n\n- Added an embedded video tutorial to [Take a Payment with Cash App Pay](web-payments\/add-cash-app-pay) that describes how to implement the Cash App Pay payment method with the Web Payments SDK.",
+        "tags": [
+            "Documentation"
+        ]
+    },
+    {
+        "id": "70SZat0HVjAKJgKAds6mcH",
+        "slug": "changelog\/webpaymentsdk\/2022-06-29",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Connect SDK",
+        "changelogDate": "2022-06-29T00:00",
+        "summary": "Square Developer embedded video tutorials added to topics, and Digital Wallets now supported in Australia",
+        "details": "* Added embedded video tutorials to the following topics:\n * [Web Payments SDK Overview](web-payments\/overview)\n * [Take a Card Payment with the Web Payments SDK](web-payments\/take-card-payment)\n\n* Support for digital wallets in Australia. Sellers can now use Apple Pay and Google Pay for online payments. For more information, see [Supported Payment Methods by Country.](payment-card-support-by-country##digital-wallet-payments)",
+        "tags": [
+            "Documentation"
+        ]
+    },
+    {
+        "id": "79VTyKP2AHU1wcUwuqy4SH",
+        "slug": "changelog\/webpaymentsdk\/2022-06-02",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Services",
+        "changelogDate": "2022-06-02T00:00",
+        "summary": "Web Payments SDK Documentation Updates",
+        "details": "### Documentation updates\n\n* [Web Payments SDK Overview:](\/web-payments\/overview)\n * Added information about examples of application integrations with the SDK and with PHP and Node.js.\n * Clarified how the SDK and Payments API work together as a client\/server payment solution.\n* [Take a Card Payment with the Web Payments SDK.](\/web-payments\/take-card-payment#overview) Added a cross-reference to the Checkout API documentation and information about using the Checkout API to add custom fields to a payment form.",
+        "tags": [
+            "Documentation"
+        ]
+    },
+    {
+        "id": "5cgGwjBe3sCY6A7tFQYlmc",
+        "slug": "changelog\/webpaymentsdk\/2022-05-12",
+        "linkBack": "changelog\/webpaymentsdk\/",
+        "changelogType": "Services",
+        "changelogDate": "2022-05-12T00:00",
+        "summary": "Afterpay and Cash App Pay support",
+        "details": "## Updates to Web Payments SDK version 1.0 \nThe Web Payments SDK has been updated with support for Afterpay and Cash App Pay payment methods.",
+        "tags": [
+            "Web Payments SDK"
+        ]
+    },
+    {
+        "id": "3z7Goz5Xbpwij82UpToviT",
+        "slug": "changelog\/webpaymentsdk\/2021-09-15",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Services",
+        "changelogDate": "2021-09-15T00:00",
+        "summary": "Feature updates and bug fixes",
+        "details": "## Web Payments SDK version 1.0 updates\nThe Web Payments SDK has been updated for performance, bug fixes, and support for locales.\n\n### Details\n\n* `payments.setLocale()` now supports these locale\/languages: \n * 'en-IE'\n * 'en-CA'\n * 'en-GB'\n * 'en-AU'\n * 'fr-CA'\n * 'es-US'\n\n UI prompts now render in a language\/region appropriate way. For example, an English language postal code prompt would render as \"Enter a valid postal code\", \"Enter a valid postcode\", or \"Enter a valid zip code\" depending on the region set.\n* GiftCard payment method - input event types and descriptions: There are now GiftCard payment method-specific input events\n* Fixed card payment entry display issues on older versions of Firefox and Safari. \n* Add `fr-FR` and `es-ES` as supported languages. Added support for the French language in France and the Spanish language in Spain.\n* Memoized `Square.payments`: Calling window.Square.payments() multiple times results in better performance by insuring that the same `Payments` instance is always returned for subsequent calls.",
+        "tags": [
+            "Web Payments SDK"
+        ]
+    },
+    {
+        "id": "3XDxjtQMup4s92lmIjDcbT",
+        "slug": "changelog\/webpaymentsdk\/2021-05-13",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Services",
+        "changelogDate": "2021-05-13T00:00",
+        "summary": "Initial public release of the Web Payments SDK",
+        "details": "## New release: Web Payments SDK \n\n* Version 1.0\n\n## Details\nVersion 1 of the Square [Web Payments SDK](\/web-payments\/overview) replaces the deprecated SqPaymentForm. This JavaScript SDK provides a secure buyer payment card entry method along with other secure payment methods. The Web Payments SDK produces payment tokens from any of the following payment methods:\n\n* Credit and debit payment cards\n* Google Pay\n* Apple Pay\n* Gift card\n* ACH (bank transfer) using [Plaid](https:\/\/plaid.com\/products\/auth) for bank account authentication\n\n",
+        "tags": [
+            "Web Payments SDK"
+        ]
+    }
+]

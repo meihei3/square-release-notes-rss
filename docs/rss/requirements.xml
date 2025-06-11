@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Release Notes: Square Requirements</title>
+        <link>https://developer.squareup.com/docs/changelog/requirements</link>
+        <description>Release notes for Square Requirements.</description>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 11 Jun 2025 15:47:53 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Jun 2025 15:47:53 +0000</pubDate>
+        <ttl>1800</ttl>
+
+            <item>
+                <title>App Marketplace Requirements, new and updated requirements</title>
+                <link>https://developer.squareup.com/docs/changelog/requirements/change-log/2024-12-18</link>
+                <description><![CDATA[The App Marketplace requirements appear in developer documentation ([App Marketplace API Usage Requirements](app-marketplace/requirements)) and in the Developer Console. In most cases, requirement questions and resulting requirements appear...]]></description>
+                <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+                <guid>5hoJ9417vkflwHGEq0avLw</guid>
+            </item>
+            <item>
+                <title>App Marketplace Requirements, new and updated requirements</title>
+                <link>https://developer.squareup.com/docs/changelog/requirements/change-log/2024-11-20</link>
+                <description><![CDATA[The App Marketplace requirements appear in developer documentation ([App Marketplace API Usage Requirements](app-marketplace/requirements)) and in the Developer Console. In most cases, requirement questions and resulting requirements appear...]]></description>
+                <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+                <guid>7eP8zzySbqZfzYQ6yEdFyY</guid>
+            </item>
+            <item>
+                <title>App Marketplace Requirements, new and updated requirements</title>
+                <link>https://developer.squareup.com/docs/changelog/requirements/change-log/2024-09-19</link>
+                <description><![CDATA[The App Marketplace requirements appear in developer documentation ([App Marketplace API Usage Requirements](app-marketplace/requirements)) and in the Developer Console. In most cases, requirement questions and resulting requirements appear...]]></description>
+                <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+                <guid>3Hs81tTBDHJkhgLRgSVnP8</guid>
+            </item>
+            <item>
+                <title>App Marketplace Requirements, new and updated requirements</title>
+                <link>https://developer.squareup.com/docs/changelog/requirements/change-log/2024-08-23</link>
+                <description><![CDATA[The App Marketplace requirements appear in developer documentation ([App Marketplace API Usage Requirements](app-marketplace/requirements)) and in the Developer Console. In most cases, requirement questions and resulting requirements appear...]]></description>
+                <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
+                <guid>3Gn2fJ8tHqBuDVV3708rzl</guid>
+            </item>
+            <item>
+                <title>App Marketplace Requirements for App Subscriptions, initial release</title>
+                <link>https://developer.squareup.com/docs/changelog/requirements/change-log/2024-06-24</link>
+                <description><![CDATA[### New requirements
+
+* **App Subscriptions**
+ * Requirements for [App Subscriptions](app-marketplace/app-subscriptions) added to the existing set of App Marketplace API usage requirements. 
+]]></description>
+                <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
+                <guid>7JK7RJUu4FvrGK01Yf3X3X</guid>
+            </item>
+            <item>
+                <title>App Marketplace Requirements for App Subscriptions, updated requirements</title>
+                <link>https://developer.squareup.com/docs/changelog/requirements/change-log/2024-03-22</link>
+                <description><![CDATA[The App Marketplace requirements appear in developer documentation ([App Marketplace Requirements](/app-marketplace/requirements)) and in the Developer Console. In most cases, requirement questions and resulting requirements appear in both ...]]></description>
+                <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+                <guid>4XESY9M6JhgmsGq3sSFZLf</guid>
+            </item>
+            <item>
+                <title>Initial release of the Square API Requirements checklists</title>
+                <link>https://developer.squareup.com/docs/changelog/requirements/change-log/2023-12-13</link>
+                <description><![CDATA[### Initial requirements release
+
+* **App Marketplace Requirements:**
+
+ The App Marketplace requirements list shows you the set of requirements that Square will verify your application against before publishing it in the App Marketplace. Th...]]></description>
+                <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+                <guid>22zSOBbqRg55WcatBVxh3G</guid>
+            </item>
+    </channel>
+</rss>

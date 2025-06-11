@@ -76,4 +76,82 @@ final readonly class ChangelogHistoryRSSBuilder implements ChangelogHistoryRSSBu
 
         file_put_contents($this->publicDirectory . '/rss/mobile-sdks.xml', $rss);
     }
+
+    /**
+     * @inheritDoc
+     */
+    public function buildWebPaymentsSDK(array $changelogHistories): void
+    {
+        $rss = $this->twig->render('connect.xml.twig', [
+            'title'       => 'Release Notes: Square Web Payments SDK',
+            'link'        => "{$this->squareDeveloperUrl}/docs/changelog/webpaymentsdk",
+            'description' => 'Release notes for Square Web Payments SDK.',
+            'pubDate'     => $this->clock->now()->format(DateTimeInterface::RSS),
+            'items'       => array_map(fn($changelogHistory) => [
+                'title'       => $changelogHistory->summary,
+                'link'        => "{$this->squareDeveloperUrl}/docs/{$changelogHistory->slug}",
+                'description' => mb_strlen($changelogHistory->details) > 240 ? mb_substr(
+                    $changelogHistory->details,
+                    0,
+                    240
+                ) . '...' : $changelogHistory->details,
+                'pubDate'     => new DateTime($changelogHistory->changelogDate)->format(DateTimeInterface::RSS),
+                'guid'        => $changelogHistory->id,
+            ], $changelogHistories),
+        ]);
+
+        file_put_contents($this->publicDirectory . '/rss/webpaymentsdk.xml', $rss);
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function buildPaymentForm(array $changelogHistories): void
+    {
+        $rss = $this->twig->render('connect.xml.twig', [
+            'title'       => 'Release Notes: Square Payment Form',
+            'link'        => "{$this->squareDeveloperUrl}/docs/changelog/paymentform",
+            'description' => 'Release notes for Square Payment Form.',
+            'pubDate'     => $this->clock->now()->format(DateTimeInterface::RSS),
+            'items'       => array_map(fn($changelogHistory) => [
+                'title'       => $changelogHistory->summary,
+                'link'        => "{$this->squareDeveloperUrl}/docs/{$changelogHistory->slug}",
+                'description' => mb_strlen($changelogHistory->details) > 240 ? mb_substr(
+                    $changelogHistory->details,
+                    0,
+                    240
+                ) . '...' : $changelogHistory->details,
+                'pubDate'     => new DateTime($changelogHistory->changelogDate)->format(DateTimeInterface::RSS),
+                'guid'        => $changelogHistory->id,
+            ], $changelogHistories),
+        ]);
+
+        file_put_contents($this->publicDirectory . '/rss/paymentform.xml', $rss);
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function buildRequirements(array $changelogHistories): void
+    {
+        $rss = $this->twig->render('connect.xml.twig', [
+            'title'       => 'Release Notes: Square Requirements',
+            'link'        => "{$this->squareDeveloperUrl}/docs/changelog/requirements",
+            'description' => 'Release notes for Square Requirements.',
+            'pubDate'     => $this->clock->now()->format(DateTimeInterface::RSS),
+            'items'       => array_map(fn($changelogHistory) => [
+                'title'       => $changelogHistory->summary,
+                'link'        => "{$this->squareDeveloperUrl}/docs/{$changelogHistory->slug}",
+                'description' => mb_strlen($changelogHistory->details) > 240 ? mb_substr(
+                    $changelogHistory->details,
+                    0,
+                    240
+                ) . '...' : $changelogHistory->details,
+                'pubDate'     => new DateTime($changelogHistory->changelogDate)->format(DateTimeInterface::RSS),
+                'guid'        => $changelogHistory->id,
+            ], $changelogHistories),
+        ]);
+
+        file_put_contents($this->publicDirectory . '/rss/requirements.xml', $rss);
+    }
 }
