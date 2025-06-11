@@ -15,4 +15,9 @@ interface ChangelogHistoryRSSBuilderInterface
      * @param list<ChangelogHistory> $changelogHistories
      */
     public function buildMobileSDKs(array $changelogHistories): void;
+
+    /**
+     * @param list<ChangelogHistory> $changelogHistories
+     */
+    public function buildWebPaymentsSDK(array $changelogHistories): void;
 }

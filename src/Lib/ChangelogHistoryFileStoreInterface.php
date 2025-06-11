@@ -25,4 +25,14 @@ interface ChangelogHistoryFileStoreInterface
      * @return list<ChangelogHistory>
      */
     public function loadMobileSDKs(): array;
+
+    /**
+     * @param list<ChangelogHistory> $changelogHistories
+     */
+    public function storeWebPaymentsSDK(array $changelogHistories): void;
+
+    /**
+     * @return list<ChangelogHistory>
+     */
+    public function loadWebPaymentsSDK(): array;
 }

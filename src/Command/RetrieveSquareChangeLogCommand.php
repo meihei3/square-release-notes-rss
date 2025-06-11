@@ -51,6 +51,17 @@ final class RetrieveSquareChangeLogCommand extends Command
             $this->rssBuilder->buildMobileSDKs($changelogs);
         }
 
+        $changelogs = $this->fetchClient->fetchWebPaymentsSDKChangelogHistoryList();
+        $previous = $this->fileStore->loadWebPaymentsSDK();
+
+        // Compare the changelogs and store the new ones
+        $diff = array_filter($changelogs, fn($changelog) => !in_array($changelog, $previous));
+        if (count($diff) > 0) {
+            // change log を上書き保存
+            $this->fileStore->storeWebPaymentsSDK($changelogs);
+            $this->rssBuilder->buildWebPaymentsSDK($changelogs);
+        }
+
         return Command::SUCCESS;
     }
 }

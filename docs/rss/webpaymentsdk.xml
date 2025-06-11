@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Release Notes: Square Web Payments SDK</title>
+        <link>https://developer.squareup.com/docs/changelog/webpaymentsdk</link>
+        <description>Release notes for Square Web Payments SDK.</description>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 11 Jun 2025 14:48:22 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Jun 2025 14:48:22 +0000</pubDate>
+        <ttl>1800</ttl>
+
+            <item>
+                <title>ACH and Afterpay updates</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2025-04-22</link>
+                <description><![CDATA[The Web Payments SDK&#039;s newest changes include updates to the `ach.tokenize()` parameters and a rebranded Afterpay experience for US-based buyers.
+
+* **ACH**
+ * An [`intent`](web-payments/add-ach) field has been added to the ACH tokenization...]]></description>
+                <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+                <guid>6wQSIL9emxW1HpAEXnwRNL</guid>
+            </item>
+            <item>
+                <title>New card payment flow for card on file with `STORE` and `CHARGE` intents (beta)</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2025-01-23</link>
+                <description><![CDATA[* **Web Payments SDK:**
+ * (Beta) Support for a new payment flow with the `Card.tokenize()` method for payment processing, buyer verification, and cards on file use cases. For more information, see:
+ * [Take a Card Payment](web-payments/tak...]]></description>
+                <pubDate>Thu, 23 Jan 2025 12:00:00 +0000</pubDate>
+                <guid>4MObu5pB3MNUuwlIMY9NjZ</guid>
+            </item>
+            <item>
+                <title>New card payment flow for charging and storing a card on file (beta)</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2024-11-20</link>
+                <description><![CDATA[(Beta) Support for `CHARGE_AND_STORE` card payments on file with the new payment method flow that uses additional parameters for `tokenize()` to initiate SCA and buyer verification without calling `verifyBuyer()` in payment requests.]]></description>
+                <pubDate>Wed, 20 Nov 2024 12:00:00 +0000</pubDate>
+                <guid>6O01bQG1J9fwxvkAbk1h3g</guid>
+            </item>
+            <item>
+                <title>New card payment flow (beta)</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2024-10-17</link>
+                <description><![CDATA[(Beta) A new card payment method flow that uses additional parameters for `tokenize()` to initiate SCA and buyer verification without calling `verifyBuyer()` in payment requests. For more information, see [Take a Card Payment with the Web P...]]></description>
+                <pubDate>Thu, 17 Oct 2024 13:00:00 +0000</pubDate>
+                <guid>5uYSAeV7vAtwD6pnFP9cmt</guid>
+            </item>
+            <item>
+                <title>Documentation updates</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2023-02-01</link>
+                <description><![CDATA[### Documentation updates
+
+The [Migrate to the Web Payments SDK](web-payments/migrate) guide has been updated to clarify what you need to do to start using the Web Payments SDK.]]></description>
+                <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+                <guid>2UmgtAhU4JPi9srDJfI9RV</guid>
+            </item>
+            <item>
+                <title>Updated ACH and Cash App Pay payment method documentation</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2022-08-03</link>
+                <description><![CDATA[### Documentation updates
+
+The following updates apply to the Web Payments SDK documentation:
+
+* [Take ACH Bank Transfer Payments](web-payments/add-ach). Added more details and code samples about OAuth Plaid authorization and tokenization.
+...]]></description>
+                <pubDate>Wed, 03 Aug 2022 00:00:00 +0000</pubDate>
+                <guid>2cFfq8zNfXHvIKNiHsh4cC</guid>
+            </item>
+            <item>
+                <title>New Square Gift Card payment topics, and new Cash App Pay embedded video tutorial added to topic</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2022-07-20</link>
+                <description><![CDATA[### Documentation updates
+
+The following updates apply to the Web Payments SDK documentation:
+
+- Added the following topics about working with Square gift cards:
+ - [Square Gift Card Payments with the Web Payments SDK](web-payments/gift-car...]]></description>
+                <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+                <guid>43JytCJXr8itjHxDap9dIT</guid>
+            </item>
+            <item>
+                <title>Square Developer embedded video tutorials added to topics, and Digital Wallets now supported in Australia</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2022-06-29</link>
+                <description><![CDATA[* Added embedded video tutorials to the following topics:
+ * [Web Payments SDK Overview](web-payments/overview)
+ * [Take a Card Payment with the Web Payments SDK](web-payments/take-card-payment)
+
+* Support for digital wallets in Australia. ...]]></description>
+                <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
+                <guid>70SZat0HVjAKJgKAds6mcH</guid>
+            </item>
+            <item>
+                <title>Web Payments SDK Documentation Updates</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2022-06-02</link>
+                <description><![CDATA[### Documentation updates
+
+* [Web Payments SDK Overview:](/web-payments/overview)
+ * Added information about examples of application integrations with the SDK and with PHP and Node.js.
+ * Clarified how the SDK and Payments API work together...]]></description>
+                <pubDate>Thu, 02 Jun 2022 00:00:00 +0000</pubDate>
+                <guid>79VTyKP2AHU1wcUwuqy4SH</guid>
+            </item>
+            <item>
+                <title>Afterpay and Cash App Pay support</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2022-05-12</link>
+                <description><![CDATA[## Updates to Web Payments SDK version 1.0 
+The Web Payments SDK has been updated with support for Afterpay and Cash App Pay payment methods.]]></description>
+                <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
+                <guid>5cgGwjBe3sCY6A7tFQYlmc</guid>
+            </item>
+            <item>
+                <title>Feature updates and bug fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2021-09-15</link>
+                <description><![CDATA[## Web Payments SDK version 1.0 updates
+The Web Payments SDK has been updated for performance, bug fixes, and support for locales.
+
+### Details
+
+* `payments.setLocale()` now supports these locale/languages: 
+ * &#039;en-IE&#039;
+ * &#039;en-CA&#039;
+ * &#039;en-GB&#039;...]]></description>
+                <pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate>
+                <guid>3z7Goz5Xbpwij82UpToviT</guid>
+            </item>
+            <item>
+                <title>Initial public release of the Web Payments SDK</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2021-05-13</link>
+                <description><![CDATA[## New release: Web Payments SDK 
+
+* Version 1.0
+
+## Details
+Version 1 of the Square [Web Payments SDK](/web-payments/overview) replaces the deprecated SqPaymentForm. This JavaScript SDK provides a secure buyer payment card entry method alo...]]></description>
+                <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+                <guid>3XDxjtQMup4s92lmIjDcbT</guid>
+            </item>
+    </channel>
+</rss>
