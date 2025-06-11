@@ -141,4 +141,34 @@ final readonly class SquareReleaseNotesFetchClient implements SquareReleaseNotes
 
         return $changelogHistory;
     }
+
+    /**
+     * @inheritDoc
+     */
+    public function fetchRequirementsChangelogHistoryList(): array
+    {
+        // retrieve Requirements changelog
+        $response = $this->httpClient->request('GET', $this->squareDeveloperUrl . '/docs/changelog/requirements');
+        $html = $response->getContent();
+
+        // parse changelog
+        $crawler = new Crawler($html);
+
+        // extract changelog history
+        $json = $crawler->filterXPath('//script[@id="__NEXT_DATA__"]');
+        $d = json_decode($json->text(), true);
+
+        // denormalize changelog history
+        $arr = $d['props']['pageProps']['data']['doc']['pageInView']['page']['changelogHistory'] ?? [];
+        /** @var list<ChangelogHistory> $changelogHistory */
+        $changelogHistory = $this->denormalizer->denormalize($arr, ChangelogHistory::class . '[]');
+
+        // sort by date desc
+        usort($changelogHistory, fn(
+            ChangelogHistory $a,
+            ChangelogHistory $b
+        ) => $b->changelogDate <=> $a->changelogDate);
+
+        return $changelogHistory;
+    }
 }

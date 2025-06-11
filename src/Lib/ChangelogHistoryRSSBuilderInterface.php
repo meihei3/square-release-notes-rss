@@ -25,4 +25,9 @@ interface ChangelogHistoryRSSBuilderInterface
      * @param list<ChangelogHistory> $changelogHistories
      */
     public function buildPaymentForm(array $changelogHistories): void;
+
+    /**
+     * @param list<ChangelogHistory> $changelogHistories
+     */
+    public function buildRequirements(array $changelogHistories): void;
 }
