@@ -57,9 +57,9 @@ final readonly class ChangelogHistoryRSSBuilder implements ChangelogHistoryRSSBu
     public function buildMobileSDKs(array $changelogHistories): void
     {
         $rss = $this->twig->render('connect.xml.twig', [
-            'title'       => 'Release Notes: Square APIs and SDKs',
-            'link'        => "{$this->squareDeveloperUrl}/docs/changelog/connect",
-            'description' => 'Release notes for Square APIs and SDKs.',
+            'title'       => 'Release Notes: Square Mobile SDKs',
+            'link'        => "{$this->squareDeveloperUrl}/docs/changelog/mobile",
+            'description' => 'Release notes for Square Mobile SDKs.',
             'pubDate'     => $this->clock->now()->format(DateTimeInterface::RSS),
             'items'       => array_map(fn($changelogHistory) => [
                 'title'       => $changelogHistory->summary,

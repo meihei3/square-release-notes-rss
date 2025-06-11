@@ -7,3 +7,6 @@ square-release-notes-rss is an unofficial RSS feed that publishes release notes 
 - square-apis-and-sdks
   - official release notes: https://developer.squareup.com/docs/changelog/connect
   - RSS feed: https://meihei3.github.io/square-release-notes-rss/rss/square-apis-and-sdks.xml
+- mobile-sdks
+  - official release notes: https://developer.squareup.com/docs/changelog/mobile
+  - RSS feed: https://meihei3.github.io/square-release-notes-rss/rss/mobile-sdks.xml
