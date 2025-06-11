@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Release Notes: Square Payment Form</title>
+        <link>https://developer.squareup.com/docs/changelog/paymentform</link>
+        <description>Release notes for Square Payment Form.</description>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 11 Jun 2025 15:33:29 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Jun 2025 15:33:29 +0000</pubDate>
+        <ttl>1800</ttl>
+
+            <item>
+                <title>SqPaymentForm is retired</title>
+                <link>https://developer.squareup.com/docs/changelog/paymentform/2022-10-31</link>
+                <description><![CDATA[## SqPaymentForm
+The `SqPaymentForm` is retired as of October 31, 2022, with all functionality shut off. All `SqPaymentForm` documentation, including the `SqPaymentForm` technical reference, redirects to the Web Payments SDK documentation. ...]]></description>
+                <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+                <guid>5bMEGt0ocgbniZE9tDGogU</guid>
+            </item>
+            <item>
+                <title>SqPaymentForm is deprecated</title>
+                <link>https://developer.squareup.com/docs/changelog/paymentform/2021-05-13</link>
+                <description><![CDATA[## SqPaymentForm
+The **SqPaymentForm** is deprecated. Please use the [Web Payments SDK](/web-payments/overview) for any new web client payment acceptance integrations.]]></description>
+                <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+                <guid>4I8waBnV42LlQc8424z90m</guid>
+            </item>
+            <item>
+                <title>Documentation and API updates</title>
+                <link>https://developer.squareup.com/docs/changelog/paymentform/2020-08-12</link>
+                <description><![CDATA[## SqPaymentForm SDK updates
+
+* [SqPaymentForm.masterpassImageURL.](/api/paymentform#masterpassimageurl) This function is updated to return a Secure Remote Commerce background image URL.
+]]></description>
+                <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+                <guid>7i7kCrTovQuOlklIVcqkTF</guid>
+            </item>
+            <item>
+                <title>SqPaymentForm methodsSupported has new functionality</title>
+                <link>https://developer.squareup.com/docs/changelog/paymentform/2019-11-13</link>
+                <description><![CDATA[* **New functionality**: Square Payment Form has updated the [SqPaymentForm.methodsSupported](https://developer.{{SQUARE_DOMAIN}}/docs/api/paymentform#methodssupported) function to provide additional detail when it is reporting that a payme...]]></description>
+                <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+                <guid>413356efudoPZu5Fa6nfFg</guid>
+            </item>
+            <item>
+                <title>SqPaymentForm has a new function for support of the Masterpass payment button</title>
+                <link>https://developer.squareup.com/docs/changelog/paymentform/2019-09-25</link>
+                <description><![CDATA[* **New functionality**: Square Payment Form has the new [SqPaymentForm.masterpassImageUrl](https://developer.{{SQUARE_DOMAIN}}/docs/api/paymentform#masterpassimageurl) function to support a dynamic way to get the Masterpass button backgrou...]]></description>
+                <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+                <guid>3oTWvMNRvuw2v2kC2PAaGW</guid>
+            </item>
+            <item>
+                <title>SqPaymentForm support for Square Gift Card payments</title>
+                <link>https://developer.squareup.com/docs/changelog/paymentform/2019-08-15</link>
+                <description><![CDATA[* **BETA release**: Square Gift Card support in Payments API, Orders API, and Square payment form.]]></description>
+                <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+                <guid>PS56x5Cu2ZSLY88jzwf5p</guid>
+            </item>
+            <item>
+                <title>SqPaymentForm support for Strong Customer Authentication</title>
+                <link>https://developer.squareup.com/docs/changelog/paymentform/2019-06-12</link>
+                <description><![CDATA[* **New functionality**: Square Payment Form &amp;mdash; supports Strong Customer Authentication (SCA), which lets developers verify buyer identity with additional billing contact information or other authentication factors.]]></description>
+                <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+                <guid>2gNfn9pdE3K0v8WJ6cx3D1</guid>
+            </item>
+            <item>
+                <title>SqPaymentForm supports Masterpass</title>
+                <link>https://developer.squareup.com/docs/changelog/paymentform/2017-10-30</link>
+                <description><![CDATA[* **New functionality**: Square Payment Form supports Masterpass &amp;mdash;
+ Square Payment Form now looks for HTML placeholders associated with Masterpass. If the HTML placeholders exist and Masterpass is enabled, a Masterpass button will dis...]]></description>
+                <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
+                <guid>2zdhq1nGkU8SAvLmAHBTCn</guid>
+            </item>
+            <item>
+                <title>New Payment Form functionality</title>
+                <link>https://developer.squareup.com/docs/changelog/paymentform/2017-09-27</link>
+                <description><![CDATA[Square Payment Form and Checkout API now accept Apple Pay on the Web payments from customers using the Safari browser. Web Apple Pay is a cleaner way to accept mobile web payments from iPhone users. Consumers are increasingly making purchas...]]></description>
+                <pubDate>Wed, 27 Sep 2017 00:00:00 +0000</pubDate>
+                <guid>7kuDOpdtEMuxcRVEJJ3xkR</guid>
+            </item>
+            <item>
+                <title>SqPaymentForm relaxed postal code requirement</title>
+                <link>https://developer.squareup.com/docs/changelog/paymentform/2017-06-22</link>
+                <description><![CDATA[* **New functionality**: Relaxed postal code requirements in Square Payment Form &amp;mdash; As Square APIs expand outside the United States and Canada, we’ve heard feedback from developers that they’d like to remove the postal code field in th...]]></description>
+                <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+                <guid>vMM46zveF9w5VKmAWvn3L</guid>
+            </item>
+    </channel>
+</rss>

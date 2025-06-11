@@ -20,4 +20,9 @@ interface SquareReleaseNotesFetchClientInterface
      * @return list<ChangelogHistory>
      */
     public function fetchWebPaymentsSDKChangelogHistoryList(): array;
+
+    /**
+     * @return list<ChangelogHistory>
+     */
+    public function fetchPaymentFormChangelogHistoryList(): array;
 }
