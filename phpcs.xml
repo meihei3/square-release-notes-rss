@@ -10,6 +10,11 @@
     <!-- PSR-12 を適用 -->
     <rule ref="PSR12"/>
 
+    <!-- テストの長い行を許可 -->
+    <rule ref="Generic.Files.LineLength">
+        <exclude-pattern>*/tests/*</exclude-pattern>
+    </rule>
+
     <!-- 対象ディレクトリを指定 -->
     <file>src</file>
     <file>config</file>
