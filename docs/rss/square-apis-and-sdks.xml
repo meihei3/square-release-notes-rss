@@ -5,10 +5,23 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 21 May 2025 18:25:47 +0000</lastBuildDate>
-        <pubDate>Wed, 21 May 2025 18:25:47 +0000</pubDate>
+        <lastBuildDate>Wed, 18 Jun 2025 22:17:22 +0000</lastBuildDate>
+        <pubDate>Wed, 18 Jun 2025 22:17:22 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-06-18</link>
+                <description><![CDATA[### API updates
+
+**GraphQL:**
+ * [Square GraphQL](devtools/graphql) queries now support using the `devices` entry point to retrieve all POS and peripheral devices associated with a Square seller.
+
+**Loyalty API:**
+ * [LoyaltyProgramRewardTi...]]></description>
+                <pubDate>Wed, 18 Jun 2025 08:00:00 +0000</pubDate>
+                <guid>3ku6zakWewaZY5roYNnGxY</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-05-21</link>

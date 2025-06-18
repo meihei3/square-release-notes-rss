@@ -1,5 +1,22 @@
 [
     {
+        "id": "3ku6zakWewaZY5roYNnGxY",
+        "slug": "changelog\/connect-logs\/2025-06-18",
+        "linkBack": "changelog\/connect",
+        "changelogType": "API (Connect and Authorization)",
+        "changelogDate": "2025-06-18T08:00:00Z",
+        "summary": "Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.",
+        "details": "### API updates\n\n**GraphQL:**\n * [Square GraphQL](devtools\/graphql) queries now support using the `devices` entry point to retrieve all POS and peripheral devices associated with a Square seller.\n\n**Loyalty API:**\n * [LoyaltyProgramRewardTier](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/LoyaltyProgramRewardTier) object - The `definition` field that defines a loyalty program reward is now retired. This field was deprecated in Square API version 2020-12-16 and replaced with `pricing_rule_reference`. For information about using the `pricing_rule_reference` field, see [Getting discount details for a reward tier](loyalty-api\/loyalty-rewards#get-discount-details).\n\n**Square SDKs:**\n* All webhook payloads now have associated objects in each [Square SDK](sdks). \n\n### Documentation updates\n\n**Catalog API:**\n* [Manage Menus](catalog-api\/manage-menus) - Learn how to create root menu categories and organize menus for different services, such as breakfast and lunch.\n\n{% line-break \/%}\n\nLearn about [versioning for the Square API and SDKs](build-basics\/versioning-overview).\n",
+        "tags": [
+            "Square",
+            "Documentation",
+            "GraphQL",
+            "Labor API",
+            "RETIRED",
+            "Square SDK"
+        ]
+    },
+    {
         "id": "46KVune31yD5eCf7qLiHya",
         "slug": "changelog\/connect-logs\/2025-05-21",
         "linkBack": "changelog\/connect",
