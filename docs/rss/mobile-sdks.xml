@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-        <title>Release Notes: Square APIs and SDKs</title>
-        <link>https://developer.squareup.com/docs/changelog/connect</link>
-        <description>Release notes for Square APIs and SDKs.</description>
+        <title>Release Notes: Square Mobile SDKs</title>
+        <link>https://developer.squareup.com/docs/changelog/mobile</link>
+        <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 29 May 2025 19:12:52 +0000</lastBuildDate>
-        <pubDate>Thu, 29 May 2025 19:12:52 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Jun 2025 14:17:46 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Jun 2025 14:17:46 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>In-App Payments SDK 1.6.5 for iOS: Updates and Bug Fixes</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-06-26</link>
+                <description><![CDATA[## iOS In-App Payments SDK: 1.6.5
+
+This release contains: 
+* Improvements to form and UI accessibility
+* Bug fixes
+]]></description>
+                <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+                <guid>1iExZqkqZkLbBDWPEEnnt6</guid>
+            </item>
             <item>
                 <title>Mobile Payments SDK for Android:</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-05-29</link>

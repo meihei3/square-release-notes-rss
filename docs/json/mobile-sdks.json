@@ -1,5 +1,18 @@
 [
     {
+        "id": "1iExZqkqZkLbBDWPEEnnt6",
+        "slug": "changelog\/mobile-logs\/2025-06-26",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-06-26T00:00",
+        "summary": "In-App Payments SDK 1.6.5 for iOS: Updates and Bug Fixes",
+        "details": "## iOS In-App Payments SDK: 1.6.5\n\nThis release contains: \n* Improvements to form and UI accessibility\n* Bug fixes\n",
+        "tags": [
+            "iOS",
+            "In-App Payments SDK"
+        ]
+    },
+    {
         "id": "5Q7FD5bBcK7wfSsHKqj6nd",
         "slug": "changelog\/mobile-logs\/2025-05-29",
         "linkBack": "changelog\/mobile",
