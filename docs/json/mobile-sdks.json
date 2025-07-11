@@ -1,5 +1,18 @@
 [
     {
+        "id": "2K7P7B8GcSvTfsCwIWZi5T",
+        "slug": "changelog\/mobile-logs\/2025-07-11",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-07-11T00:00",
+        "summary": "In-App Payments SDK 1.6.5 for Android: Accessibility improvements and bug fixes",
+        "details": "## Android In-App Payments SDK: 1.6.7\n\n* The [minSdkVersion](https:\/\/developer.android.com\/training\/basics\/supporting-devices\/platforms.html#sdk-versions) is now API 28 (Android 9) or later.\n* This release contains improvements to UI accessibility and bug fixes.\n",
+        "tags": [
+            "Android",
+            "In-App Payments SDK"
+        ]
+    },
+    {
         "id": "1iExZqkqZkLbBDWPEEnnt6",
         "slug": "changelog\/mobile-logs\/2025-06-26",
         "linkBack": "changelog\/mobile",
