@@ -1,5 +1,18 @@
 [
     {
+        "id": "5u3H1XKyqyTBvBlakrhEFI",
+        "slug": "changelog\/connect-logs\/2025-07-16",
+        "linkBack": "changelog\/connect",
+        "changelogType": "API (Connect and Authorization)",
+        "changelogDate": "2025-07-16T08:00:00Z",
+        "summary": "Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.",
+        "details": "\n### Documentation updates\n\n* [Take an Apple Pay Payment](web-payments\/apple-pay) - Learn about new requirements for tokenizing an Apple Pay payment.\n\n{% line-break \/%}\n\nLearn about [versioning for the Square API and SDKs](build-basics\/versioning-overview).",
+        "tags": [
+            "Square",
+            "Documentation"
+        ]
+    },
+    {
         "id": "3ku6zakWewaZY5roYNnGxY",
         "slug": "changelog\/connect-logs\/2025-06-18",
         "linkBack": "changelog\/connect",
