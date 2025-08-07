@@ -5,10 +5,18 @@
         <link>https://developer.squareup.com/docs/changelog/webpaymentsdk</link>
         <description>Release notes for Square Web Payments SDK.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 11 Jun 2025 14:48:22 +0000</lastBuildDate>
-        <pubDate>Wed, 11 Jun 2025 14:48:22 +0000</pubDate>
+        <lastBuildDate>Thu, 07 Aug 2025 17:20:13 +0000</lastBuildDate>
+        <pubDate>Thu, 07 Aug 2025 17:20:13 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Deprecation and improvements</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2025-08-06</link>
+                <description><![CDATA[## Deprecation announcements
+The Web Payments SDK is preparing to drop support for insecure HTTP contexts. This restriction will be activated in October 2025. For more information about creating a secure context in your application, read th...]]></description>
+                <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+                <guid>3VrbXnwMRqiKaKHFGSmgH0</guid>
+            </item>
             <item>
                 <title>ACH and Afterpay updates</title>
                 <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2025-04-22</link>

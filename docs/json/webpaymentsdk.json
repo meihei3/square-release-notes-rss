@@ -1,5 +1,17 @@
 [
     {
+        "id": "3VrbXnwMRqiKaKHFGSmgH0",
+        "slug": "changelog\/webpaymentsdk\/2025-08-06",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Connect SDK",
+        "changelogDate": "2025-08-06T00:00",
+        "summary": "Deprecation and improvements",
+        "details": "## Deprecation announcements\nThe Web Payments SDK is preparing to drop support for insecure HTTP contexts. This restriction will be activated in October 2025. For more information about creating a secure context in your application, read the Mozilla [Secure contexts](https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/Security\/Secure_Contexts) article.\n\n## Accessibility improvements\nSignificant improvements have been made to enhance the accessibility of the payment forms, ensuring a better experience for users who rely on screen readers and assistive technologies.\n\n- All payment iframes now include fully accessible titles.\n- All payment fields offer fully accessible validation messages.\n- Postal code input is now hidden from screen readers when the field is visually hidden on the card form.\n- Aria-invalid is only set on `tokenize()`.\n- The card brand icon is made accessible to screen readers.\n- ApplePay documentation recommends the use of the `<button>` tag for clickable Apple Pay elements.\n\n## Reliability improvements\nError handling is strengthened across multiple payment methods, focusing on common edge cases in Google Pay, Apple Pay, and Cash App Pay integrations.\n\n- Improved error handling when Google Pay is canceled.\n- Improved error handling when Apple Pay is used with a delay between a button click and a `tokenize()` call.\n- Improved error handling for buyer verification.\n- Improved error handling when Apple Pay is initialized from an insecure HTTP context.\n- Improved error handling when Cash App Pay is initialized with an invalid redirect URL.\n\n## Miscellaneous changes\nSeveral technical updates have been made to streamline ACH configuration, modify token status responses, and update credit card form appearance.\n\n- The `ach()` method no longer requires a `redirectURI` option and the `transactionId` option is optional.\n- The token status types have been updated to return a string rather than an unusable enumeration.\n- The credit card form has been updated to use a monospaced font variant.",
+        "tags": [
+            "Web Payments SDK"
+        ]
+    },
+    {
         "id": "6wQSIL9emxW1HpAEXnwRNL",
         "slug": "changelog\/webpaymentsdk\/2025-04-22",
         "linkBack": "changelog\/webpaymentsdk",
