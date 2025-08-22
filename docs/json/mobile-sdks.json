@@ -1,5 +1,19 @@
 [
     {
+        "id": "5Z9rlU43l2WtsYbezVrSku",
+        "slug": "changelog\/mobile-logs\/2025-08-20",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-08-20T00:00",
+        "summary": "In-App Payments SDK: Digital wallet payments in Japan",
+        "details": "## Digital wallet payments\n* Sellers in Japan can now accept digital wallet payments with Apple Pay and Google Pay. Apple Pay and Google Pay are now supported in [all regions in which Square operates](payment-card-support-by-country#digital-wallet-payments). \n",
+        "tags": [
+            "Android",
+            "iOS",
+            "In-App Payments SDK"
+        ]
+    },
+    {
         "id": "2K7P7B8GcSvTfsCwIWZi5T",
         "slug": "changelog\/mobile-logs\/2025-07-11",
         "linkBack": "changelog\/mobile",

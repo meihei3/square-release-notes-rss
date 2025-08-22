@@ -5,10 +5,20 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 16 Jul 2025 22:18:40 +0000</lastBuildDate>
-        <pubDate>Wed, 16 Jul 2025 22:18:40 +0000</pubDate>
+        <lastBuildDate>Fri, 22 Aug 2025 18:25:18 +0000</lastBuildDate>
+        <pubDate>Fri, 22 Aug 2025 18:25:18 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-08-20</link>
+                <description><![CDATA[### API and SDK updates
+
+* **In-App Payments SDK:**
+ * Sellers in Japan can now accept digital wallet payments with Apple Pay and Google Pay. Apple Pay and Google Pay are now supported in [all regions in which Square operates](payment-card-...]]></description>
+                <pubDate>Wed, 20 Aug 2025 08:00:00 +0000</pubDate>
+                <guid>6Xwp2O1WnK5StLlw4oAvs5</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-07-16</link>

@@ -5,10 +5,18 @@
         <link>https://developer.squareup.com/docs/changelog/webpaymentsdk</link>
         <description>Release notes for Square Web Payments SDK.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 07 Aug 2025 17:20:13 +0000</lastBuildDate>
-        <pubDate>Thu, 07 Aug 2025 17:20:13 +0000</pubDate>
+        <lastBuildDate>Fri, 22 Aug 2025 18:25:19 +0000</lastBuildDate>
+        <pubDate>Fri, 22 Aug 2025 18:25:19 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Digital wallet availability in Japan</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2025-08-20</link>
+                <description><![CDATA[## Digital wallet payments
+* Sellers in Japan can now accept digital wallet payments with Apple Pay and Google Pay. Apple Pay and Google Pay are now supported in [all regions in which Square operates](payment-card-support-by-country#digital...]]></description>
+                <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+                <guid>7hr0x5S6ePF1wtbsxgqmn</guid>
+            </item>
             <item>
                 <title>Deprecation and improvements</title>
                 <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2025-08-06</link>
