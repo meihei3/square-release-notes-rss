@@ -1,5 +1,18 @@
 [
     {
+        "id": "3od3B5vkWJ30xajXiyjkzn",
+        "slug": "changelog\/mobile-logs\/2025-08-22",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-08-22T00:00",
+        "summary": "iOS Mobile Payments SDK 2.2.4",
+        "details": "### iOS Mobile Payments SDK 2.2.4\n\nThis release includes:\n* Improvements to [offline payments](mobile-payments-sdk\/ios\/offline-payments).\n* Improved [Square stand](mobile-payments-sdk\/ios\/square-stand) reliability.\n* Additional safeguards to prevent incompatibility with future OS updates.",
+        "tags": [
+            "iOS",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
         "id": "5Z9rlU43l2WtsYbezVrSku",
         "slug": "changelog\/mobile-logs\/2025-08-20",
         "linkBack": "changelog\/mobile",

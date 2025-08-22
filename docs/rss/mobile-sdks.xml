@@ -5,10 +5,22 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 22 Aug 2025 18:25:18 +0000</lastBuildDate>
-        <pubDate>Fri, 22 Aug 2025 18:25:18 +0000</pubDate>
+        <lastBuildDate>Fri, 22 Aug 2025 23:16:13 +0000</lastBuildDate>
+        <pubDate>Fri, 22 Aug 2025 23:16:13 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>iOS Mobile Payments SDK 2.2.4</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-08-22</link>
+                <description><![CDATA[### iOS Mobile Payments SDK 2.2.4
+
+This release includes:
+* Improvements to [offline payments](mobile-payments-sdk/ios/offline-payments).
+* Improved [Square stand](mobile-payments-sdk/ios/square-stand) reliability.
+* Additional safeguards t...]]></description>
+                <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+                <guid>3od3B5vkWJ30xajXiyjkzn</guid>
+            </item>
             <item>
                 <title>In-App Payments SDK: Digital wallet payments in Japan</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-08-20</link>
