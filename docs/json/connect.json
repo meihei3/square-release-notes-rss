@@ -6,12 +6,13 @@
         "changelogType": "API (Connect and Authorization)",
         "changelogDate": "2025-08-20T08:00:00Z",
         "summary": "Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.",
-        "details": "### API and SDK updates\n\n* **In-App Payments SDK:**\n * Sellers in Japan can now accept digital wallet payments with Apple Pay and Google Pay. Apple Pay and Google Pay are now supported in [all regions in which Square operates](payment-card-support-by-country#digital-wallet-payments). \n\n* **Square SDKs:**\n * The Square [Ruby SDK](sdks\/ruby) has been rewritten. The new version provides the same access to Square APIs, along with:\n * Auto-pagination - With the new SDK, you can easily paginate through long responses.\n * Simplified classes and method names. \n * Minimum version: Ruby 3.1 or above.\n\n Previous versions of the SDK continue to work, but to take advantage of these new features and API updates moving forward, you should [migrate your Ruby integration](sdks\/ruby\/migration) to use the new version of the SDK.\n\n### Documentation updates\n\n{% line-break \/%}\n\nLearn about [versioning for the Square API and SDKs](build-basics\/versioning-overview).",
+        "details": "### API and SDK updates\n\n* **Payments API:**\n * The [offline_payment_details](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/payments-api\/create-payment#request__property-offline_payment_details) property of the `CreatePayment` request is `DEPRECATED`. It will be retired in 90 days on November 19, 2025\n* **In-App Payments SDK:**\n * Sellers in Japan can now accept digital wallet payments with Apple Pay and Google Pay. Apple Pay and Google Pay are now supported in [all regions in which Square operates](payment-card-support-by-country#digital-wallet-payments). \n\n* **Square SDKs:**\n * The Square [Ruby SDK](sdks\/ruby) has been rewritten. The new version provides the same access to Square APIs, along with:\n * Auto-pagination - With the new SDK, you can easily paginate through long responses.\n * Simplified classes and method names. \n * Minimum version: Ruby 3.1 or above.\n\n Previous versions of the SDK continue to work, but to take advantage of these new features and API updates moving forward, you should [migrate your Ruby integration](sdks\/ruby\/migration) to use the new version of the SDK.\n\n### Documentation updates\n\n{% line-break \/%}\n\nLearn about [versioning for the Square API and SDKs](build-basics\/versioning-overview).",
         "tags": [
             "Square",
             "Documentation",
             "In-App Payments SDK",
-            "Web Payments SDK"
+            "Web Payments SDK",
+            "Payments API"
         ]
     },
     {
