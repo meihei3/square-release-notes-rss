@@ -1,5 +1,18 @@
 [
     {
+        "id": "1wuxethpEBmkbEnM36HwsP",
+        "slug": "changelog\/mobile-logs\/2025-09-08",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-09-08T00:00",
+        "summary": "Mobile Payments SDK for Android 2.3.1",
+        "details": "\n### Android Mobile Payments SDK 2.3.1\n\n* To comply with data privacy laws, merchants in the United Kingdom and European Union must [grant or deny consent for analytics and performance tracking](mobile-payments-sdk\/android#data-privacy-consent) by Mobile Payments SDK applications. \n\n**Settings Manager**\n* New field-\u00a0`trackingConsentState`. Returns the current consent state for the authorized Square merchant. The options are:\n * `PENDING` \n * `GRANTED` \n * `DENIED` \n * `NOT_REQUIRED`\n\n* New method -\u00a0`updateTrackingConsent(granted: Boolean)`. Log whether merchants using your application have granted or denied consent for performance and analytics tracking. If this method is not used, and a payment is made in a country requiring consent, the first payment prompts the user for permission.\n\n* This release also includes improvements to accessibility and Tap to Pay on Android. ",
+        "tags": [
+            "Android",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
         "id": "3od3B5vkWJ30xajXiyjkzn",
         "slug": "changelog\/mobile-logs\/2025-08-22",
         "linkBack": "changelog\/mobile",
