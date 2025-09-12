@@ -5,10 +5,22 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 12 Sep 2025 18:20:52 +0000</lastBuildDate>
-        <pubDate>Fri, 12 Sep 2025 18:20:52 +0000</pubDate>
+        <lastBuildDate>Fri, 12 Sep 2025 22:15:20 +0000</lastBuildDate>
+        <pubDate>Fri, 12 Sep 2025 22:15:20 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Mobile Payments SDK for iOS 2.3.0</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-09-12</link>
+                <description><![CDATA[
+🇬🇧 **The Mobile Payments SDK is now available in the United Kingdom.**
+
+## iOS Mobile Payments SDK 2.3.0
+
+* To comply with data privacy laws, merchants in Canada, the United Kingdom, and the European Union must [grant or deny consent for a...]]></description>
+                <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+                <guid>5V7wGpWVddAebgSQMtlQvb</guid>
+            </item>
             <item>
                 <title>Mobile Payments SDK for Android 2.3.1</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-09-08</link>
