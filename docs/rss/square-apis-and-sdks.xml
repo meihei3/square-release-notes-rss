@@ -5,10 +5,20 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 29 Aug 2025 18:23:22 +0000</lastBuildDate>
-        <pubDate>Fri, 29 Aug 2025 18:23:22 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Sep 2025 18:23:47 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Sep 2025 18:23:47 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-09-24</link>
+                <description><![CDATA[### API updates
+**Devices API**
+ * New `DeviceType` enum - `HANDHELD`, representing the [Square Handheld](https://squareup.com/us/en/hardware/handheld).
+ * New `WifiDetails` field - `mac_address`, representing the MAC address of the device ...]]></description>
+                <pubDate>Wed, 24 Sep 2025 08:00:00 +0000</pubDate>
+                <guid>5Xde9f9Kl7MfreEy8y93QE</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2025-08-20</link>

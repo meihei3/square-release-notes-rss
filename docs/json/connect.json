@@ -1,5 +1,20 @@
 [
     {
+        "id": "5Xde9f9Kl7MfreEy8y93QE",
+        "slug": "changelog\/connect-logs\/2025-09-24",
+        "linkBack": "changelog\/connect",
+        "changelogType": "API (Connect and Authorization)",
+        "changelogDate": "2025-09-24T08:00:00Z",
+        "summary": "Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.",
+        "details": "### API updates\n**Devices API**\n * New `DeviceType` enum - `HANDHELD`, representing the [Square Handheld](https:\/\/squareup.com\/us\/en\/hardware\/handheld).\n * New `WifiDetails` field - `mac_address`, representing the MAC address of the device on the network.\n * New `EthernetDetails` field - `mac_address`, representing the MAC address of the device on the network.\n\n**Subscriptions API**\n * [Subscription](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/Subscription) object: \n * New `status` enum - `COMPLETED`, representing a subscription with a fixed number of phases that has completed all billing cycles. Subscriptions with this status don't bill the customer and cannot be modified or resumed. \n * New `completed_date` field - The YYYY-MM-DD-formatted date on which the subscription is expected to complete all of its phases. After this date, the subscription `status` changes to `COMPLETED` and the subscription billing stops. If the subscription is for a plan variation that includes at least one phase that isn't fixed-length, it has no defined completion date and this field is unset.\n\n * [SubscriptionAction](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/SubscriptionAction) object:\n * New `type` enum - `COMPLETE`, the action marking when a subscription completes its fixed number of phases.\n\n### Documentation updates\n * [Subscription Billing and Invoices](subscriptions-api\/subscription-billing#completed-subscriptions) - A new section documenting completed subscriptions.\n\n{% line-break \/%}\n\nLearn about [versioning for the Square API and SDKs](build-basics\/versioning-overview).",
+        "tags": [
+            "Square",
+            "Documentation",
+            "Devices API",
+            "Subscriptions API"
+        ]
+    },
+    {
         "id": "6Xwp2O1WnK5StLlw4oAvs5",
         "slug": "changelog\/connect-logs\/2025-08-20",
         "linkBack": "changelog\/connect",
