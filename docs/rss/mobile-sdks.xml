@@ -5,8 +5,8 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 12 Sep 2025 22:15:20 +0000</lastBuildDate>
-        <pubDate>Fri, 12 Sep 2025 22:15:20 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Sep 2025 15:18:21 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Sep 2025 15:18:21 +0000</pubDate>
         <ttl>1800</ttl>
 
             <item>
@@ -28,7 +28,8 @@
 ### Android Mobile Payments SDK 2.3.1
 
 * The Mobile Payments SDK now supports Android API 35. 
-* To comply with data privacy laws, merchants in Canada, the United Kingdom, and the European Union must [grant or deny consent for analytics an...]]></description>
+* The `minSdkVersion` for Mobile Payments SDK applications is now is API 28 (Android 9) or later.
+* To comply with data privacy laws, merchants ...]]></description>
                 <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
                 <guid>1wuxethpEBmkbEnM36HwsP</guid>
             </item>
