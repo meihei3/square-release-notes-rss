@@ -5,10 +5,21 @@
         <link>https://developer.squareup.com/docs/changelog/webpaymentsdk</link>
         <description>Release notes for Square Web Payments SDK.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 22 Aug 2025 18:25:19 +0000</lastBuildDate>
-        <pubDate>Fri, 22 Aug 2025 18:25:19 +0000</pubDate>
+        <lastBuildDate>Wed, 01 Oct 2025 15:17:27 +0000</lastBuildDate>
+        <pubDate>Wed, 01 Oct 2025 15:17:27 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Secure Context Requirement (Effective October 1, 2025)</title>
+                <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2025-10-01</link>
+                <description><![CDATA[## Secure context requirement
+
+Starting October 1, 2025, the Web Payments SDK requires all integrations to run in secure contexts (HTTPS). To ensure uninterrupted service:
+- Migrate your integration to HTTPS before the deadline.
+- Test your...]]></description>
+                <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+                <guid>13PSGU04Ted2xIBZF6ALrA</guid>
+            </item>
             <item>
                 <title>Digital wallet availability in Japan</title>
                 <link>https://developer.squareup.com/docs/changelog/webpaymentsdk/2025-08-20</link>

@@ -1,5 +1,17 @@
 [
     {
+        "id": "13PSGU04Ted2xIBZF6ALrA",
+        "slug": "changelog\/webpaymentsdk\/2025-10-01",
+        "linkBack": "changelog\/webpaymentsdk",
+        "changelogType": "Connect SDK",
+        "changelogDate": "2025-10-01T00:00",
+        "summary": "Secure Context Requirement (Effective October 1, 2025)",
+        "details": "## Secure context requirement\n\nStarting October 1, 2025, the Web Payments SDK requires all integrations to run in secure contexts (HTTPS). To ensure uninterrupted service:\n- Migrate your integration to HTTPS before the deadline.\n- Test your secure implementation thoroughly.\n- For guidance about implementing secure contexts, see Mozilla's [Secure Contexts](https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/Security\/Secure_Contexts) documentation.\n\n## ACH:\n**Error handling update** - The error condition previously indicated by [PlaidMissingNameError](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/sdks\/web\/payments\/errors\/PlaidMissingNameError) is now signaled using [InvalidOptionError](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/sdks\/web\/payments\/errors\/InvalidOptionError). While `PlaidMissingNameError` remains in the SDK for backward compatibility, Square recommends updating your error handling logic to catch `InvalidOptionError` for this scenario. The `PlaidMissingNameError` will no longer be emitted by the SDK.\n\n## Apple Pay:\nThe email address (`email`) and phone number (`phone`) are now available as a part of tokenization results in [TokenResult.TokenDetails.BillingContact](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/sdks\/web\/payments\/objects\/ApplePay#ApplePay.tokenize.Promise%3CTokenResult%3E.TokenResult.details.TokenDetails.billing.BillingContact).\n\n### Miscellaneous:\nThe [PaymentRequestEvent](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/sdks\/web\/payments\/enums\/PaymentRequestEvent) and [MethodType](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/sdks\/web\/payments\/enums\/MethodType) types has been updated to return a string union rather than an enumeration.",
+        "tags": [
+            "Web Payments SDK"
+        ]
+    },
+    {
         "id": "7hr0x5S6ePF1wtbsxgqmn",
         "slug": "changelog\/webpaymentsdk\/2025-08-20",
         "linkBack": "changelog\/webpaymentsdk",
