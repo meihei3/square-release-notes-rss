@@ -1,5 +1,20 @@
 [
     {
+        "id": "1vDH7gYwv5g8DSs3mIL9m8",
+        "slug": "changelog\/connect-logs\/2025-10-16",
+        "linkBack": "changelog\/connect",
+        "changelogType": "API (Connect and Authorization)",
+        "changelogDate": "2025-10-16T08:00:00Z",
+        "summary": "Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.",
+        "details": "### New API releases\n\n* **Channels API:**\n * The [Channels API](channels-api) lets a custom application get the details of the marketing, sales, and fulfillment channels that a seller's catalog items are sold and delivered through. For API Reference information, see [Channels API](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/channels-api).\n* **Transfer Orders API:**\n * The [Transfer Orders API](transfer-orders-api) (Beta) lets you build applications that manage and track inventory movements between a seller's Square locations. For API Reference information, see [Transfer Orders API](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/transfer-order-api). \n\n{% line-break \/%}\n\nLearn about [versioning for the Square API and SDKs](build-basics\/versioning-overview).",
+        "tags": [
+            "Square",
+            "Documentation",
+            "Channels API",
+            "Transfer Orders API"
+        ]
+    },
+    {
         "id": "5Xde9f9Kl7MfreEy8y93QE",
         "slug": "changelog\/connect-logs\/2025-09-24",
         "linkBack": "changelog\/connect",
