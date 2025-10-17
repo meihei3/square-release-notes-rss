@@ -1,5 +1,18 @@
 [
     {
+        "id": "3gQsYLFQB9ITEvT9iSOMQo",
+        "slug": "changelog\/mobile-logs\/2025-10-16",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-10-16T00:00",
+        "summary": "Android In-App Payments SDK: Support for Google's 16 KB page size requirement",
+        "details": "## Android In-App Payments SDK: 1.6.8\n* This release adds support for Google's 16 KB page size [requirement](https:\/\/developer.android.com\/guide\/practices\/page-sizes).\n* Applications that use the In-App Payments SDK should target Android 15 (API level 35) or higher.",
+        "tags": [
+            "Android",
+            "In-App Payments SDK"
+        ]
+    },
+    {
         "id": "5V7wGpWVddAebgSQMtlQvb",
         "slug": "changelog\/mobile-logs\/2025-09-12",
         "linkBack": "changelog\/mobile",
