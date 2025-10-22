@@ -5,10 +5,18 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Fri, 17 Oct 2025 14:17:34 +0000</lastBuildDate>
-        <pubDate>Fri, 17 Oct 2025 14:17:34 +0000</pubDate>
+        <lastBuildDate>Wed, 22 Oct 2025 18:27:35 +0000</lastBuildDate>
+        <pubDate>Wed, 22 Oct 2025 18:27:35 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Android Mobile Payments SDK 2.3.2: Support for Google&#039;s 16 KB page size requirement</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-10-22</link>
+                <description><![CDATA[## Android Mobile Payments SDK 2.3.2
+* This release adds support for Google&#039;s 16 KB page size [requirement](https://developer.android.com/guide/practices/page-sizes).]]></description>
+                <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+                <guid>3vakC5NbdbjIWqAwIyfT6E</guid>
+            </item>
             <item>
                 <title>Android In-App Payments SDK: Support for Google&#039;s 16 KB page size requirement</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-10-16</link>

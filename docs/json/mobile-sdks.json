@@ -1,5 +1,18 @@
 [
     {
+        "id": "3vakC5NbdbjIWqAwIyfT6E",
+        "slug": "changelog\/mobile-logs\/2025-10-22",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-10-22T00:00",
+        "summary": "Android Mobile Payments SDK 2.3.2: Support for Google's 16 KB page size requirement",
+        "details": "## Android Mobile Payments SDK 2.3.2\n* This release adds support for Google's 16 KB page size [requirement](https:\/\/developer.android.com\/guide\/practices\/page-sizes).",
+        "tags": [
+            "Android",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
         "id": "3gQsYLFQB9ITEvT9iSOMQo",
         "slug": "changelog\/mobile-logs\/2025-10-16",
         "linkBack": "changelog\/mobile",
