@@ -1,5 +1,18 @@
 [
     {
+        "id": "5JhJjAN7Ubgqa1ixKk0wNj",
+        "slug": "changelog\/mobile-logs\/2025-11-10",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2025-11-10T00:00",
+        "summary": "Android Mobile Payments SDK 2.3.3 : Cash payments and card surcharging beta",
+        "details": "## Android Mobile Payments SDK 2.3.3\n\n**Breaking change:**\n* `allowCardSurcharge: Boolean` is now a required parameter in the `PaymentParameters.Builder constructor`.\n * Set to `false` to maintain existing behavior (no surcharge)\n * Set to `true` to enable card surcharge functionality (requires Beta opt-in and Dashboard configuration)\n\n ```kotlin\n val builder = PaymentParameters.Builder(\n amount = Money(1000, CurrencyCode.USD),\n processingMode = ProcessingMode.AUTO_DETECT,\n allowCardSurcharge = false \/\/ Now required\n )\n ```\n\n### Card Surcharging BETA\n* **Credit card surcharging** is now available as a beta feature for merchants in the United States. Surcharges allow merchants to pass on credit card processing fees to buyers at the point of payment, while remaining compliant with surcharging laws and regulations. To use surcharging in the Mobile Payments SDK, you must be added to the list of beta developers. Email `developerbetas@squareup.com` to learn more. ",
+        "tags": [
+            "Android",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
         "id": "3vakC5NbdbjIWqAwIyfT6E",
         "slug": "changelog\/mobile-logs\/2025-10-22",
         "linkBack": "changelog\/mobile",
