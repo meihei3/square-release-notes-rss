@@ -5,8 +5,8 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 11 Nov 2025 01:24:51 +0000</lastBuildDate>
-        <pubDate>Tue, 11 Nov 2025 01:24:51 +0000</pubDate>
+        <lastBuildDate>Tue, 11 Nov 2025 16:23:59 +0000</lastBuildDate>
+        <pubDate>Tue, 11 Nov 2025 16:23:59 +0000</pubDate>
         <ttl>1800</ttl>
 
             <item>
@@ -17,8 +17,9 @@
  {% tab id=&quot;Android&quot; %}
 ## Android Mobile Payments SDK 2.3.3
 
-{% aside type=&quot;important&quot; %}
-This release includes a required security update. We recommend updating to Mobile Payments SDK 2.3.3 to ensure continued protection and...]]></description>
+**Breaking change:**
+* `allowCardSurcharge: Boolean` is now a required parameter in the `PaymentParameters.Builder constructor`.
+ * Set to `false` to maintain exist...]]></description>
                 <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
                 <guid>5JhJjAN7Ubgqa1ixKk0wNj</guid>
             </item>
@@ -26,7 +27,12 @@ This release includes a required security update. We recommend updating to Mobil
                 <title>Android Mobile Payments SDK 2.3.2: Support for Google&#039;s 16 KB page size requirement</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-10-22</link>
                 <description><![CDATA[## Android Mobile Payments SDK 2.3.2
-* This release adds support for Google&#039;s 16 KB page size [requirement](https://developer.android.com/guide/practices/page-sizes).]]></description>
+
+{% aside type=&quot;important&quot; %}
+This release includes a required security update. We recommend updating to Mobile Payments SDK 2.3.2 to ensure continued protection and compatibility.
+{% /aside %}
+
+* This r...]]></description>
                 <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
                 <guid>3vakC5NbdbjIWqAwIyfT6E</guid>
             </item>
