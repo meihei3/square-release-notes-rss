@@ -5,19 +5,20 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 10 Nov 2025 22:18:06 +0000</lastBuildDate>
-        <pubDate>Mon, 10 Nov 2025 22:18:06 +0000</pubDate>
+        <lastBuildDate>Tue, 11 Nov 2025 01:24:51 +0000</lastBuildDate>
+        <pubDate>Tue, 11 Nov 2025 01:24:51 +0000</pubDate>
         <ttl>1800</ttl>
 
             <item>
                 <title>Android Mobile Payments SDK 2.3.3 : Cash payments and card surcharging beta</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-11-10</link>
-                <description><![CDATA[## Android Mobile Payments SDK 2.3.3
+                <description><![CDATA[
+{% tabset %}
+ {% tab id=&quot;Android&quot; %}
+## Android Mobile Payments SDK 2.3.3
 
-**Breaking change:**
-* `allowCardSurcharge: Boolean` is now a required parameter in the `PaymentParameters.Builder constructor`.
- * Set to `false` to maintain existing behavior (no surcharge)
- * Set to ...]]></description>
+{% aside type=&quot;important&quot; %}
+This release includes a required security update. We recommend updating to Mobile Payments SDK 2.3.3 to ensure continued protection and...]]></description>
                 <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
                 <guid>5JhJjAN7Ubgqa1ixKk0wNj</guid>
             </item>
