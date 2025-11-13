@@ -5,10 +5,21 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 11 Nov 2025 16:23:59 +0000</lastBuildDate>
-        <pubDate>Tue, 11 Nov 2025 16:23:59 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Nov 2025 22:17:57 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Nov 2025 22:17:57 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Android Mobile Payments SDK 2.3.4: Bug fix for 32-bit Android devices</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-11-13</link>
+                <description><![CDATA[
+## Android Mobile Payments SDK 2.3.4
+
+{% aside type=&quot;important&quot; %}
+This release addresses an issue affecting 32-bit Android devices discovered in `2.3.3`. If you planned to update to `2.3.3` to use new Card Surcharge functionality, please ...]]></description>
+                <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
+                <guid>xrfdCMEkz3rsbSZnNJERP</guid>
+            </item>
             <item>
                 <title>Android Mobile Payments SDK 2.3.3 : Cash payments and card surcharging beta</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-11-10</link>
@@ -17,9 +28,8 @@
  {% tab id=&quot;Android&quot; %}
 ## Android Mobile Payments SDK 2.3.3
 
-**Breaking change:**
-* `allowCardSurcharge: Boolean` is now a required parameter in the `PaymentParameters.Builder constructor`.
- * Set to `false` to maintain exist...]]></description>
+{% aside type=&quot;warning&quot; %}
+An issue has been discovered in this release version that prevents the SDK from taking payments with connected readers running on 32-bit ...]]></description>
                 <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
                 <guid>5JhJjAN7Ubgqa1ixKk0wNj</guid>
             </item>
