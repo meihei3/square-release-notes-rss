@@ -5,20 +5,19 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 18 Dec 2025 19:16:38 +0000</lastBuildDate>
-        <pubDate>Thu, 18 Dec 2025 19:16:38 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Dec 2025 22:18:49 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Dec 2025 22:18:49 +0000</pubDate>
         <ttl>1800</ttl>
 
             <item>
                 <title>Android Mobile Payments SDK: Card surcharging</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-12-18</link>
-                <description><![CDATA[## Android Mobile Payments SDK 2.4.0
+                <description><![CDATA[## Mobile Payments SDK 2.4.0
 
 ### UI changes
 * Updated colors and visual styling for the payment and prompt screens in the SDK.
-
-### Cash payment support
-Cash payments are now fully supported in the Mobile Payments SDK for online an...]]></description>
+{% line-break /%}
+![mpsdk-splash](//images.ctfassets.net/1nw4q0oohfju/3sGJ10fdEwfpOQhinJyBuD/47519cd29463975c211...]]></description>
                 <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
                 <guid>16xKXR7dSzRcuDb3KqIZ7E</guid>
             </item>
