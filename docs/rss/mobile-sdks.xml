@@ -5,10 +5,18 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 18 Dec 2025 22:18:49 +0000</lastBuildDate>
-        <pubDate>Thu, 18 Dec 2025 22:18:49 +0000</pubDate>
+        <lastBuildDate>Thu, 16 Apr 2026 19:11:48 +0000</lastBuildDate>
+        <pubDate>Thu, 16 Apr 2026 19:11:48 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Mobile Payments SDK 2.5.0</title>
+                <link>https://developer.squareup.com/docs/changelog-mobile-logs-2026-04-16</link>
+                <description><![CDATA[## Reader SDK Retirement
+The Square Reader SDK and Mobile Authorization API are now retired. Existing Reader SDK integrations can no longer take payments. To ensure continued support and functionality for your application, you must [migrate...]]></description>
+                <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+                <guid>2CmZOIAThFvIUOdi3Kt8no</guid>
+            </item>
             <item>
                 <title>Android Mobile Payments SDK: Card surcharging</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2025-12-18</link>
