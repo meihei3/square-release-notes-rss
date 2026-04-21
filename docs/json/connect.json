@@ -1,5 +1,19 @@
 [
     {
+        "id": "4Z1vrPoGeE1Sgk6TSZlELf",
+        "slug": "changelog\/connect-logs\/2026-04-21",
+        "linkBack": "changelog\/connect",
+        "changelogType": "API (Connect and Authorization)",
+        "changelogDate": "2026-04-21T08:00",
+        "summary": "New Square Reporting API",
+        "details": "### New API releases\n\n* **Reporting API (Beta).** The [Reporting API](reporting-api) is a Cube-based REST API for querying sales, payments, customer, and catalog metrics. It provides a dynamic, metadata-driven interface through two universal endpoints:\n * `GET \/v1\/meta` \u2014 Discover available cubes, views, measures, dimensions, and segments at runtime.\n * `POST \/v1\/load` \u2014 Execute analytical queries against the discovered schema.\n\n Key features:\n * **[Views](reporting-api\/views)** \u2014 Curated, pre-joined interfaces like `Sales`, `ItemSales`, and `ModifierSales` that simplify common reporting use cases. Views pre-filter to closed orders and provide human-readable dimensions.\n * **[Cubes](reporting-api\/cubes)** \u2014 Covering orders, payments, customers, items, inventory, and more for advanced, granular access.\n * **Automatic multi-cube joins** \u2014 Combine measures from multiple cubes in a single query without specifying join conditions.\n * **Dynamic schema discovery** \u2014 Applications that discover the schema at runtime via `\/v1\/meta` adapt automatically to new fields and cubes as they become available.\n\n Authentication requires a personal access token or an OAuth token with the `REPORTING_READ` permission scope. For more information, see [Getting Started](reporting-api\/getting-started).\n\n{% line-break \/%}",
+        "tags": [
+            "Square",
+            "Documentation",
+            "Reporting API"
+        ]
+    },
+    {
         "id": "2gUSPv8KXWIigLXKch9yma",
         "slug": "changelog\/connect-logs\/2026-01-22",
         "linkBack": "changelog\/connect",

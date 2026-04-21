@@ -5,10 +5,19 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 22 Jan 2026 19:23:48 +0000</lastBuildDate>
-        <pubDate>Thu, 22 Jan 2026 19:23:48 +0000</pubDate>
+        <lastBuildDate>Tue, 21 Apr 2026 21:43:57 +0000</lastBuildDate>
+        <pubDate>Tue, 21 Apr 2026 21:43:57 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>New Square Reporting API</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2026-04-21</link>
+                <description><![CDATA[### New API releases
+
+* **Reporting API (Beta).** The [Reporting API](reporting-api) is a Cube-based REST API for querying sales, payments, customer, and catalog metrics. It provides a dynamic, metadata-driven interface through two universa...]]></description>
+                <pubDate>Tue, 21 Apr 2026 08:00:00 +0000</pubDate>
+                <guid>4Z1vrPoGeE1Sgk6TSZlELf</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2026-01-22</link>
