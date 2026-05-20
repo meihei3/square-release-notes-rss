@@ -1,5 +1,20 @@
 [
     {
+        "id": "qplo9RGqI5WR6MMJCc8jG",
+        "slug": "changelog\/connect-logs\/2026-05-20",
+        "linkBack": "changelog\/connect",
+        "changelogType": "API (Connect and Authorization)",
+        "changelogDate": "2026-05-20T08:00:00Z",
+        "summary": "Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.",
+        "details": "### API updates\n**Payments API**\n* [Payment](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/Payment) object: New `app_fee_allocations` field used to distribute an application fee to up to 3 parties in a single transaction. For more information, see [Distribute fees to multiple parties](\/docs\/payments-api\/take-payments-and-collect-fees#distribute-fees-to-multiple-parties).\n* [CardPaymentDetails](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/CardPaymentDetails) object: New `wallet_type` field used for Apple Pay payments.\n* New [ElectronicMoneyDetails](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/ElectronicMoneyDetails) object representing details about E-money payments in Japan. Use this field to view `felica_details` for FeliCa payments.\n\n**Refunds API**\n* [PaymentRefund](https:\/\/developer.{{SQUARE_DOMAIN}}\/reference\/square\/objects\/PaymentRefund) objects: When refunding a payment that used fee allocations, specify `app_fee_allocations` to control how much each party contributes to the refund. For more information, see [Refund payments with fee allocations](\/docs\/payments-api\/collect-fees\/payment-with-app-fee-refund#refund-payments-with-fee-allocations).\n\n{% line-break \/%}\n\nLearn about [versioning for the Square API and SDKs](build-basics\/versioning-overview).",
+        "tags": [
+            "Square",
+            "Documentation",
+            "Payments API",
+            "Refunds API"
+        ]
+    },
+    {
         "id": "4Z1vrPoGeE1Sgk6TSZlELf",
         "slug": "changelog\/connect-logs\/2026-04-21",
         "linkBack": "changelog\/connect",

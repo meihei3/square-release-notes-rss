@@ -5,10 +5,19 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Tue, 21 Apr 2026 21:43:57 +0000</lastBuildDate>
-        <pubDate>Tue, 21 Apr 2026 21:43:57 +0000</pubDate>
+        <lastBuildDate>Wed, 20 May 2026 21:51:33 +0000</lastBuildDate>
+        <pubDate>Wed, 20 May 2026 21:51:33 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2026-05-20</link>
+                <description><![CDATA[### API updates
+**Payments API**
+* [Payment](https://developer.{{SQUARE_DOMAIN}}/reference/square/objects/Payment) object: New `app_fee_allocations` field used to distribute an application fee to up to 3 parties in a single transaction. For...]]></description>
+                <pubDate>Wed, 20 May 2026 08:00:00 +0000</pubDate>
+                <guid>qplo9RGqI5WR6MMJCc8jG</guid>
+            </item>
             <item>
                 <title>New Square Reporting API</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2026-04-21</link>
