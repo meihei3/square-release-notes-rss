@@ -1,5 +1,18 @@
 [
     {
+        "id": "5nYYeJ5h9Gkx6aZGgno7h2",
+        "slug": "changelog\/mobile-logs\/2026-06-04",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2026-06-04T00:00",
+        "summary": "iOS In-App Payments SDK 1.6.6: Visa 3DS certificate update",
+        "details": "## iOS In-App Payments SDK 1.6.6\n\n{% aside type=\"important\" %}\nThis release updates the bundled Netcetera 3DS SDK to 2.5.1.0, which includes the current Visa Device Data Encryption Certificate.\n\nThe previous Visa Device Data Encryption Certificate used by the Netcetera 3DS SDK expires on June 8, 2026. If your app uses the In-App Payments SDK for buyer verification (3DS) with Visa cards, update to version 1.6.6 to avoid potential payment failures.\n{% \/aside %}\n\n### Upgrade guidance\nIf your application uses:\n\n* **iOS IAP SDK 1.6.5 or 1.6.3:** Update to 1.6.6. Restarting the app can serve as a temporary workaround.\n* **iOS IAP SDK 1.6.4:** Already includes Netcetera 3DS SDK 2.5.1.0 \u2014 no immediate action required, but updating to 1.6.6 is recommended.\n* **iOS IAP SDK 1.6.2 or earlier:** Update to 1.6.6. These versions depend on an older Netcetera 3DS SDK that does not refresh certificates automatically.",
+        "tags": [
+            "iOS",
+            "In-App Payments SDK"
+        ]
+    },
+    {
         "id": "2CmZOIAThFvIUOdi3Kt8no",
         "slug": "changelog-mobile-logs-2026-04-16",
         "linkBack": "changelog\/mobile",

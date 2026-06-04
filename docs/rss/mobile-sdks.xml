@@ -5,10 +5,22 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 16 Apr 2026 19:11:48 +0000</lastBuildDate>
-        <pubDate>Thu, 16 Apr 2026 19:11:48 +0000</pubDate>
+        <lastBuildDate>Thu, 04 Jun 2026 17:46:15 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Jun 2026 17:46:15 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>iOS In-App Payments SDK 1.6.6: Visa 3DS certificate update</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2026-06-04</link>
+                <description><![CDATA[## iOS In-App Payments SDK 1.6.6
+
+{% aside type=&quot;important&quot; %}
+This release updates the bundled Netcetera 3DS SDK to 2.5.1.0, which includes the current Visa Device Data Encryption Certificate.
+
+The previous Visa Device Data Encryption Cert...]]></description>
+                <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+                <guid>5nYYeJ5h9Gkx6aZGgno7h2</guid>
+            </item>
             <item>
                 <title>Mobile Payments SDK 2.5.0</title>
                 <link>https://developer.squareup.com/docs/changelog-mobile-logs-2026-04-16</link>
