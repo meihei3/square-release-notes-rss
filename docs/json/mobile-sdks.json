@@ -1,5 +1,19 @@
 [
     {
+        "id": "1zIsXhTK32A7wxFG7aS0kN",
+        "slug": "changelog\/mobile-logs\/2026-06-05",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2026-06-05T00:00",
+        "summary": "iOS In-App Payments SDK 1.6.7: React Native compatibility fix",
+        "details": "## iOS In-App Payments SDK 1.6.7\n\nPatch release on top of [1.6.6](changelog\/mobile-logs\/2026-06-04) to unblock the React Native plugin. No behavior or API changes for direct iOS consumers \u2014 if 1.6.6 works for you, you don't need to upgrade.\n\n* Switched public headers from `@import` (Clang modules) to angle-bracket `#import` for `Foundation`, `UIKit`, `WebKit`, and `PassKit`. The previous form failed to resolve in some build contexts (such as Objective-C bridging headers with `-fno-modules`), which was breaking the React Native plugin.\n\nThis release also includes the Netcetera 3DS SDK 2.5.1.0 update from [1.6.6](changelog\/mobile-logs\/2026-06-04) that addresses the Visa Device Data Encryption Certificate expiration.",
+        "tags": [
+            "iOS",
+            "In-App Payments SDK",
+            "React Native"
+        ]
+    },
+    {
         "id": "5nYYeJ5h9Gkx6aZGgno7h2",
         "slug": "changelog\/mobile-logs\/2026-06-04",
         "linkBack": "changelog\/mobile",

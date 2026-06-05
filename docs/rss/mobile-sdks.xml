@@ -5,10 +5,19 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Thu, 04 Jun 2026 17:46:15 +0000</lastBuildDate>
-        <pubDate>Thu, 04 Jun 2026 17:46:15 +0000</pubDate>
+        <lastBuildDate>Fri, 05 Jun 2026 15:52:11 +0000</lastBuildDate>
+        <pubDate>Fri, 05 Jun 2026 15:52:11 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>iOS In-App Payments SDK 1.6.7: React Native compatibility fix</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2026-06-05</link>
+                <description><![CDATA[## iOS In-App Payments SDK 1.6.7
+
+Patch release on top of [1.6.6](changelog/mobile-logs/2026-06-04) to unblock the React Native plugin. No behavior or API changes for direct iOS consumers — if 1.6.6 works for you, you don&#039;t need to upgrade....]]></description>
+                <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+                <guid>1zIsXhTK32A7wxFG7aS0kN</guid>
+            </item>
             <item>
                 <title>iOS In-App Payments SDK 1.6.6: Visa 3DS certificate update</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2026-06-04</link>
