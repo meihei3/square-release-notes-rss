@@ -5,10 +5,23 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 20 May 2026 21:51:33 +0000</lastBuildDate>
-        <pubDate>Wed, 20 May 2026 21:51:33 +0000</pubDate>
+        <lastBuildDate>Tue, 14 Jul 2026 21:55:45 +0000</lastBuildDate>
+        <pubDate>Tue, 14 Jul 2026 21:55:45 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2026-07-15</link>
+                <description><![CDATA[### API updates
+
+* **Catalog API**
+ * Vendor information (Beta): `CatalogItemVariation.vendor_information` now exposes default unit cost, vendor, and vendor code per item variation.
+
+* **Inventory API**
+ - Track costs and vendors (Beta): Re...]]></description>
+                <pubDate>Wed, 15 Jul 2026 08:00:00 +0000</pubDate>
+                <guid>PaV3UD4hxYVcJiqww44aF</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2026-05-20</link>
