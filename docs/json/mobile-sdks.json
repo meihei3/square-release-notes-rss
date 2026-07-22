@@ -1,5 +1,18 @@
 [
     {
+        "id": "7Fb65lKu6l4K9lmw5iTZIq",
+        "slug": "changelog\/mobile-logs\/2026-07-22",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2026-07-22T00:00",
+        "summary": "Mobile Payments SDK (Android) 2.6.0 and In-App Payments SDK (Android) 1.6.9",
+        "details": "## Android In-App Payments SDK 1.6.9\n\n* The `targetSdkVersion` is now Android API 36.\n* Upgraded Netcetera 3DS SDK from 2.5.1.0 to 2.6.0.0, removing the transitive Bouncy Castle dependency and addressing a known vulnerability.\n* No public API changes or migration required.",
+        "tags": [
+            "Android",
+            "In-App Payments SDK"
+        ]
+    },
+    {
         "id": "1zIsXhTK32A7wxFG7aS0kN",
         "slug": "changelog\/mobile-logs\/2026-06-05",
         "linkBack": "changelog\/mobile",
