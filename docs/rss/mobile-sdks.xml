@@ -5,10 +5,20 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 22 Jul 2026 17:16:39 +0000</lastBuildDate>
-        <pubDate>Wed, 22 Jul 2026 17:16:39 +0000</pubDate>
+        <lastBuildDate>Mon, 27 Jul 2026 22:04:37 +0000</lastBuildDate>
+        <pubDate>Mon, 27 Jul 2026 22:04:37 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Android and iOS Mobile Payments SDK 2.6.0</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2026-07-27</link>
+                <description><![CDATA[## Android Mobile Payments SDK 2.6.0
+
+{% aside type=&quot;important&quot; %}
+* **Removed:** `ExternalPaymentDetails`, `ExternalTenderType`, `Payment.externalDetails`, and the payment builder&#039;s `externalDetails(...)` method have been removed from the ...]]></description>
+                <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+                <guid>1nj8Q3MjireUBX68yeZBKO</guid>
+            </item>
             <item>
                 <title>Mobile Payments SDK (Android) 2.6.0 and In-App Payments SDK (Android) 1.6.9</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2026-07-22</link>
