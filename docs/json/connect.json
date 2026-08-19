@@ -1,5 +1,18 @@
 [
     {
+        "id": "1iZC7BDyEYUlEZZa8y88JT",
+        "slug": "changelog\/connect-logs\/2026-08-19",
+        "linkBack": "changelog\/connect",
+        "changelogType": "API (Connect and Authorization)",
+        "changelogDate": "2026-08-19T08:00:00Z",
+        "summary": "Find the latest Square API and SDK versions and information about the changes in this release.",
+        "details": "### API updates\n\n* **Catalog API**\n * Nested Modifiers (Beta): `CatalogModifier.child_modifier_list_ids` now exposes nested modifier lists for multi-step choices for a catalog modifier. `BatchRetrieveCatalogObjects`, `SearchCatalogItems`, and `SearchCatalogObjects` now expose an optional parameter `include_options` to include related modifier lists for requested items, variations, and modifier lists in the response. To learn more, see [Manage Nested Modifiers](catalog-api\/manage-nested-modifiers).\n\n* **Locations API**\n * [Receipt fields](locations-api#receipt-fields) (Beta): `Location` now exposes `custom_receipt_text` and `return_policy`, previously manageable only in the Square Dashboard. Read them with `RetrieveLocation` and `ListLocations`, and set or clear them with `UpdateLocation`. Both fields are limited to 1,000 characters.\n\n* **Payments API**\n * New enum value `ErrorCode.AMOUNT_TOO_LOW`\n\n### New Documentation\n* [Order Calculation Guide for Japan](international-development\/japan-order-calculation)\n\n{% line-break \/%}\n\nLearn about [versioning for the Square API and SDKs](build-basics\/versioning-overview).",
+        "tags": [
+            "Square",
+            "Documentation"
+        ]
+    },
+    {
         "id": "PaV3UD4hxYVcJiqww44aF",
         "slug": "changelog\/connect-logs\/2026-07-15",
         "linkBack": "changelog\/connect",

@@ -5,10 +5,20 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 22 Jul 2026 13:48:58 +0000</lastBuildDate>
-        <pubDate>Wed, 22 Jul 2026 13:48:58 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Aug 2026 15:28:42 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Aug 2026 15:28:42 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2026-08-19</link>
+                <description><![CDATA[### API updates
+
+* **Catalog API**
+ * Nested Modifiers (Beta): `CatalogModifier.child_modifier_list_ids` now exposes nested modifier lists for multi-step choices for a catalog modifier. `BatchRetrieveCatalogObjects`, `SearchCatalogItems`, a...]]></description>
+                <pubDate>Wed, 19 Aug 2026 08:00:00 +0000</pubDate>
+                <guid>1iZC7BDyEYUlEZZa8y88JT</guid>
+            </item>
             <item>
                 <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2026-07-15</link>
