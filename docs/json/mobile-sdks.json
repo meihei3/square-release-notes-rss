@@ -1,5 +1,18 @@
 [
     {
+        "id": "ZRMXtAsOAbRymZFdnPEaJ",
+        "slug": "changelog\/mobile-logs\/2026-08-24",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2026-08-24T00:00",
+        "summary": "Android Mobile Payments SDK 2.6.1",
+        "details": "## Android Mobile Payments SDK 2.6.1\n\n* Fixed an issue where Tap to Pay on Android could become unavailable with a `ReaderUnavailable` error for up to two hours before the daily payment-key rotation. Payment keys are now refreshed proactively.",
+        "tags": [
+            "Android",
+            "Mobile Payments SDK"
+        ]
+    },
+    {
         "id": "1nj8Q3MjireUBX68yeZBKO",
         "slug": "changelog\/mobile-logs\/2026-07-27",
         "linkBack": "changelog\/mobile",
