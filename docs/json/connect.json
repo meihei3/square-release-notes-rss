@@ -1,5 +1,19 @@
 [
     {
+        "id": "5yJrkfyc9bI0Mz5qYA0dOJ",
+        "slug": "changelog\/connect-logs\/2026-09-16",
+        "linkBack": "changelog\/connect",
+        "changelogType": "API (Connect and Authorization)",
+        "changelogDate": "2026-09-16T08:00:00Z",
+        "summary": "Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.",
+        "details": "### API updates\n\n**Transactions API**\n\n* The `Charge`, `CreateRefund`, `CaptureTransaction`, and `VoidTransaction` write operations are retired. Read operations remain available for historical transaction data. Use the Payments API and Refunds API for payment processing and refunds. [Migrate from the Transactions API](payments-api\/migrate-from-transactions-api)",
+        "tags": [
+            "Square",
+            "Documentation",
+            "Transactions API"
+        ]
+    },
+    {
         "id": "1iZC7BDyEYUlEZZa8y88JT",
         "slug": "changelog\/connect-logs\/2026-08-19",
         "linkBack": "changelog\/connect",

@@ -5,10 +5,21 @@
         <link>https://developer.squareup.com/docs/changelog/connect</link>
         <description>Release notes for Square APIs and SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Wed, 19 Aug 2026 15:28:42 +0000</lastBuildDate>
-        <pubDate>Wed, 19 Aug 2026 15:28:42 +0000</pubDate>
+        <lastBuildDate>Tue, 15 Sep 2026 22:50:43 +0000</lastBuildDate>
+        <pubDate>Tue, 15 Sep 2026 22:50:43 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Choose **Details** to find the latest Square API and SDK versions and information about the changes in this release.</title>
+                <link>https://developer.squareup.com/docs/changelog/connect-logs/2026-09-16</link>
+                <description><![CDATA[### API updates
+
+**Transactions API**
+
+* The `Charge`, `CreateRefund`, `CaptureTransaction`, and `VoidTransaction` write operations are retired. Read operations remain available for historical transaction data. Use the Payments API and Refu...]]></description>
+                <pubDate>Wed, 16 Sep 2026 08:00:00 +0000</pubDate>
+                <guid>5yJrkfyc9bI0Mz5qYA0dOJ</guid>
+            </item>
             <item>
                 <title>Find the latest Square API and SDK versions and information about the changes in this release.</title>
                 <link>https://developer.squareup.com/docs/changelog/connect-logs/2026-08-19</link>
