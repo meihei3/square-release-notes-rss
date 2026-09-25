@@ -1,5 +1,18 @@
 [
     {
+        "id": "3tMPCVPHRrFwwlT1mKBiJE",
+        "slug": "changelog\/mobile-logs\/2026-09-25",
+        "linkBack": "changelog\/mobile",
+        "changelogType": "Mobile",
+        "changelogDate": "2026-09-25T00:00",
+        "summary": "Android In-App Payments SDK 1.7.0: Buyer verification fix",
+        "details": "## Android In-App Payments SDK 1.7.0\n\n* Fixed an issue that could prevent some 3DS out-of-band challenges from completing during buyer verification.",
+        "tags": [
+            "Android",
+            "In-App Payments SDK"
+        ]
+    },
+    {
         "id": "ZRMXtAsOAbRymZFdnPEaJ",
         "slug": "changelog\/mobile-logs\/2026-08-24",
         "linkBack": "changelog\/mobile",

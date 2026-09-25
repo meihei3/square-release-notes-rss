@@ -5,10 +5,19 @@
         <link>https://developer.squareup.com/docs/changelog/mobile</link>
         <description>Release notes for Square Mobile SDKs.</description>
         <language>en-us</language>
-        <lastBuildDate>Mon, 24 Aug 2026 16:34:38 +0000</lastBuildDate>
-        <pubDate>Mon, 24 Aug 2026 16:34:38 +0000</pubDate>
+        <lastBuildDate>Fri, 25 Sep 2026 20:15:15 +0000</lastBuildDate>
+        <pubDate>Fri, 25 Sep 2026 20:15:15 +0000</pubDate>
         <ttl>1800</ttl>
 
+            <item>
+                <title>Android In-App Payments SDK 1.7.0: Buyer verification fix</title>
+                <link>https://developer.squareup.com/docs/changelog/mobile-logs/2026-09-25</link>
+                <description><![CDATA[## Android In-App Payments SDK 1.7.0
+
+* Fixed an issue that could prevent some 3DS out-of-band challenges from completing during buyer verification.]]></description>
+                <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+                <guid>3tMPCVPHRrFwwlT1mKBiJE</guid>
+            </item>
             <item>
                 <title>Android Mobile Payments SDK 2.6.1</title>
                 <link>https://developer.squareup.com/docs/changelog/mobile-logs/2026-08-24</link>
